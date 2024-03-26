@@ -1,5 +1,6 @@
 export {default as NavBar} from './Navigation/NavBar'
 export {default as NavItems} from './Navigation/NavItems'
+export {default as ChangeLanguage} from './Navigation/ChangeLanguage'
 
 export {default as ADLogo} from './ADLogo'
 export {default as Form} from './Form'

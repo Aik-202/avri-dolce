@@ -1,10 +1,10 @@
 import React from 'react'
-import { ADLogo } from '../Components'
+import { NavBar } from '../Components'
 
 export default function LandingPage() {
   return (
     <section>
-        <ADLogo/>
+      <NavBar />
     </section>
   )
 }

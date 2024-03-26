@@ -6,6 +6,7 @@ export default function ADLogo() {
     const navigate =  useNavigate()
 
   return (
-    <img src={logo} alt="Avri Dolce" onClick={() => {navigate('/')}} className='w-[100px]'/>
+    <img src={logo} alt="Avri Dolce" onClick={() => {navigate('/')}} className='w-[130px] 
+    self-center'/>
   )
 }
