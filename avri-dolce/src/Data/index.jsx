@@ -9,3 +9,6 @@ export {default as p5} from './images/p-5.png'
 export {default as p6} from './images/p-6.png'
 export {default as p7} from './images/p-7.png'
 export {default as p8} from './images/p-8.png'
+
+export {default as men} from './images/men-land.webp'
+export {default as women} from './images/woman-land.jpg'
