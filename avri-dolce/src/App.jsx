@@ -1,11 +1,18 @@
 import React from 'react'
+import {
+  BrowserRouter as Router, 
+  Routes, 
+  Route} from 'react-router-dom'
 import './App.css'
+import { LandingPage } from './Pages'
 
 function App() {
   return (
-    <div>
-      <p className='text-[#6D0016]'>Hello World</p>
-    </div>
+    <Router>
+      <Routes>
+        <Route exact path = '/' element={<LandingPage/>}></Route>
+      </Routes>
+    </Router>
   )
 }
 
