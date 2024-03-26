@@ -1,11 +1,15 @@
 import React from 'react'
-import { Hero, NavBar } from '../Components'
+import { FAQ, Footer, Hero, Info, NavBar, Offer } from '../Components'
 
 export default function LandingPage() {
   return (
     <section className='flex flex-col space-y-10'>
       <NavBar />
       <Hero />
+      <Offer />
+      <Info />
+      <FAQ />
+      <Footer/>
     </section>
   )
 }
