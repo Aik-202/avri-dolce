@@ -31,7 +31,7 @@ export default function SlideShow() {
               self-start'>{src.price}</p>
             </div>
             {tip && two == src.tag ? <p className='text-red w-max font-p-font text-sm font-bold
-            self-start absolute -right-8 -top-10 bg-gray p-2 rounded-lg'>Add to Cart</p> : null}
+            self-start absolute right-0 md:-right-8 -top-10 bg-gray p-2 rounded-lg'>Add to Cart</p> : null}
             <img src={cart} alt="cart" className='p-2 w-[38px] h-[38px] border-solid border-[1px] 
             border-red rounded-full cursor-pointer hover:bg-brown hover:border-transparent'
             id={src.tag} onMouseOver={(e) => {setTwo(e.target.id); setTip(true)}} 

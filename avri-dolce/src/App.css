@@ -6,6 +6,10 @@
     user-select: none;
 }
 
+*:focus{
+    outline: none;
+}
+
 body {
     padding: 0;
     margin: 0;

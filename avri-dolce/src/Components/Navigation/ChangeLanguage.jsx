@@ -16,7 +16,7 @@ export default function ChangeLanguage() {
 
   return (
     <select className='px-2 py-1 rounded-full border-solid 
-    border-[1px] border-dark-green border-transparent items-center' 
+    border-[1px] border-dark-green bg-white items-center' 
     onChange={handleChange}>
         <option value="en" className='flex flex-row space-x-3'>English</option>
         <option value="it" className='flex flex-row space-x-3'>Italian</option>
