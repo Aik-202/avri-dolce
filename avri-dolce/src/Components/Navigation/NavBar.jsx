@@ -12,9 +12,10 @@ export default function NavBar() {
       </div>
       <div className='flex flex-row space-x-8 font-b-font font-medium'>
         <ChangeLanguage />
-        <button className='rounded-sm border-solid border-[1px] border-dark-green px-3
-        border-transparent'>Sign Up</button>
-        <button className='rounded-sm text-white bg-dark-green px-3'>Sign In</button>
+        <button className='rounded-sm border-solid border-[1px] border-dark-green px-3 
+        hover:rounded-full'>Sign Up</button>
+        <button className='rounded-sm text-white bg-dark-green px-3 hover:rounded-full'>
+        Sign In</button>
       </div>
     </nav>
   )
