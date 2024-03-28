@@ -12,3 +12,6 @@ export {default as p8} from './images/p-8.png'
 
 export {default as men} from './images/men-land.webp'
 export {default as women} from './images/woman-land.jpg'
+
+export {default as heartBlack} from './images/heart-black.png'
+export {default as heartRed} from './images/heart-red.png'
