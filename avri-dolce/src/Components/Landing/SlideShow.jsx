@@ -8,8 +8,6 @@ export default function SlideShow() {
   const [two, setTwo] = React.useState()
   const [tip, setTip] = React.useState(false)
 
-  console.log(one)
-
   return (
     <section className='grid grid-cols-4 gap-10'>
         {products.map((src => <div className='flex flex-col' key={src.tag}>

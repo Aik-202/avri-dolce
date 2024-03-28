@@ -9,7 +9,7 @@ export default function Info() {
       T-shirts, trousers, hoodies, caps, knickers, gym attire, and African-inspired dresses  </p>
       <section className='grid grid-cols-3 gap-10 w-[71%] cursor-pointer'>
         {collection.map((item => <div className='relative bg-brown w-full h-max flex justify-center 
-        items-center rounded-md'>
+        items-center rounded-md' key={item.id}>
           <img src={item.img} alt={item.tag} className='max-w-[80%] self-center' />
           <div className='absolute flex bg-black top-0 w-full h-full
           opacity-50 rounded-md'></div>

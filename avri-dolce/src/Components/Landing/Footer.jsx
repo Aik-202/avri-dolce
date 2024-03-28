@@ -13,7 +13,7 @@ export default function Footer() {
         <p className='font-p-font w-[38rem] font-bold text-base text-black'>By writing reviews about our 
         services, search engines recommend our products to others, you help us stay relevant to you.</p>
         <button className='hover:rounded-full text-white bg-red px-5 py-2 self-center font-semibold 
-        mt-8 hover:font-bold'>
+        mt-8 hover:font-bold' onClick={() => window.location.href = 'https://www.google.com/maps/place/Avri+Dolce/@42.4427153,14.2104569,17z/data=!3m1!4b1!4m6!3m5!1s0x1331a7b49d59f0c3:0x2fd1f2cc67160ed!8m2!3d42.4427153!4d14.2104569!16s%2Fg%2F11vwkp99r6?entry=ttu'}>
         Send Review</button>
       </div>
       <div className='flex flex-row justify-between mx-12 bg-white rounded-md p-5 z-10'>
