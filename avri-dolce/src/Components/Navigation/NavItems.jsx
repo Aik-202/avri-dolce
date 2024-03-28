@@ -1,5 +1,5 @@
 import React from 'react'
-import { homeNav } from '../../Data/demo'
+import { homeNav } from '../../Data/demo.js'
 
 export default function NavItems() {
   return (

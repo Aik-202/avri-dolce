@@ -13,7 +13,9 @@ export default {
       },
       colors: {
         'dark-green': '#006D57',
-        'red': '#6D0016'
+        'red': '#6D0016',
+        'brown': '#BCAAA4',
+        'gray': '#F5F5F5'
       }
     },
   },

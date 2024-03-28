@@ -17,7 +17,7 @@ export default function Hero() {
           <button className='rounded-full text-white bg-dark-green px-3 py-2'>
           Become an AD customer</button>
           <button className='rounded-full border-solid border-[1px] border-dark-green px-3 py-2
-          border-transparent'>{t("See our products")}</button>
+          border-transparent font-semibold text-red'>See our products</button>
       </div>
       </div>
       <figure className='flex flex-row'>
