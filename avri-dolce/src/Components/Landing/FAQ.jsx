@@ -9,7 +9,7 @@ export default function FAQ() {
   return (
     <section className='flex flex-col justify-center content-center items-center flex-wrap py-20 
     space-y-8' id='faq'>
-      <h2 className='font-h-font text-3xl font-bold tracking-wide text-red uppercase'>Frequently 
+      <h2 className='font-h-font text-center md:text-start text-3xl font-bold tracking-wide text-red uppercase'>Frequently 
       asked questions
       </h2>
       <p className='font-p-font font-medium w-full text-center md:text-start md:w-[46rem] text-lg 
