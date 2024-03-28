@@ -1,4 +1,4 @@
-import { p1, p2, p3, p4, p5, p6, p7, p8 } from "."
+import { cap, p1, p2, p3, p4, p5, p6, p7, p8 } from "."
 
 export const homeNav = ['Home', 'About', 'Products', 'Contact']
 export const products = [
@@ -42,7 +42,7 @@ export const products = [
         id: 7,
         tag: 'Custom Cap',
         price: '£30',
-        img: p7
+        img: cap
     },
     {
         id: 8,
