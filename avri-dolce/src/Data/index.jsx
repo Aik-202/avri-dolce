@@ -20,3 +20,5 @@ export {default as cart} from './images/cart.png'
 
 export {default as up} from './images/up.png'
 export {default as down} from './images/down.png'
+
+export {default as foot} from './images/foot.webp'

@@ -78,3 +78,22 @@ export const faqData = [
         answer: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Enim lorem hac a ultricies. Id ornare turpis vulputate enim sed magna sit. A id cursus dolor urna. Aliquam diam integer vitae eget. '
     }
 ]
+
+export const footer = [
+    {
+        head: 'General',
+        list: ['About Us', 'Contact Us']
+    },
+    {
+        head: 'Products',
+        list: ['Men Fashion', 'Women Fashion', '']
+    },
+    {
+        head: 'Customer Service',
+        list: ['FAQ', 'Help & Support', 'Review']
+    },
+    {
+        head: 'Social Media',
+        list: ['Instagram', 'TikTok', 'Facebook']
+    },
+]
