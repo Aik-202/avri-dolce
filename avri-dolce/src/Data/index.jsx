@@ -22,3 +22,6 @@ export {default as up} from './images/up.png'
 export {default as down} from './images/down.png'
 
 export {default as foot} from './images/foot.webp'
+
+export {default as open} from './images/open.png'
+export {default as close} from './images/close.png'
