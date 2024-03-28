@@ -34,7 +34,7 @@ export const products = [
     },
     {
         id: 6,
-        tag: 'Custom African Dresses',
+        tag: 'Senator',
         price: '£30',
         img: p6
     },

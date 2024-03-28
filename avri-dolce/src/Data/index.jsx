@@ -15,3 +15,5 @@ export {default as women} from './images/woman-land.jpg'
 
 export {default as heartBlack} from './images/heart-black.png'
 export {default as heartRed} from './images/heart-red.png'
+
+export {default as cart} from './images/cart.png'
