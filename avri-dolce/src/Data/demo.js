@@ -51,6 +51,44 @@ export const products = [
         img: p8
     },
 ]
+export const collection = [
+    {
+        id: 2,
+        tag: 'Bottoms',
+        price: '£30',
+        img: p2
+    },
+    {
+        id: 3,
+        tag: 'Shirts',
+        price: '£30',
+        img: p3
+    },
+    {
+        id: 5,
+        tag: 'Hoodies',
+        price: '£30',
+        img: p5
+    },
+    {
+        id: 6,
+        tag: 'African',
+        price: '£30',
+        img: p6
+    },
+    {
+        id: 7,
+        tag: 'Head wear',
+        price: '£30',
+        img: p7
+    },
+    {
+        id: 8,
+        tag: 'Gym Clothes',
+        price: '£30',
+        img: p8
+    },
+]
 export const faqData = [
     {
         id: 1,
