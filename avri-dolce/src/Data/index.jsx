@@ -17,3 +17,6 @@ export {default as heartBlack} from './images/heart-black.png'
 export {default as heartRed} from './images/heart-red.png'
 
 export {default as cart} from './images/cart.png'
+
+export {default as up} from './images/up.png'
+export {default as down} from './images/down.png'
