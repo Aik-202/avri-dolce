@@ -9,7 +9,7 @@ export default function SlideShow() {
   const [tip, setTip] = React.useState(false)
 
   return (
-    <section className='grid grid-cols-4 gap-10'>
+    <section className='grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10'>
         {products.map((src => <div className='flex flex-col' key={src.tag}>
           <figure className={`flex flex-col rounded-md px-5 py-2 mb-3
           bg-brown w-[14rem] h-[16rem] items-center
