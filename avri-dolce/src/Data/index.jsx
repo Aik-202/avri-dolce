@@ -1,5 +1,4 @@
 export {default as logo} from './images/logo.png'
-export {default as flag} from './images/flag.png'
 
 export {default as p1} from './images/p-1.png'
 export {default as p2} from './images/p-2.png'
@@ -20,6 +19,9 @@ export {default as cart} from './images/cart.png'
 
 export {default as up} from './images/up.png'
 export {default as down} from './images/down.png'
+
+export {default as us} from './images/us.png'
+export {default as it} from './images/it.png'
 
 export {default as foot} from './images/foot.webp'
 
