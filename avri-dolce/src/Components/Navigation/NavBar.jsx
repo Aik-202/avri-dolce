@@ -15,7 +15,8 @@ export default function NavBar() {
         onClick={() => setActive(prev => !prev) }/>
         <NavItems active={active}/>
       </div>
-      <div className='flex flex-row justify-between w-full md:w-auto md:justify-start md:space-x-8 font-b-font font-medium'>
+      <div className='flex flex-row justify-between w-full md:w-auto md:justify-start md:space-x-8 
+      font-b-font font-medium -ml-5'>
         <ChangeLanguage />
         <button className='rounded-sm border-solid border-[1px] border-dark-green px-3 
         hover:rounded-full'>Sign Up</button>
