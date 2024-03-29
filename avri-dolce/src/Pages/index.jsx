@@ -5,6 +5,8 @@ export {default as AdminLoginPage} from './AdminPages/AdminLoginPage'
 
 
 export {default as LandingPage} from './LandingPage'
+export {default as AboutPage} from './AboutPage'
+export {default as ContactPage} from './ContactPage'
 export {default as ProductsPage} from './ProductsPage'
 export {default as ViewProduct} from './ViewProduct'
 

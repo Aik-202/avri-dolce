@@ -4,13 +4,15 @@ import {
   Routes, 
   Route} from 'react-router-dom'
 import './App.css'
-import { AdminLoginPage, AdminPage, CustomersPage, LandingPage, LoginPage, OrdersPage, ProductsPage, SignUpPage, UserPage, ViewProduct } from './Pages'
+import { AboutPage, AdminLoginPage, AdminPage, ContactPage, CustomersPage, LandingPage, LoginPage, OrdersPage, ProductsPage, SignUpPage, UserPage, ViewProduct } from './Pages'
 
 function App() {
   return (
     <Router>
       <Routes>
         <Route exact path = '/' element={<LandingPage />}></Route>
+        <Route exact path = '/about' element={<AboutPage />}></Route>
+        <Route exact path = '/contact' element={<ContactPage />}></Route>
         <Route exact path = '/product' element={<ProductsPage />}></Route>
         <Route exact path = '/view-product' element={<ViewProduct />}></Route>
 

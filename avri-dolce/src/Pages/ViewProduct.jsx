@@ -1,7 +1,10 @@
 import React from 'react'
+import { NavBar } from '../Components'
 
 export default function ViewProduct() {
   return (
-    <div>ViewProduct</div>
+    <section className='flex flex-col space-y-10'>
+      <NavBar />
+    </section>
   )
 }
