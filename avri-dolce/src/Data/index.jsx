@@ -1,4 +1,5 @@
 export {default as logo} from './images/logo.png'
+export {default as logo2} from './images/ad-logo.svg'
 
 export {default as p1} from './images/p-1.png'
 export {default as p2} from './images/p-2.png'

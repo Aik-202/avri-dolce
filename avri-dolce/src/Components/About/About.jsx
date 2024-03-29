@@ -1,5 +1,5 @@
 import React from 'react'
-import { about, about2 } from '../../Data'
+import { about, about2, logo2 } from '../../Data'
 
 export default function About() {
   return (
@@ -15,9 +15,13 @@ export default function About() {
         <button className='hover:rounded-full text-white bg-dark-green px-3 py-2'>
         Learn more</button>
       </div>
-      <figure className='flex flex-row w-[68%]'>
+      <figure className='relative flex flex-row w-[68%]'>
         <img src={about} alt="product one" className='w-[50%] mt-5' />
         <img src={about2} alt="product one" className='w-[50%] mt-20' />
+        <div className='absolute flex bg-black top-5 w-full h-[95%] opacity-50'></div>
+        <div className='absolute top-0 w-full h-full z-10 flex justify-center items-center'>
+          <img src={logo2} alt="ad"  className='w-[100px]'/>
+        </div>
       </figure>
     </section>
   )
