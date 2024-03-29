@@ -5,10 +5,12 @@ export default function About() {
   return (
     <section className='flex flex-col-reverse space-y-reverse space-y-5 md:space-y-0 lg:flex-row space-x-5 
     w-screen pl-5'>
-      <div className='self-center lg:self-auto flex flex-col space-y-5'>
-        <h1 className='font-h-font text-3xl md:text-[2.2rem] md:leading-[3.4rem] xl:text-[3rem] lg:w-[20rem] tracking-wide z-10'>
+      <div className='self-center items-center lg:items-start lg:self-auto flex flex-col space-y-5'>
+        <h1 className='font-h-font text-3xl md:text-[2.2rem] md:leading-[3.4rem] 
+        xl:text-[3rem] lg:w-[20rem] tracking-wide z-10'>
           <span>THE CLOTHING BRAND OF</span> <i className='text-red font-bold'>the future</i></h1>
-        <p className='font-p-font w-[90%] lg:w-[21rem] xl:w-[24rem] text-sm'><i className='text-dark-green font-bold'>Avri 
+        <p className='font-p-font w-[90%] lg:w-[21rem] xl:w-[24rem] text-sm'>
+        <i className='text-dark-green font-bold'>Avri 
         Dolce</i> is a distinguished clothing brand headed by Fashion Designer; 
         <i className='text-dark-green font-bold'> Mr. Frank Omozuwa</i> set to revolutionize 
         the future, no better time than now. As a matter of fact, they say, <i className='text-red font-bold'>
