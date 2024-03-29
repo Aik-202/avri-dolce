@@ -1,8 +1,11 @@
 import React from 'react'
 import { foot } from '../../Data'
 import { footer } from '../../Data/demo'
+import { Link, useNavigate } from 'react-router-dom'
 
 export default function Footer() {
+  const navigate = useNavigate()
+  
   return (
     <footer style={{backgroundImage: `url(${foot})`}} className='relative bg-cover w-screen flex 
     flex-col py-5 space-y-8'>
@@ -21,7 +24,15 @@ export default function Footer() {
           <p className='font-bold'>{item.head}</p>
           <ul className='flex flex-col space-y-2'>
             {item.list.map((li => <li key={li} className='cursor-pointer text-red hover:font-semibold
-            hover:text-black'>{li}</li>))}
+            hover:text-black'><a href={li == 'About Us' ? '/about'
+            : li == 'Contact Us' || li == 'Help & Support' ?'/contact'
+            : li == 'Men Fashion' ? '/product/#men'
+            : li == 'Women Fashion' ? '/product/#women'
+            : li == 'FAQ' ? '#faq'
+            : li == 'Review' ?  'https://www.google.com/maps/place/Avri+Dolce/@42.4427153,14.2104569,17z/data=!3m1!4b1!4m6!3m5!1s0x1331a7b49d59f0c3:0x2fd1f2cc67160ed!8m2!3d42.4427153!4d14.2104569!16s%2Fg%2F11vwkp99r6?entry=ttu' 
+            : li == 'Instagram' ?  'https://www.instagram.com/avridolce' 
+            : li == 'TikTok' ?  'https://www.tiktok.com/@fcavridolce'
+            : 'https://www.facebook.com/winnie.frankwinnie'}>{li}</a></li>))}
           </ul>
         </div>)}
       </div>
