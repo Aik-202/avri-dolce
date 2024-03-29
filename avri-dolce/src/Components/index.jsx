@@ -11,6 +11,7 @@ export {default as Info} from './Landing/Info'
 export {default as FAQ} from './Landing/FAQ'
 export {default as Footer} from './Landing/Footer'
 export {default as SlideShow} from './Landing/SlideShow'
+export {default as About} from './Landing/About'
 
 export {default as Cart} from './User/Cart'
 export {default as Product} from './User/Product'

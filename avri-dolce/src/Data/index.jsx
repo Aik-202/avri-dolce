@@ -28,3 +28,6 @@ export {default as foot} from './images/foot.webp'
 
 export {default as open} from './images/open.png'
 export {default as close} from './images/close.png'
+
+export {default as about} from './images/about.jpg'
+export {default as about2} from './images/about2.jpg'

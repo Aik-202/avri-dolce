@@ -1,11 +1,9 @@
 import React from 'react'
 import { foot } from '../../Data'
 import { footer } from '../../Data/demo'
-import { Link, useNavigate } from 'react-router-dom'
 
 export default function Footer() {
-  const navigate = useNavigate()
-  
+
   return (
     <footer style={{backgroundImage: `url(${foot})`}} className='relative bg-cover w-screen flex 
     flex-col py-5 space-y-8'>
