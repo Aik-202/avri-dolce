@@ -32,3 +32,4 @@ export {default as close} from './images/close.png'
 
 export {default as about} from './images/about.jpg'
 export {default as about2} from './images/about2.jpg'
+export {default as ceo} from './images/ceo.jpg'

@@ -11,8 +11,8 @@ export default function About() {
         <p className='font-p-font w-[90%] lg:w-[21rem] xl:w-[24rem] text-sm'><i className='text-dark-green font-bold'>Avri 
         Dolce</i> is a distinguished clothing brand headed by Fashion Designer; 
         <i className='text-dark-green font-bold'> Mr. Frank Omozuwa</i> set to revolutionize 
-        the future, no better time than now beacuse <i className='text-red font-bold'>the future is 
-        right now!</i></p>
+        the future, no better time than now. As a matter of fact, they say, <i className='text-red font-bold'>
+        the future starts right now!</i></p>
         <button className='self-center lg:self-auto hover:rounded-full text-white bg-dark-green px-3 py-2'>
         Learn more</button>
       </div>
