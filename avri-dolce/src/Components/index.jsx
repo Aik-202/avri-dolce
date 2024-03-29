@@ -15,6 +15,7 @@ export {default as SlideShow} from './Landing/SlideShow'
 export {default as About} from './About/About'
 export {default as Ceo} from './About/Ceo'
 export {default as KnowUs} from './About/KnowUs'
+export {default as Testimonials} from './About/Testimonials'
 
 export {default as Cart} from './User/Cart'
 export {default as Product} from './User/Product'

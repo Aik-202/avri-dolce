@@ -1,5 +1,5 @@
 import React from 'react'
-import { About, Footer, NavBar, Ceo, KnowUs } from '../Components'
+import { About, Footer, NavBar, Ceo, KnowUs, Testimonials } from '../Components'
 
 export default function AboutPage() {
   return (
@@ -8,6 +8,7 @@ export default function AboutPage() {
       <About />
       <KnowUs />
       <Ceo />
+      <Testimonials />
       <Footer />
     </section>
   )

@@ -153,3 +153,26 @@ export const know = [
         text: 'Via Musone, 20, 65129 Pescara PE, Italy | Home Delivery'
     },
 ]
+
+export const ratings = [
+    {
+        name: 'Precious Osunde',
+        comment: 'Very nice wears 💯',
+        rating: 5.0
+    },
+    {
+        name: 'TREASURE OJEBOR',
+        comment: 'King of fashion',
+        rating: 5.0
+    },
+    {
+        name: 'Simona Di Fulvio',
+        comment: 'Very good, very competent',
+        rating: 5.0
+    },
+    {
+        name: 'Samson Francis',
+        comment: 'Top',
+        rating: 5.0
+    },
+]
