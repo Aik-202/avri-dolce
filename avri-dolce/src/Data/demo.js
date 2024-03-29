@@ -189,17 +189,17 @@ export const contacts = [
         img: whatRed
     },
     {
-        name: 'https://www.facebook.com/winnie.frankwinnie',
+        name: 'facebook.com/winnie.frankwinnie',
         link: 'https://www.facebook.com/winnie.frankwinnie',
         img: fbRed
     },
     {
-        name: 'https://www.instagram.com/avridolce',
+        name: 'instagram.com/avridolce',
         link: 'https://www.instagram.com/avridolce',
         img: igRed
     },
     {
-        name: 'https://www.tiktok.com/@fcavridolce',
+        name: 'tiktok.com/@fcavridolce',
         link: 'https://www.tiktok.com/@fcavridolce',
         img: tikRed
     },
