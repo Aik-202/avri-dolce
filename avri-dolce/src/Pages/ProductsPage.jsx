@@ -4,7 +4,7 @@ import { NavBar } from '../Components'
 export default function ProductsPage() {
   return (
     <section className='flex flex-col space-y-10'>
-      <NavBar />
+      <NavBar product={true}/>
     </section>
   )
 }

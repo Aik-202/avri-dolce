@@ -4,7 +4,7 @@ import NavItems from './NavItems'
 import ChangeLanguage from './ChangeLanguage'
 import { close, open } from '../../Data'
 
-export default function NavBar() {
+export default function NavBar(props) {
   const [active, setActive] = React.useState(false)
   return (
     <nav className='relative flex flex-col space-y-8 md:space-y-0 md:flex-row justify-between 
@@ -13,7 +13,7 @@ export default function NavBar() {
         <ADLogo />
         <img src={!active ? open : close} alt="menu" className='md:hidden w-[40px]' 
         onClick={() => setActive(prev => !prev) }/>
-        <NavItems active={active}/>
+        <NavItems active={active} home={props.home} about={props.about} product={props.product} contact={props.contact}/>
       </div>
       <div className='flex flex-row justify-between w-full md:w-auto md:justify-start md:space-x-8 
       font-b-font font-medium'>
