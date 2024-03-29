@@ -1,4 +1,4 @@
-import { cap, delivery, hours, locate, p1, p2, p3, p4, p5, p6, p7, p8, wardrobe } from "."
+import { cap, delivery, fbRed, hours, igRed, locate, locationRed, p1, p2, p3, p4, p5, p6, p7, p8, tikRed, wardrobe, whatRed } from "."
 
 export const homeNav = ['Home', 'About', 'Products', 'Contact']
 export const products = [
@@ -174,5 +174,33 @@ export const ratings = [
         name: 'Samson Francis',
         comment: 'Top',
         rating: 5.0
+    },
+]
+
+export const contacts = [
+    {
+        name: 'Via Musone, 20, 65129 Pescara PE, Italy',
+        link: 'https://www.google.com/maps/place/Avri+Dolce/@42.4427153,14.2104569,15z/data=!4m6!3m5!1s0x1331a7b49d59f0c3:0x2fd1f2cc67160ed!8m2!3d42.4427153!4d14.2104569!16s%2Fg%2F11vwkp99r6?entry=ttu',
+        img: locationRed
+    },
+    {
+        name: '+39 375 532 7166',
+        link: 'https://w.app/AvriDolce',
+        img: whatRed
+    },
+    {
+        name: 'https://www.facebook.com/winnie.frankwinnie',
+        link: 'https://www.facebook.com/winnie.frankwinnie',
+        img: fbRed
+    },
+    {
+        name: 'https://www.instagram.com/avridolce',
+        link: 'https://www.instagram.com/avridolce',
+        img: igRed
+    },
+    {
+        name: 'https://www.tiktok.com/@fcavridolce',
+        link: 'https://www.tiktok.com/@fcavridolce',
+        img: tikRed
     },
 ]
