@@ -1,4 +1,4 @@
-import { cap, locate, p1, p2, p3, p4, p5, p6, p7, p8 } from "."
+import { cap, delivery, hours, locate, p1, p2, p3, p4, p5, p6, p7, p8, wardrobe } from "."
 
 export const homeNav = ['Home', 'About', 'Products', 'Contact']
 export const products = [
@@ -138,18 +138,18 @@ export const footer = [
 
 export const know = [
     {
-        head: 'Location',
-        img: locate,
-        text: 'Via Musone, 20, 65129 Pescara PE, Italy'
-    },
-    {
         head: 'Opening Days/Hours',
-        img: locate,
-        text: 'Everyday / 24hours'
+        img: hours,
+        text: 'Everyday | 24hours'
     },
     {
-        head: 'Products',
-        img: locate,
+        head: 'Our Products',
+        img: wardrobe,
         text: 'Shirt | Hoodies | Tousers | African Dresses | Gym Clothes '
+    },
+    {
+        head: 'Delivery',
+        img: delivery,
+        text: 'Via Musone, 20, 65129 Pescara PE, Italy | Home Delivery'
     },
 ]

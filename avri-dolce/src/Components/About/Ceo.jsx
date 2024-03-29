@@ -40,7 +40,7 @@ export default function Ceo() {
               self-start absolute right-0 md:-right-8 -top-10 bg-gray p-2 rounded-lg'>Follow on TikTok</p> : null}
             </a>
           </div>
-          <div className='w-[15rem] h-[20rem] md:h-[30rem] md:w-[30rem] rounded-md]'>
+          <div className='w-[15rem] h-[20rem] md:h-[30rem] md:w-[28rem] rounded-md]'>
             <img src={ceo} alt="frank" className='h-full w-full rounded-md' />
           </div>
         </figure>
