@@ -7,7 +7,7 @@ import { close, open } from '../../Data'
 export default function NavBar(props) {
   const [active, setActive] = React.useState(false)
   return (
-    <nav className='relative flex flex-col space-y-8 md:space-y-0 md:flex-row justify-between 
+    <nav className='relative flex flex-col space-y-8 lg:space-y-0 lg:flex-row justify-between 
     w-screen px-3 lg:px-5 lg:pr-10 py-5 items-center '>
       <div className='flex flex-row justify-between w-full md:w-auto md:justify-start md:space-x-3 lg:space-x-8'>
         <ADLogo />
