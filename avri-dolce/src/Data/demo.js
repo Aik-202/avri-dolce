@@ -1,4 +1,4 @@
-import { cap, p1, p2, p3, p4, p5, p6, p7, p8 } from "."
+import { cap, locate, p1, p2, p3, p4, p5, p6, p7, p8 } from "."
 
 export const homeNav = ['Home', 'About', 'Products', 'Contact']
 export const products = [
@@ -133,5 +133,23 @@ export const footer = [
     {
         head: 'Social Media',
         list: ['Instagram', 'TikTok', 'Facebook']
+    },
+]
+
+export const know = [
+    {
+        head: 'Location',
+        img: locate,
+        text: 'Via Musone, 20, 65129 Pescara PE, Italy'
+    },
+    {
+        head: 'Opening Days/Hours',
+        img: locate,
+        text: 'Everyday / 24hours'
+    },
+    {
+        head: 'Products',
+        img: locate,
+        text: 'Shirt | Hoodies | Tousers | African Dresses | Gym Clothes '
     },
 ]
