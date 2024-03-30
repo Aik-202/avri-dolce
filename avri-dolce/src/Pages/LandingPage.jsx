@@ -1,13 +1,16 @@
 import React from 'react'
-import { FAQ, Footer, Hero, Info, NavBar, Offer } from '../Components'
+import { Ceo, FAQ, Footer, Hero, Info, KnowUs, NavBar, Offer, Testimonials } from '../Components'
 
 export default function LandingPage() {
   return (
     <section className='flex flex-col space-y-10'>
       <NavBar home={true}/>
       <Hero />
+      <Ceo />
       <Offer />
       <Info />
+      <KnowUs />
+      <Testimonials />
       <FAQ />
       <Footer/>
     </section>

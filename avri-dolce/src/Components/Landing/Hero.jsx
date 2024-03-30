@@ -17,8 +17,8 @@ export default function Hero() {
           <button className='hover:rounded-full text-white bg-dark-green px-3 py-2'>
           Become an AD customer</button>
           <button className='rounded-full border-solid border-[1px] border-dark-green px-3 py-2
-          border-transparent font-semibold text-red hover:text-black hover:font-bold'>See our 
-          products</button>
+          border-transparent font-semibold text-red hover:text-black hover:font-bold'><a href="#offer">See our 
+          products</a></button>
       </div>
       </div>
       <figure className='grid grid-cols-2 grid-rows-1'>
