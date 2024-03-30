@@ -1,9 +1,7 @@
 import React from 'react'
 import { men, women } from '../../Data'
-import { useTranslation } from 'react-i18next';
 
 export default function Hero() {
-  const { t } = useTranslation();
 
   return (
     <section className='flex flex-col-reverse lg:flex-row justify-between w-screen pl-5 h-max'>

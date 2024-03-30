@@ -1,5 +1,5 @@
 import React from 'react'
-import { Ceo, FAQ, Footer, Hero, Info, KnowUs, NavBar, Offer, Testimonials } from '../Components'
+import { Ceo, ChangeLanguage, FAQ, Footer, Hero, Info, KnowUs, NavBar, Offer, Testimonials } from '../Components'
 
 export default function LandingPage() {
   return (
@@ -13,6 +13,7 @@ export default function LandingPage() {
       <Testimonials />
       <FAQ />
       <Footer/>
+      <ChangeLanguage />
     </section>
   )
 }
