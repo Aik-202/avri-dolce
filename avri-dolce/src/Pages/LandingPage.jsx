@@ -13,7 +13,6 @@ export default function LandingPage() {
       <Testimonials />
       <FAQ />
       <Footer/>
-      <ChangeLanguage />
     </section>
   )
 }

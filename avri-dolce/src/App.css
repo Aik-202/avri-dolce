@@ -17,3 +17,37 @@ body {
     scroll-behavior: smooth;
     overflow-x: hidden;
 }
+
+/* .translated-ltr {
+    margin-top: -40px;
+} */
+
+.goog-te-banner-frame {
+    display: none;
+    margin-top: -20px;
+}
+
+.goog-logo-link {
+    display: none !important;
+}
+
+.goog-te-gadget {
+    color: transparent !important;
+}
+
+.goog-te-gadget>div>select {
+    color: black !important;
+    border: 1px solid #006D57;
+    padding: 5px 0px;
+    margin-top: 20px !important;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.goog-te-gadget>span {
+    display: none !important;
+}
+
+div > iframe {
+    display: none !important;
+}

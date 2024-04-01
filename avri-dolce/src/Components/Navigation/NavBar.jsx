@@ -16,10 +16,11 @@ export default function NavBar(props) {
         <NavItems active={active} home={props.home} about={props.about} product={props.product} contact={props.contact}/>
       </div>
       <div className='flex flex-row justify-between w-full md:w-auto md:justify-start md:space-x-8 
-      font-b-font font-medium'>
-        <button className='rounded-sm border-solid border-[1px] border-dark-green px-3 
+      font-b-font font-medium items-center'>
+        <ChangeLanguage />
+        <button className='rounded-sm border-solid border-[1px] border-dark-green px-3 py-[10px] 
         hover:rounded-full'>Sign Up</button>
-        <button className='rounded-sm text-white bg-dark-green px-3 hover:rounded-full'>
+        <button className='rounded-sm text-white bg-dark-green px-3 py-[10px] hover:rounded-full'>
         Sign In</button>
       </div>
     </nav>
