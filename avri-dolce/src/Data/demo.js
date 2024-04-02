@@ -246,7 +246,7 @@ export const categories = ['T-shirts', 'Sweat-shirts', 'Shorts', 'Hoodies',  'Bo
 
 export const men = [
     {
-        name: 'T-shirt',
+        name: 'T-shirts',
         product: [
             {
                 id: 1,
@@ -287,7 +287,7 @@ export const men = [
         ]
     },
     {
-        name: 'Sweat-shirt',
+        name: 'Sweat-shirts',
         product: [
             {
                 id: 1,
@@ -577,7 +577,7 @@ export const men = [
 
 export const women = [
     {
-        name: 'T-shirt',
+        name: 'T-shirts',
         product: [
             {
                 id: 1,
@@ -612,7 +612,7 @@ export const women = [
         ]
     },
     {
-        name: 'Sweat-shirt',
+        name: 'Sweat-shirts',
         product: [
             {
                 id: 1,

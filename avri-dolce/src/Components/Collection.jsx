@@ -3,7 +3,15 @@ import { categories, men } from '../Data/demo'
 import SlideShow from './Landing/SlideShow'
 
 export default function Collection(props) {
-    const tShirt = men.filter((prev) => {return prev.name == 'T-shirt'});
+    const MentShirt = men.filter((prev) => {return prev.name == 'T-shirts'});
+    const MenSShirt = men.filter((prev) => {return prev.name == 'Sweat-shirts'});
+    const MenShorts = men.filter((prev) => {return prev.name == 'Shorts'});
+    const MenHoodies = men.filter((prev) => {return prev.name == 'Hoodies'});
+    const MenBottoms = men.filter((prev) => {return prev.name == 'Bottoms'});
+    const MenHead = men.filter((prev) => {return prev.name == 'Head wear'});
+    const MenAfrican = men.filter((prev) => {return prev.name == 'African'});
+    const MenGym = men.filter((prev) => {return prev.name == 'Gym Clothes'});
+
   return (
     <section className='pl-5 flex flex-col space-y-8' id={props.type === "MEN'S COLLECTION" ? 'men' 
     : 'women'}>
@@ -19,7 +27,16 @@ export default function Collection(props) {
             </div>
         </div>
         <section className='px-24 mt-10'>
-            <SlideShow  data={tShirt[0].product}/>
+            <SlideShow  
+            data={props.type === "MEN'S COLLECTION" && props.option === 'T-shirts' ? MentShirt[0].product
+            : props.type === "MEN'S COLLECTION" && props.option === 'Sweat-shirts' ? MenSShirt[0].product
+            : props.type === "MEN'S COLLECTION" && props.option === 'Shorts' ? MenShorts[0].product
+            : props.type === "MEN'S COLLECTION" && props.option === 'Hoodies' ? MenHoodies[0].product
+            : props.type === "MEN'S COLLECTION" && props.option === 'Bottoms' ? MenBottoms[0].product
+            : props.type === "MEN'S COLLECTION" && props.option === 'Head wear' ? MenHead[0].product
+            : props.type === "MEN'S COLLECTION" && props.option === 'African' ? MenAfrican[0].product
+            : props.type === "MEN'S COLLECTION" && props.option === 'Gym Clothes' ? MenGym[0].product
+            : null}/>
         </section>
     </section>
   )
