@@ -1,7 +1,7 @@
 import { cap, delivery, fbRed, hours, igRed, locate, locationRed, ma1, ma2, ma3, ma4, ma5, 
     ma6, mb1, mb2, mb3, mb4, mc1, mc2, mc3, mc4, mc5, mg1, mg2, mg3, mg4, mg5, mg6, mg7, mg8, 
     mg9, mh1, mh2, mh3, mh4, ms1, ms2, ms3, ms4, mss1, mss2, mss3, mss4, mt1, mt2, mt3, mt4, mt5, 
-    mt6, p1, p2, p3, p4, p5, p6, p7, p8, tikRed, wardrobe, whatRed, wt1, wt2, wt3, wt4, wt5 } from "."
+    mt6, p1, p2, p3, p4, p5, p6, p7, p8, tikRed, wardrobe, whatRed, wss1, wss2, wss3, wss4, wss5, wt1, wt2, wt3, wt4, wt5 } from "."
 
 export const homeNav = ['Home', 'About', 'Products', 'Contact']
 export const products = [
@@ -619,7 +619,38 @@ export const women = [
     },
     {
         name: 'Sweat-shirt',
-        product: []
+        product: [
+            {
+                id: 1,
+                tag: 'Sweat-shirt (Sample 1)',
+                price: '€30',
+                img: wss1
+            },
+            {
+                id: 2,
+                tag: 'Sweat-shirt (Sample 2)',
+                price: '€30',
+                img: wss2
+            },
+            {
+                id: 3,
+                tag: 'Sweat-shirt (Sample 3)',
+                price: '€30',
+                img: wss3
+            },
+            {
+                id: 4,
+                tag: 'Sweat-shirt (Sample 4)',
+                price: '€30',
+                img: wss4
+            },
+            {
+                id: 5,
+                tag: 'Sweat-shirt (Sample 5)',
+                price: '€30',
+                img: wss5
+            },
+        ]
     },
     {
         name: 'Shorts',
