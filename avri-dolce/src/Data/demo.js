@@ -1,4 +1,4 @@
-import { cap, delivery, fbRed, hours, igRed, locate, locationRed, ms1, ms2, ms3, ms4, mss1, mss2, mss3, mss4, mt1, mt2, mt3, mt4, mt5, mt6, p1, p2, p3, p4, p5, p6, p7, p8, tikRed, wardrobe, whatRed } from "."
+import { cap, delivery, fbRed, hours, igRed, locate, locationRed, mh1, mh2, mh3, mh4, ms1, ms2, ms3, ms4, mss1, mss2, mss3, mss4, mt1, mt2, mt3, mt4, mt5, mt6, p1, p2, p3, p4, p5, p6, p7, p8, tikRed, wardrobe, whatRed } from "."
 
 export const homeNav = ['Home', 'About', 'Products', 'Contact']
 export const products = [
@@ -310,6 +310,12 @@ export const men = [
                 price: '€30',
                 img: mss4
             },
+            {
+                id: 5,
+                tag: 'Sweat-shirt (Sample 5)',
+                price: '€30',
+                img: p3
+            },
         ]
     },
     {
@@ -339,11 +345,48 @@ export const men = [
                 price: '€30',
                 img: ms4
             },
+            {
+                id: 5,
+                tag: 'Shorts (Sample 5)',
+                price: '€30',
+                img: p4
+            },
         ]
     },
     {
         name: 'Hoodies',
-        product: []
+        product: [
+            {
+                id: 1,
+                tag: 'Hoodies (Sample 1)',
+                price: '€30',
+                img: mh1
+            },
+            {
+                id: 2,
+                tag: 'Hoodies (Sample 2)',
+                price: '€30',
+                img: mh2
+            },
+            {
+                id: 3,
+                tag: 'Hoodies (Sample 3)',
+                price: '€30',
+                img: mh3
+            },
+            {
+                id: 4,
+                tag: 'Hoodies (Sample 4)',
+                price: '€30',
+                img: mh4
+            },
+            {
+                id: 6,
+                tag: 'Hoodies (Sample 5)',
+                price: '€30',
+                img: p5
+            },
+        ]
     },
     {
         name: 'Bottoms',
