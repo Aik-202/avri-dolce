@@ -226,3 +226,5 @@ export const contacts = [
         img: tikRed
     },
 ]
+
+export const categories = ['T-Shirts', 'Sweat-Shirts', 'Hoodies',  'Bottoms', 'Head wear', 'African', 'Gym Clothes' ]
