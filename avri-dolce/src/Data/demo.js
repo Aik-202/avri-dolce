@@ -1,5 +1,5 @@
-import { cap, delivery, fbRed, hours, igRed, locate, locationRed, ma1, ma2, ma3, ma4, ma5, 
-    ma6, mb1, mb2, mb3, mb4, mc1, mc2, mc3, mc4, mc5, mg1, mg2, mg3, mg4, mg5, mg6, mg7, mg8, 
+import { cap, delivery, fbRed, hours, igRed, locate, locationRed, ma1, ma10, ma11, ma12, ma13, ma14, ma15, ma16, ma17, ma18, ma19, ma2, ma20, ma21, ma22, ma3, ma4, ma5, 
+    ma6, ma7, ma8, ma9, mb1, mb2, mb3, mb4, mc1, mc2, mc3, mc4, mc5, mg1, mg2, mg3, mg4, mg5, mg6, mg7, mg8, 
     mg9, mh1, mh2, mh3, mh4, ms1, ms2, ms3, ms4, mss1, mss2, mss3, mss4, mt1, mt2, mt3, mt4, mt5, 
     mt6, p1, p2, p3, p4, p5, p6, p7, p8, tikRed, wa1, wa2, wa3, wa4, wa5, wardrobe, wb1, wb2, wb3, wb4, wb5, wb6, wc1, wc2, wc3, wc4, wc5, wg1, wg2, wg3, wg4, wg5, wg6, wg7, wg8, wh1, wh2, wh3, wh4, wh5, whatRed, ws1, ws2, ws3, ws4, ws5, ws6, wss1, wss2, wss3, wss4, wss5, wt1, wt2, wt3, wt4, wt5 } from "."
 
@@ -516,91 +516,97 @@ export const men = [
                 id: 8,
                 tag: 'African (Sample 8)',
                 price: '€30',
-                img: ma1
+                img: ma7
             },
             {
                 id: 9,
                 tag: 'African (Sample 9)',
                 price: '€30',
-                img: ma2
+                img: ma8
             },
             {
                 id: 10,
                 tag: 'African (Sample 10)',
                 price: '€30',
-                img: ma3
+                img: ma9
             },
             {
                 id: 11,
                 tag: 'African (Sample 11)',
                 price: '€30',
-                img: ma4
+                img: ma10
             },
             {
                 id: 12,
                 tag: 'African (Sample 12)',
                 price: '€30',
-                img: ma5
+                img: ma11
             },
             {
                 id: 13,
                 tag: 'African (Sample 12)',
                 price: '€30',
-                img: ma6
+                img: ma12
             },
             {
                 id: 14,
                 tag: 'African (Sample 14)',
                 price: '€30',
-                img: p6
+                img: ma13
             },
             {
                 id: 15,
                 tag: 'African (Sample 15)',
                 price: '€30',
-                img: ma3
+                img: ma14
             },
             {
                 id: 16,
                 tag: 'African (Sample 16)',
                 price: '€30',
-                img: ma4
+                img: ma15
             },
             {
                 id: 17,
                 tag: 'African (Sample 17)',
                 price: '€30',
-                img: ma5
+                img: ma16
             },
             {
                 id: 18,
                 tag: 'African (Sample 18)',
                 price: '€30',
-                img: ma6
+                img: ma17
             },
             {
                 id: 19,
                 tag: 'African (Sample 19)',
                 price: '€30',
-                img: p6
+                img: ma18
             },
             {
                 id: 20,
                 tag: 'African (Sample 20)',
                 price: '€30',
-                img: ma5
+                img: ma19
             },
             {
                 id: 21,
                 tag: 'African (Sample 21)',
                 price: '€30',
-                img: ma6
+                img: ma20
             },
             {
                 id: 22,
                 tag: 'African (Sample 22)',
                 price: '€30',
-                img: p6
+                img: ma21
+            },
+            {
+                id: 23,
+                tag: 'African (Sample 23)',
+                price: '€30',
+                img: ma22
             },
         ]
     },
