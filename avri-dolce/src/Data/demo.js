@@ -1,4 +1,4 @@
-import { cap, delivery, fbRed, hours, igRed, locate, locationRed, p1, p2, p3, p4, p5, p6, p7, p8, tikRed, wardrobe, whatRed } from "."
+import { cap, delivery, fbRed, hours, igRed, locate, locationRed, mt1, mt2, mt3, mt4, mt5, mt6, p1, p2, p3, p4, p5, p6, p7, p8, tikRed, wardrobe, whatRed } from "."
 
 export const homeNav = ['Home', 'About', 'Products', 'Contact']
 export const products = [
@@ -6,7 +6,7 @@ export const products = [
         id: 1,
         tag: 'Custom T-shirt',
         price: '€30',
-        img: p1
+        img: mt2
     },
     {
         id: 2,
@@ -56,7 +56,7 @@ export const collection = [
         id: 1,
         tag: 'T-shirts',
         price: '€30',
-        img: p1
+        img: mt2
     },
     {
         id: 2,
@@ -244,7 +244,44 @@ export const categories = ['T-shirts', 'Sweat-shirts', 'Shorts', 'Hoodies',  'Bo
 export const men = [
     {
         name: 'T-shirt',
-        product: []
+        product: [
+            {
+                id: 1,
+                tag: 'T-shirt (Sample 1)',
+                price: '€30',
+                img: mt1
+            },
+            {
+                id: 2,
+                tag: 'T-shirt (Sample 2)',
+                price: '€30',
+                img: mt2
+            },
+            {
+                id: 3,
+                tag: 'T-shirt (Sample 3)',
+                price: '€30',
+                img: mt3
+            },
+            {
+                id: 4,
+                tag: 'T-shirt (Sample 4)',
+                price: '€30',
+                img: mt4
+            },
+            {
+                id: 5,
+                tag: 'T-shirt (Sample 5)',
+                price: '€30',
+                img: mt5
+            },
+            {
+                id: 6,
+                tag: 'T-shirt (Sample 6)',
+                price: '€30',
+                img: mt6
+            },
+        ]
     },
     {
         name: 'Sweat-shirt',
