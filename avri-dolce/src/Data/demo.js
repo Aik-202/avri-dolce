@@ -34,7 +34,7 @@ export const products = [
     },
     {
         id: 6,
-        tag: 'Senator',
+        tag: 'African',
         price: '£30',
         img: p6
     },
@@ -53,7 +53,7 @@ export const products = [
 ]
 export const collection = [
     {
-        id: 3,
+        id: 1,
         tag: 'T-shirts',
         price: '£30',
         img: p1
@@ -71,7 +71,7 @@ export const collection = [
         img: p3
     },
     {
-        id: 7,
+        id: 4,
         tag: 'Head wear',
         price: '£30',
         img: p7
@@ -89,10 +89,16 @@ export const collection = [
         img: p6
     },
     {
-        id: 8,
+        id: 7,
         tag: 'Gym Clothes',
         price: '£30',
         img: p8
+    },
+    {
+        id: 8,
+        tag: 'Shorts',
+        price: '£30',
+        img: p4
     },
 ]
 export const faqData = [
@@ -233,4 +239,74 @@ export const contacts = [
     },
 ]
 
-export const categories = ['T-shirts', 'Sweat-shirts', 'Hoodies',  'Bottoms', 'Head wear', 'African', 'Gym Clothes' ]
+export const categories = ['T-shirts', 'Sweat-shirts', 'Shorts', 'Hoodies',  'Bottoms', 'Head wear', 'African', 'Gym Clothes' ]
+
+export const men = [
+    {
+        name: 'T-shirt',
+        product: []
+    },
+    {
+        name: 'Sweat-shirt',
+        product: []
+    },
+    {
+        name: 'Shorts',
+        product: []
+    },
+    {
+        name: 'Hoodies',
+        product: []
+    },
+    {
+        name: 'Bottoms',
+        product: []
+    },
+    {
+        name: 'Head wear',
+        product: []
+    },
+    {
+        name: 'African',
+        product: []
+    },
+    {
+        name: 'Gym Clothes',
+        product: []
+    },
+]
+
+export const women = [
+    {
+        name: 'T-shirt',
+        product: []
+    },
+    {
+        name: 'Sweat-shirt',
+        product: []
+    },
+    {
+        name: 'Shorts',
+        product: []
+    },
+    {
+        name: 'Hoodies',
+        product: []
+    },
+    {
+        name: 'Bottoms',
+        product: []
+    },
+    {
+        name: 'Head wear',
+        product: []
+    },
+    {
+        name: 'African',
+        product: []
+    },
+    {
+        name: 'Gym Clothes',
+        product: []
+    },
+]

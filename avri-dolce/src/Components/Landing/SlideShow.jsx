@@ -1,14 +1,13 @@
 import React from 'react'
-import { products } from '../../Data/demo.js'
 import { cart, heartBlack, heartRed } from '../../Data'
 
-export default function SlideShow() {
+export default function SlideShow(props) {
   const [two, setTwo] = React.useState()
   const [tip, setTip] = React.useState(false)
 
   return (
     <section className='grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10 w-[90%] md:w-auto'>
-        {products.map((src => <div className='flex flex-col' key={src.tag}>
+        {props.data.map((src => <div className='flex flex-col' key={src.tag}>
           <figure className={`self-center md:self-start flex flex-col rounded-md px-5 py-2 mb-3
           bg-brown w-[14rem] h-[16rem] items-center
           ${src.id % 2 === 0 ? 'mt-10' : 'mt-0'}`}>

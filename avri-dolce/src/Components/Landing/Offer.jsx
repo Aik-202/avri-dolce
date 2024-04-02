@@ -1,5 +1,6 @@
 import React from 'react'
 import SlideShow from './SlideShow'
+import { products } from '../../Data/demo.js'
 
 export default function Offer() {
   return (
@@ -8,7 +9,7 @@ export default function Offer() {
       <p className='w-[90%] md:w-[80%] font-p-font text-base font-semibold'>We have products ranging from T-shirts, trousers, hoodies, 
       caps, knickers, gym attire, and African-inspired dresses.Some of our recent works are shown below, 
       click on any to see more about the or click on the cart to add to your cart.  </p>
-      <SlideShow />
+      <SlideShow data={products} />
     </section>
   )
 }
