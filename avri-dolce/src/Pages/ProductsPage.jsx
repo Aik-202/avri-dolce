@@ -15,7 +15,8 @@ export default function ProductsPage() {
   return (
     <section className='flex flex-col space-y-10'>
       <NavBar product={true}/>
-      <Collection option={option} setOption={setOption}/>
+      <Collection option={option} setOption={setOption} type={"MEN'S COLLECTION"}/>
+      <Collection option={option} setOption={setOption} type={"WOMEN'S COLLECTION"}/>
     </section>
   )
 }
