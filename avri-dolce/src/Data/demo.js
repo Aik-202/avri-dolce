@@ -1,4 +1,4 @@
-import { cap, delivery, fbRed, hours, igRed, locate, locationRed, mss1, mss2, mss3, mss4, mt1, mt2, mt3, mt4, mt5, mt6, p1, p2, p3, p4, p5, p6, p7, p8, tikRed, wardrobe, whatRed } from "."
+import { cap, delivery, fbRed, hours, igRed, locate, locationRed, ms1, ms2, ms3, ms4, mss1, mss2, mss3, mss4, mt1, mt2, mt3, mt4, mt5, mt6, p1, p2, p3, p4, p5, p6, p7, p8, tikRed, wardrobe, whatRed } from "."
 
 export const homeNav = ['Home', 'About', 'Products', 'Contact']
 export const products = [
@@ -314,7 +314,32 @@ export const men = [
     },
     {
         name: 'Shorts',
-        product: []
+        product: [
+            {
+                id: 1,
+                tag: 'Shorts (Sample 1)',
+                price: '€30',
+                img: ms1
+            },
+            {
+                id: 2,
+                tag: 'Shorts (Sample 2)',
+                price: '€30',
+                img: ms2
+            },
+            {
+                id: 3,
+                tag: 'Shorts (Sample 3)',
+                price: '€30',
+                img: ms3
+            },
+            {
+                id: 4,
+                tag: 'Shorts (Sample 4)',
+                price: '€30',
+                img: ms4
+            },
+        ]
     },
     {
         name: 'Hoodies',
