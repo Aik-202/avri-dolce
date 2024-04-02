@@ -35,7 +35,7 @@ export default function Collection(props) {
                 `} key={item} onClick={() => props.setOption(item)}>{item}</p>))}
             </div>
         </div>
-        <section className='px-24 mt-10'>
+        <section className='xl:px-24 mt-10'>
             <SlideShow  
             data={props.type === "MEN'S COLLECTION" && props.option === 'T-shirts' ? MentShirt[0].product
             : props.type === "MEN'S COLLECTION" && props.option === 'Sweat-shirts' ? MenSShirt[0].product
