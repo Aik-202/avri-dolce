@@ -1,7 +1,7 @@
 import { cap, delivery, fbRed, hours, igRed, locate, locationRed, ma1, ma2, ma3, ma4, ma5, 
     ma6, mb1, mb2, mb3, mb4, mc1, mc2, mc3, mc4, mc5, mg1, mg2, mg3, mg4, mg5, mg6, mg7, mg8, 
     mg9, mh1, mh2, mh3, mh4, ms1, ms2, ms3, ms4, mss1, mss2, mss3, mss4, mt1, mt2, mt3, mt4, mt5, 
-    mt6, p1, p2, p3, p4, p5, p6, p7, p8, tikRed, wa1, wa2, wa3, wa4, wa5, wardrobe, wb1, wb2, wb3, wb4, wb5, wb6, wc1, wc2, wc3, wc4, wc5, wh1, wh2, wh3, wh5, whatRed, ws1, ws2, ws3, ws4, ws5, ws6, wss1, wss2, wss3, wss4, wss5, wt1, wt2, wt3, wt4, wt5 } from "."
+    mt6, p1, p2, p3, p4, p5, p6, p7, p8, tikRed, wa1, wa2, wa3, wa4, wa5, wardrobe, wb1, wb2, wb3, wb4, wb5, wb6, wc1, wc2, wc3, wc4, wc5, wg1, wg2, wg3, wg4, wg5, wg6, wg7, wg8, wh1, wh2, wh3, wh5, whatRed, ws1, ws2, ws3, ws4, ws5, ws6, wss1, wss2, wss3, wss4, wss5, wt1, wt2, wt3, wt4, wt5 } from "."
 
 export const homeNav = ['Home', 'About', 'Products', 'Contact']
 export const products = [
@@ -571,12 +571,6 @@ export const men = [
                 price: '€30',
                 img: mg9
             },
-            {
-                id: 10,
-                tag: 'Gym Clothes (Sample 9)',
-                price: '€30',
-                img: p8
-            },
         ]
     },
 ]
@@ -847,6 +841,55 @@ export const women = [
     },
     {
         name: 'Gym Clothes',
-        product: []
+        product: [
+            {
+                id: 1,
+                tag: 'Gym Clothes (Sample 1)',
+                price: '€30',
+                img: wg1
+            },
+            {
+                id: 2,
+                tag: 'Gym Clothes (Sample 2)',
+                price: '€30',
+                img: wg2
+            },
+            {
+                id: 3,
+                tag: 'Gym Clothes (Sample 3)',
+                price: '€30',
+                img: wg3
+            },
+            {
+                id: 4,
+                tag: 'Gym Clothes (Sample 4)',
+                price: '€30',
+                img: wg4
+            },
+            {
+                id: 5,
+                tag: 'Gym Clothes (Sample 5)',
+                price: '€30',
+                img: wg5
+            },
+            {
+                id: 6,
+                tag: 'Gym Clothes (Sample 6)',
+                price: '€30',
+                img: wg6
+            },
+            {
+                id: 7,
+                tag: 'Gym Clothes (Sample 7)',
+                price: '€30',
+                img: wg7
+            },
+            {
+                id: 8,
+                tag: 'Gym Clothes (Sample 8)',
+                price: '€30',
+                img: wg8
+            },
+        ]
     },
 ]
