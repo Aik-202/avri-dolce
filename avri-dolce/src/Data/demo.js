@@ -463,7 +463,7 @@ export const men = [
                 id: 6,
                 tag: 'Head wear (Sample 6)',
                 price: '€30',
-                img: p7
+                img: cap
             },
         ]
     },
@@ -800,7 +800,7 @@ export const women = [
                 id: 6,
                 tag: 'Head wear (Sample 6)',
                 price: '€30',
-                img: p7
+                img: cap
             },
         ]
     },

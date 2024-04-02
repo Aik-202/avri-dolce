@@ -7,7 +7,7 @@ export default function SlideShow(props) {
 
   return (
     <section className='grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10 w-[90%] md:w-auto'>
-        {props.data.map((src => <div className='flex flex-col' key={src.id}>
+        {props.data ? props.data.map((src => <div className='flex flex-col' key={src.id}>
           <figure className={`self-center md:self-start flex flex-col rounded-md px-5 py-2 mb-3
           bg-brown w-[14rem] h-[16rem] items-center
           ${src.id % 2 === 0 ? 'mt-10' : 'mt-0'}`}>
@@ -32,7 +32,7 @@ export default function SlideShow(props) {
             id={src.tag} onMouseOver={(e) => {setTwo(e.target.id); setTip(true)}} 
             onMouseLeave={() => setTip(false)} />
           </div>
-          </div>))}
+          </div>)) : null}
     </section>
   )
 }

@@ -1,5 +1,5 @@
 import React from 'react'
-import { categories, men } from '../Data/demo'
+import { categories, men, women } from '../Data/demo'
 import SlideShow from './Landing/SlideShow'
 
 export default function Collection(props) {
@@ -11,6 +11,15 @@ export default function Collection(props) {
     const MenHead = men.filter((prev) => {return prev.name == 'Head wear'});
     const MenAfrican = men.filter((prev) => {return prev.name == 'African'});
     const MenGym = men.filter((prev) => {return prev.name == 'Gym Clothes'});
+
+    const WomentShirt = women.filter((prev) => {return prev.name == 'T-shirts'});
+    const WomenSShirt = women.filter((prev) => {return prev.name == 'Sweat-shirts'});
+    const WomenShorts = women.filter((prev) => {return prev.name == 'Shorts'});
+    const WomenHoodies = women.filter((prev) => {return prev.name == 'Hoodies'});
+    const WomenBottoms = women.filter((prev) => {return prev.name == 'Bottoms'});
+    const WomenHead = women.filter((prev) => {return prev.name == 'Head wear'});
+    const WomenAfrican = women.filter((prev) => {return prev.name == 'African'});
+    const WomenGym = women.filter((prev) => {return prev.name == 'Gym Clothes'});
 
   return (
     <section className='pl-5 flex flex-col space-y-8' id={props.type === "MEN'S COLLECTION" ? 'men' 
@@ -36,6 +45,14 @@ export default function Collection(props) {
             : props.type === "MEN'S COLLECTION" && props.option === 'Head wear' ? MenHead[0].product
             : props.type === "MEN'S COLLECTION" && props.option === 'African' ? MenAfrican[0].product
             : props.type === "MEN'S COLLECTION" && props.option === 'Gym Clothes' ? MenGym[0].product
+            : props.type === "WOMEN'S COLLECTION" && props.option === 'T-shirts' ? WomentShirt[0].product
+            : props.type === "WOMEN'S COLLECTION" && props.option === 'Sweat-shirts' ? WomenSShirt[0].product
+            : props.type === "WOMEN'S COLLECTION" && props.option === 'Shorts' ? WomenShorts[0].product
+            : props.type === "WOMEN'S COLLECTION" && props.option === 'Hoodies' ? WomenHoodies[0].product
+            : props.type === "WOMEN'S COLLECTION" && props.option === 'Bottoms' ? WomenBottoms[0].product
+            : props.type === "WOMEN'S COLLECTION" && props.option === 'Head wear' ? WomenHead[0].product
+            : props.type === "WOMEN'S COLLECTION" && props.option === 'African' ? WomenAfrican[0].product
+            : props.type === "WOMEN'S COLLECTION" && props.option === 'Gym Clothes' ? WomenGym[0].product
             : null}/>
         </section>
     </section>
