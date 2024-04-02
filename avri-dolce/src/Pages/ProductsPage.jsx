@@ -1,5 +1,5 @@
 import React from 'react'
-import { Collection, NavBar } from '../Components'
+import { Collection, Footer, NavBar } from '../Components'
 import { useLocation } from 'react-router-dom'
 
 export default function ProductsPage() {
@@ -17,6 +17,7 @@ export default function ProductsPage() {
       <NavBar product={true}/>
       <Collection option={option} setOption={setOption} type={"MEN'S COLLECTION"}/>
       <Collection option={option} setOption={setOption} type={"WOMEN'S COLLECTION"}/>
+      <Footer />
     </section>
   )
 }
