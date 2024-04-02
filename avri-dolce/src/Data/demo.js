@@ -512,6 +512,96 @@ export const men = [
                 price: '€30',
                 img: p6
             },
+            {
+                id: 8,
+                tag: 'African (Sample 8)',
+                price: '€30',
+                img: ma1
+            },
+            {
+                id: 9,
+                tag: 'African (Sample 9)',
+                price: '€30',
+                img: ma2
+            },
+            {
+                id: 10,
+                tag: 'African (Sample 10)',
+                price: '€30',
+                img: ma3
+            },
+            {
+                id: 11,
+                tag: 'African (Sample 11)',
+                price: '€30',
+                img: ma4
+            },
+            {
+                id: 12,
+                tag: 'African (Sample 12)',
+                price: '€30',
+                img: ma5
+            },
+            {
+                id: 13,
+                tag: 'African (Sample 12)',
+                price: '€30',
+                img: ma6
+            },
+            {
+                id: 14,
+                tag: 'African (Sample 14)',
+                price: '€30',
+                img: p6
+            },
+            {
+                id: 15,
+                tag: 'African (Sample 15)',
+                price: '€30',
+                img: ma3
+            },
+            {
+                id: 16,
+                tag: 'African (Sample 16)',
+                price: '€30',
+                img: ma4
+            },
+            {
+                id: 17,
+                tag: 'African (Sample 17)',
+                price: '€30',
+                img: ma5
+            },
+            {
+                id: 18,
+                tag: 'African (Sample 18)',
+                price: '€30',
+                img: ma6
+            },
+            {
+                id: 19,
+                tag: 'African (Sample 19)',
+                price: '€30',
+                img: p6
+            },
+            {
+                id: 20,
+                tag: 'African (Sample 20)',
+                price: '€30',
+                img: ma5
+            },
+            {
+                id: 21,
+                tag: 'African (Sample 21)',
+                price: '€30',
+                img: ma6
+            },
+            {
+                id: 22,
+                tag: 'African (Sample 22)',
+                price: '€30',
+                img: p6
+            },
         ]
     },
     {
