@@ -4,6 +4,7 @@ export {default as ChangeLanguage} from './Navigation/ChangeLanguage'
 
 export {default as ADLogo} from './ADLogo'
 export {default as Form} from './Form'
+export {default as Collection} from './Collection'
 
 export {default as Hero} from './Landing/Hero'
 export {default as Offer} from './Landing/Offer'

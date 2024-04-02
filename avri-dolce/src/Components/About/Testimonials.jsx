@@ -18,8 +18,11 @@ export default function Testimonials() {
                     <Avatar sx={{ bgcolor: red[900] }} alt={item.name}>{item.name.charAt(0)}</Avatar>
                     <p className='font-p-font text-base font-semibold'>{item.name}</p>
                 </div>
-                <div className='flex flex-col space-y-2 items-center'>
-                    <Rating name="read-only" value={item.rating} readOnly />
+                <div className='flex flex-col space-y-2 items-center mt-2'>
+                    <div className='flex flex-row items-center space-x-3'>
+                        <Rating name="read-only" value={item.rating} readOnly />
+                        <p className='font-p-font mt-1 text-sm font-semibold'>{item.date}</p>
+                    </div>
                     <p className='font-p-font text-base font-semibold'>{item.comment}</p>
                 </div>
             </div>)}

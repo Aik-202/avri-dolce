@@ -156,24 +156,46 @@ export const know = [
 
 export const ratings = [
     {
-        name: 'Precious Osunde',
-        comment: 'Very nice wears 💯',
-        rating: 5.0
+        name: 'Alessandro Ciancia',
+        comment: 'Pretty',
+        rating: 5.0,
+        date: '26/03/2024'
+    }, 
+    {
+        name: 'Douglas',
+        comment: '💯',
+        rating: 5.0,
+        date: '26/03/2024'
     },
     {
-        name: 'TREASURE OJEBOR',
-        comment: 'King of fashion',
-        rating: 5.0
+        name: 'Happy Udor',
+        comment: 'Beautiful',
+        rating: 5.0,
+        date: '26/03/2024'
+    },
+    {
+        name: 'Precious Osunde',
+        comment: 'Very nice wears 💯',
+        rating: 5.0,
+        date: '26/03/2024'
     },
     {
         name: 'Simona Di Fulvio',
         comment: 'Very good, very competent',
-        rating: 5.0
+        rating: 5.0,
+        date: '26/03/2024'
     },
     {
         name: 'Samson Francis',
         comment: 'Top',
-        rating: 5.0
+        rating: 5.0,
+        date: '28/03/2024'
+    },
+    {
+        name: 'TREASURE OJEBOR',
+        comment: 'King of fashion',
+        rating: 5.0,
+        date: '28/03/2024'
     },
 ]
 
