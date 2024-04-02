@@ -1,7 +1,7 @@
 import { cap, delivery, fbRed, hours, igRed, locate, locationRed, ma1, ma2, ma3, ma4, ma5, 
     ma6, mb1, mb2, mb3, mb4, mc1, mc2, mc3, mc4, mc5, mg1, mg2, mg3, mg4, mg5, mg6, mg7, mg8, 
     mg9, mh1, mh2, mh3, mh4, ms1, ms2, ms3, ms4, mss1, mss2, mss3, mss4, mt1, mt2, mt3, mt4, mt5, 
-    mt6, p1, p2, p3, p4, p5, p6, p7, p8, tikRed, wardrobe, wh1, wh2, wh3, wh5, whatRed, ws1, ws2, ws3, ws4, ws5, ws6, wss1, wss2, wss3, wss4, wss5, wt1, wt2, wt3, wt4, wt5 } from "."
+    mt6, p1, p2, p3, p4, p5, p6, p7, p8, tikRed, wardrobe, wb1, wb2, wb3, wb4, wb5, wb6, wh1, wh2, wh3, wh5, whatRed, ws1, ws2, ws3, ws4, ws5, ws6, wss1, wss2, wss3, wss4, wss5, wt1, wt2, wt3, wt4, wt5 } from "."
 
 export const homeNav = ['Home', 'About', 'Products', 'Contact']
 export const products = [
@@ -384,7 +384,7 @@ export const men = [
                 img: mh4
             },
             {
-                id: 6,
+                id: 5,
                 tag: 'Hoodies (Sample 5)',
                 price: '€30',
                 img: p5
@@ -721,7 +721,7 @@ export const women = [
                 img: wh5
             },
             {
-                id: 6,
+                id: 5,
                 tag: 'Hoodies (Sample 5)',
                 price: '€30',
                 img: wh5
@@ -730,7 +730,44 @@ export const women = [
     },
     {
         name: 'Bottoms',
-        product: []
+        product: [
+            {
+                id: 1,
+                tag: 'Bottoms (Sample 1)',
+                price: '€30',
+                img: wb1
+            },
+            {
+                id: 2,
+                tag: 'Bottoms (Sample 2)',
+                price: '€30',
+                img: wb2
+            },
+            {
+                id: 3,
+                tag: 'Bottoms (Sample 3)',
+                price: '€30',
+                img: wb3
+            },
+            {
+                id: 4,
+                tag: 'Bottoms (Sample 4)',
+                price: '€30',
+                img: wb4
+            },
+            {
+                id: 5,
+                tag: 'Bottoms (Sample 5)',
+                price: '€30',
+                img: wb5
+            },
+            {
+                id: 6,
+                tag: 'Bottoms (Sample 5)',
+                price: '€30',
+                img: wb6
+            },
+        ]
     },
     {
         name: 'Head wear',
