@@ -53,6 +53,12 @@ export const products = [
 ]
 export const collection = [
     {
+        id: 3,
+        tag: 'T-shirts',
+        price: '£30',
+        img: p1
+    },
+    {
         id: 2,
         tag: 'Bottoms',
         price: '£30',
@@ -60,9 +66,15 @@ export const collection = [
     },
     {
         id: 3,
-        tag: 'Shirts',
+        tag: 'Sweat-shirts',
         price: '£30',
         img: p3
+    },
+    {
+        id: 7,
+        tag: 'Head wear',
+        price: '£30',
+        img: p7
     },
     {
         id: 5,
@@ -75,12 +87,6 @@ export const collection = [
         tag: 'African',
         price: '£30',
         img: p6
-    },
-    {
-        id: 7,
-        tag: 'Head wear',
-        price: '£30',
-        img: p7
     },
     {
         id: 8,
@@ -227,4 +233,4 @@ export const contacts = [
     },
 ]
 
-export const categories = ['T-Shirts', 'Sweat-Shirts', 'Hoodies',  'Bottoms', 'Head wear', 'African', 'Gym Clothes' ]
+export const categories = ['T-shirts', 'Sweat-shirts', 'Hoodies',  'Bottoms', 'Head wear', 'African', 'Gym Clothes' ]
