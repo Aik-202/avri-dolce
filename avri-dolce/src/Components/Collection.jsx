@@ -24,7 +24,7 @@ export default function Collection(props) {
   return (
     <section className='pl-5 flex flex-col space-y-8' id={props.type === "MEN'S COLLECTION" ? 'men' 
     : 'women'}>
-        <h2 className='text-center md:text-start font-h-font text-3xl font-bold text-red tracking-wide'>{props.type}</h2>
+        <h2 className='text-center md:text-start font-h-font text-2xl md:text-3xl font-bold text-red tracking-wide'>{props.type}</h2>
         <div className='flex flex-row space-x-3 items-center'>
             <p className='font-p-font text-base font-semibold'>Categories:</p>
             <div className='flex flex-row space-x-5 xl:space-x-10 overflow-x-scroll w-[95%] lg:overflow-x-auto lg:w-[85%]'>

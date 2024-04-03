@@ -247,6 +247,7 @@ export const categories = ['T-shirts', 'Sweat-shirts', 'Shorts', 'Hoodies',  'Bo
 export const men = [
     {
         name: 'T-shirts',
+        des: "Introducing the Avri Dolce Urban Hoodie, where warmth meets style in perfect harmony. Crafted with the finest materials, this hoodie offers supreme comfort without compromising on fashion-forward design. From its cozy fleece lining to its modern silhouette, every detail is thoughtfully considered to elevate your casual ensemble. Whether you're lounging at home or hitting the streets, the Urban Hoodie is your go-to choice for effortless coolness and unparalleled comfort.",
         product: [
             {
                 id: 1,
