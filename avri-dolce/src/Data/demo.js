@@ -14,7 +14,7 @@ export const products = [
     },
     {
         id: 2,
-        tag: 'Custom Trousers',
+        tag: 'Custom Bottoms',
         price: '€30',
         des: "Elevate your wardrobe with Avri Dolce Tailored Trousers, designed for the modern gentleman. Expertly crafted from luxurious fabrics, our trousers boast impeccable tailoring and a refined silhouette, ensuring a flattering fit and unmatched comfort. From formal occasions to everyday wear, our tailored trousers exude sophistication and timeless elegance.",
         img: p2
@@ -417,30 +417,35 @@ export const men = [
                 id: 1,
                 tag: 'Bottoms (Sample 1)',
                 price: '€30',
+                des: "Elevate your wardrobe with Avri Dolce Tailored Trousers, designed for the modern gentleman. Expertly crafted from luxurious fabrics, our trousers boast impeccable tailoring and a refined silhouette, ensuring a flattering fit and unmatched comfort. From formal occasions to everyday wear, our tailored trousers exude sophistication and timeless elegance.",
                 img: mb1
             },
             {
                 id: 2,
                 tag: 'Bottoms (Sample 2)',
                 price: '€30',
+                des: "Elevate your wardrobe with Avri Dolce Tailored Trousers, designed for the modern gentleman. Expertly crafted from luxurious fabrics, our trousers boast impeccable tailoring and a refined silhouette, ensuring a flattering fit and unmatched comfort. From formal occasions to everyday wear, our tailored trousers exude sophistication and timeless elegance.",
                 img: mb2
             },
             {
                 id: 3,
                 tag: 'Bottoms (Sample 3)',
                 price: '€30',
+                des: "Elevate your wardrobe with Avri Dolce Tailored Trousers, designed for the modern gentleman. Expertly crafted from luxurious fabrics, our trousers boast impeccable tailoring and a refined silhouette, ensuring a flattering fit and unmatched comfort. From formal occasions to everyday wear, our tailored trousers exude sophistication and timeless elegance.",
                 img: mb3
             },
             {
                 id: 4,
                 tag: 'Bottoms (Sample 4)',
                 price: '€30',
+                des: "Elevate your wardrobe with Avri Dolce Tailored Trousers, designed for the modern gentleman. Expertly crafted from luxurious fabrics, our trousers boast impeccable tailoring and a refined silhouette, ensuring a flattering fit and unmatched comfort. From formal occasions to everyday wear, our tailored trousers exude sophistication and timeless elegance.",
                 img: mb4
             },
             {
                 id: 5,
                 tag: 'Bottoms (Sample 5)',
                 price: '€30',
+                des: "Elevate your wardrobe with Avri Dolce Tailored Trousers, designed for the modern gentleman. Expertly crafted from luxurious fabrics, our trousers boast impeccable tailoring and a refined silhouette, ensuring a flattering fit and unmatched comfort. From formal occasions to everyday wear, our tailored trousers exude sophistication and timeless elegance.",
                 img: p2
             },
         ]
@@ -452,36 +457,42 @@ export const men = [
                 id: 1,
                 tag: 'Head wear (Sample 1)',
                 price: '€30',
+                des: "Complete your look with the Avri Dolce Classic Cap, the epitome of casual sophistication. Crafted from premium materials, this timeless accessory features a classic silhouette and adjustable strap for a comfortable fit. Whether you're running errands or exploring the city, our Classic Cap adds a touch of effortless style to any ensemble.",
                 img: mc1
             },
             {
                 id: 2,
                 tag: 'Head wear (Sample 2)',
                 price: '€30',
+                des: "Complete your look with the Avri Dolce Classic Cap, the epitome of casual sophistication. Crafted from premium materials, this timeless accessory features a classic silhouette and adjustable strap for a comfortable fit. Whether you're running errands or exploring the city, our Classic Cap adds a touch of effortless style to any ensemble.",
                 img: mc2
             },
             {
                 id: 3,
                 tag: 'Head wear (Sample 3)',
                 price: '€30',
+                des: "Complete your look with the Avri Dolce Classic Cap, the epitome of casual sophistication. Crafted from premium materials, this timeless accessory features a classic silhouette and adjustable strap for a comfortable fit. Whether you're running errands or exploring the city, our Classic Cap adds a touch of effortless style to any ensemble.",
                 img: mc3
             },
             {
                 id: 4,
                 tag: 'Head wear (Sample 4)',
                 price: '€30',
+                des: "Complete your look with the Avri Dolce Classic Cap, the epitome of casual sophistication. Crafted from premium materials, this timeless accessory features a classic silhouette and adjustable strap for a comfortable fit. Whether you're running errands or exploring the city, our Classic Cap adds a touch of effortless style to any ensemble.",
                 img: mc4
             },
             {
                 id: 5,
                 tag: 'Head wear (Sample 5)',
                 price: '€30',
+                des: "Complete your look with the Avri Dolce Classic Cap, the epitome of casual sophistication. Crafted from premium materials, this timeless accessory features a classic silhouette and adjustable strap for a comfortable fit. Whether you're running errands or exploring the city, our Classic Cap adds a touch of effortless style to any ensemble.",
                 img: mc5
             },
             {
                 id: 6,
                 tag: 'Head wear (Sample 6)',
                 price: '€30',
+                des: "Complete your look with the Avri Dolce Classic Cap, the epitome of casual sophistication. Crafted from premium materials, this timeless accessory features a classic silhouette and adjustable strap for a comfortable fit. Whether you're running errands or exploring the city, our Classic Cap adds a touch of effortless style to any ensemble.",
                 img: cap
             },
         ]
@@ -886,36 +897,42 @@ export const women = [
                 id: 1,
                 tag: 'Bottoms (Sample 1)',
                 price: '€30',
+                des: "Elevate your wardrobe with Avri Dolce Tailored Trousers, designed for the modern gentleman. Expertly crafted from luxurious fabrics, our trousers boast impeccable tailoring and a refined silhouette, ensuring a flattering fit and unmatched comfort. From formal occasions to everyday wear, our tailored trousers exude sophistication and timeless elegance.",
                 img: wb1
             },
             {
                 id: 2,
                 tag: 'Bottoms (Sample 2)',
                 price: '€30',
+                des: "Elevate your wardrobe with Avri Dolce Tailored Trousers, designed for the modern gentleman. Expertly crafted from luxurious fabrics, our trousers boast impeccable tailoring and a refined silhouette, ensuring a flattering fit and unmatched comfort. From formal occasions to everyday wear, our tailored trousers exude sophistication and timeless elegance.",
                 img: wb2
             },
             {
                 id: 3,
                 tag: 'Bottoms (Sample 3)',
                 price: '€30',
+                des: "Elevate your wardrobe with Avri Dolce Tailored Trousers, designed for the modern gentleman. Expertly crafted from luxurious fabrics, our trousers boast impeccable tailoring and a refined silhouette, ensuring a flattering fit and unmatched comfort. From formal occasions to everyday wear, our tailored trousers exude sophistication and timeless elegance.",
                 img: wb3
             },
             {
                 id: 4,
                 tag: 'Bottoms (Sample 4)',
                 price: '€30',
+                des: "Elevate your wardrobe with Avri Dolce Tailored Trousers, designed for the modern gentleman. Expertly crafted from luxurious fabrics, our trousers boast impeccable tailoring and a refined silhouette, ensuring a flattering fit and unmatched comfort. From formal occasions to everyday wear, our tailored trousers exude sophistication and timeless elegance.",
                 img: wb4
             },
             {
                 id: 5,
                 tag: 'Bottoms (Sample 5)',
                 price: '€30',
+                des: "Elevate your wardrobe with Avri Dolce Tailored Trousers, designed for the modern gentleman. Expertly crafted from luxurious fabrics, our trousers boast impeccable tailoring and a refined silhouette, ensuring a flattering fit and unmatched comfort. From formal occasions to everyday wear, our tailored trousers exude sophistication and timeless elegance.",
                 img: wb5
             },
             {
                 id: 6,
                 tag: 'Bottoms (Sample 5)',
                 price: '€30',
+                des: "Elevate your wardrobe with Avri Dolce Tailored Trousers, designed for the modern gentleman. Expertly crafted from luxurious fabrics, our trousers boast impeccable tailoring and a refined silhouette, ensuring a flattering fit and unmatched comfort. From formal occasions to everyday wear, our tailored trousers exude sophistication and timeless elegance.",
                 img: wb6
             },
         ]
@@ -927,36 +944,42 @@ export const women = [
                 id: 1,
                 tag: 'Head wear (Sample 1)',
                 price: '€30',
+                des: "Complete your look with the Avri Dolce Classic Cap, the epitome of casual sophistication. Crafted from premium materials, this timeless accessory features a classic silhouette and adjustable strap for a comfortable fit. Whether you're running errands or exploring the city, our Classic Cap adds a touch of effortless style to any ensemble.",
                 img: wc1
             },
             {
                 id: 2,
                 tag: 'Head wear (Sample 2)',
                 price: '€30',
+                des: "Complete your look with the Avri Dolce Classic Cap, the epitome of casual sophistication. Crafted from premium materials, this timeless accessory features a classic silhouette and adjustable strap for a comfortable fit. Whether you're running errands or exploring the city, our Classic Cap adds a touch of effortless style to any ensemble.",
                 img: wc2
             },
             {
                 id: 3,
                 tag: 'Head wear (Sample 3)',
                 price: '€30',
+                des: "Complete your look with the Avri Dolce Classic Cap, the epitome of casual sophistication. Crafted from premium materials, this timeless accessory features a classic silhouette and adjustable strap for a comfortable fit. Whether you're running errands or exploring the city, our Classic Cap adds a touch of effortless style to any ensemble.",
                 img: wc3
             },
             {
                 id: 4,
                 tag: 'Head wear (Sample 4)',
                 price: '€30',
+                des: "Complete your look with the Avri Dolce Classic Cap, the epitome of casual sophistication. Crafted from premium materials, this timeless accessory features a classic silhouette and adjustable strap for a comfortable fit. Whether you're running errands or exploring the city, our Classic Cap adds a touch of effortless style to any ensemble.",
                 img: wc4
             },
             {
                 id: 5,
                 tag: 'Head wear (Sample 5)',
                 price: '€30',
+                des: "Complete your look with the Avri Dolce Classic Cap, the epitome of casual sophistication. Crafted from premium materials, this timeless accessory features a classic silhouette and adjustable strap for a comfortable fit. Whether you're running errands or exploring the city, our Classic Cap adds a touch of effortless style to any ensemble.",
                 img: wc5
             },
             {
                 id: 6,
                 tag: 'Head wear (Sample 6)',
                 price: '€30',
+                des: "Complete your look with the Avri Dolce Classic Cap, the epitome of casual sophistication. Crafted from premium materials, this timeless accessory features a classic silhouette and adjustable strap for a comfortable fit. Whether you're running errands or exploring the city, our Classic Cap adds a touch of effortless style to any ensemble.",
                 img: cap
             },
         ]
