@@ -152,3 +152,7 @@ export {default as wt2} from './images/avr iclothes/women/wt2.png'
 export {default as wt3} from './images/avr iclothes/women/wt3.png'
 export {default as wt4} from './images/avr iclothes/women/wt4.png'
 export {default as wt5} from './images/avr iclothes/women/wt5.png'
+
+export {default as whatWhite} from './images/whatsapp-white.png'
+export {default as plus} from './images/plus.png'
+export {default as minus} from './images/minus.png'
