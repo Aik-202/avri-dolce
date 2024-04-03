@@ -8,6 +8,7 @@ export const products = [
     {
         id: 1,
         tag: 'Custom T-shirt',
+        des: "Elevate your wardrobe with the Avri Dolce Signature T-shirt, where comfort meets style seamlessly. Crafted from the finest cotton, this classic piece boasts a timeless design suitable for any occasion. With its flattering fit and meticulous attention to detail, our Signature T-shirt embodies sophistication and versatility, ensuring you look and feel your best wherever you go.",
         price: '€30',
         img: mt2
     },
@@ -33,6 +34,7 @@ export const products = [
         id: 5,
         tag: 'Custom Hoodies',
         price: '€30',
+        des: "Introducing the Avri Dolce Urban Hoodie, where warmth meets style in perfect harmony. Crafted with the finest materials, this hoodie offers supreme comfort without compromising on fashion-forward design. From its cozy fleece lining to its modern silhouette, every detail is thoughtfully considered to elevate your casual ensemble. Whether you're lounging at home or hitting the streets, the Urban Hoodie is your go-to choice for effortless coolness and unparalleled comfort.",
         img: p5
     },
     {
@@ -247,41 +249,46 @@ export const categories = ['T-shirts', 'Sweat-shirts', 'Shorts', 'Hoodies',  'Bo
 export const men = [
     {
         name: 'T-shirts',
-        des: "Introducing the Avri Dolce Urban Hoodie, where warmth meets style in perfect harmony. Crafted with the finest materials, this hoodie offers supreme comfort without compromising on fashion-forward design. From its cozy fleece lining to its modern silhouette, every detail is thoughtfully considered to elevate your casual ensemble. Whether you're lounging at home or hitting the streets, the Urban Hoodie is your go-to choice for effortless coolness and unparalleled comfort.",
         product: [
             {
                 id: 1,
                 tag: 'T-shirt (Sample 1)',
+                des: "Introducing the Avri Dolce Urban Hoodie, where warmth meets style in perfect harmony. Crafted with the finest materials, this hoodie offers supreme comfort without compromising on fashion-forward design. From its cozy fleece lining to its modern silhouette, every detail is thoughtfully considered to elevate your casual ensemble. Whether you're lounging at home or hitting the streets, the Urban Hoodie is your go-to choice for effortless coolness and unparalleled comfort.",
                 price: '€30',
                 img: mt1
             },
             {
                 id: 2,
                 tag: 'T-shirt (Sample 2)',
+                des: "Elevate your wardrobe with the Avri Dolce Signature T-shirt, where comfort meets style seamlessly. Crafted from the finest cotton, this classic piece boasts a timeless design suitable for any occasion. With its flattering fit and meticulous attention to detail, our Signature T-shirt embodies sophistication and versatility, ensuring you look and feel your best wherever you go.",
                 price: '€30',
                 img: mt2
             },
             {
                 id: 3,
                 tag: 'T-shirt (Sample 3)',
+                des: "Elevate your wardrobe with the Avri Dolce Signature T-shirt, where comfort meets style seamlessly. Crafted from the finest cotton, this classic piece boasts a timeless design suitable for any occasion. With its flattering fit and meticulous attention to detail, our Signature T-shirt embodies sophistication and versatility, ensuring you look and feel your best wherever you go.",
                 price: '€30',
                 img: mt3
             },
             {
                 id: 4,
                 tag: 'T-shirt (Sample 4)',
+                des: "Elevate your wardrobe with the Avri Dolce Signature T-shirt, where comfort meets style seamlessly. Crafted from the finest cotton, this classic piece boasts a timeless design suitable for any occasion. With its flattering fit and meticulous attention to detail, our Signature T-shirt embodies sophistication and versatility, ensuring you look and feel your best wherever you go.",
                 price: '€30',
                 img: mt4
             },
             {
                 id: 5,
                 tag: 'T-shirt (Sample 5)',
+                des: "Elevate your wardrobe with the Avri Dolce Signature T-shirt, where comfort meets style seamlessly. Crafted from the finest cotton, this classic piece boasts a timeless design suitable for any occasion. With its flattering fit and meticulous attention to detail, our Signature T-shirt embodies sophistication and versatility, ensuring you look and feel your best wherever you go.",
                 price: '€30',
                 img: mt5
             },
             {
                 id: 6,
                 tag: 'T-shirt (Sample 6)',
+                des: "Elevate your wardrobe with the Avri Dolce Signature T-shirt, where comfort meets style seamlessly. Crafted from the finest cotton, this classic piece boasts a timeless design suitable for any occasion. With its flattering fit and meticulous attention to detail, our Signature T-shirt embodies sophistication and versatility, ensuring you look and feel your best wherever you go.",
                 price: '€30',
                 img: mt6
             },
@@ -364,17 +371,20 @@ export const men = [
                 id: 1,
                 tag: 'Hoodies (Sample 1)',
                 price: '€30',
+                des: "Introducing the Avri Dolce Urban Hoodie, where warmth meets style in perfect harmony. Crafted with the finest materials, this hoodie offers supreme comfort without compromising on fashion-forward design. From its cozy fleece lining to its modern silhouette, every detail is thoughtfully considered to elevate your casual ensemble. Whether you're lounging at home or hitting the streets, the Urban Hoodie is your go-to choice for effortless coolness and unparalleled comfort.",
                 img: mh1
             },
             {
                 id: 2,
                 tag: 'Hoodies (Sample 2)',
+                des: "Introducing the Avri Dolce Urban Hoodie, where warmth meets style in perfect harmony. Crafted with the finest materials, this hoodie offers supreme comfort without compromising on fashion-forward design. From its cozy fleece lining to its modern silhouette, every detail is thoughtfully considered to elevate your casual ensemble. Whether you're lounging at home or hitting the streets, the Urban Hoodie is your go-to choice for effortless coolness and unparalleled comfort.",
                 price: '€30',
                 img: mh2
             },
             {
                 id: 3,
                 tag: 'Hoodies (Sample 3)',
+                des: "Introducing the Avri Dolce Urban Hoodie, where warmth meets style in perfect harmony. Crafted with the finest materials, this hoodie offers supreme comfort without compromising on fashion-forward design. From its cozy fleece lining to its modern silhouette, every detail is thoughtfully considered to elevate your casual ensemble. Whether you're lounging at home or hitting the streets, the Urban Hoodie is your go-to choice for effortless coolness and unparalleled comfort.",
                 price: '€30',
                 img: mh3
             },
@@ -382,11 +392,13 @@ export const men = [
                 id: 4,
                 tag: 'Hoodies (Sample 4)',
                 price: '€30',
+                des: "Introducing the Avri Dolce Urban Hoodie, where warmth meets style in perfect harmony. Crafted with the finest materials, this hoodie offers supreme comfort without compromising on fashion-forward design. From its cozy fleece lining to its modern silhouette, every detail is thoughtfully considered to elevate your casual ensemble. Whether you're lounging at home or hitting the streets, the Urban Hoodie is your go-to choice for effortless coolness and unparalleled comfort.",
                 img: mh4
             },
             {
                 id: 5,
                 tag: 'Hoodies (Sample 5)',
+                des: "Introducing the Avri Dolce Urban Hoodie, where warmth meets style in perfect harmony. Crafted with the finest materials, this hoodie offers supreme comfort without compromising on fashion-forward design. From its cozy fleece lining to its modern silhouette, every detail is thoughtfully considered to elevate your casual ensemble. Whether you're lounging at home or hitting the streets, the Urban Hoodie is your go-to choice for effortless coolness and unparalleled comfort.",
                 price: '€30',
                 img: p5
             },
@@ -680,30 +692,35 @@ export const women = [
                 id: 1,
                 tag: 'T-shirt (Sample 1)',
                 price: '€30',
+                des: "Elevate your wardrobe with the Avri Dolce Signature T-shirt, where comfort meets style seamlessly. Crafted from the finest cotton, this classic piece boasts a timeless design suitable for any occasion. With its flattering fit and meticulous attention to detail, our Signature T-shirt embodies sophistication and versatility, ensuring you look and feel your best wherever you go.",
                 img: wt1
             },
             {
                 id: 2,
                 tag: 'T-shirt (Sample 2)',
                 price: '€30',
+                des: "Elevate your wardrobe with the Avri Dolce Signature T-shirt, where comfort meets style seamlessly. Crafted from the finest cotton, this classic piece boasts a timeless design suitable for any occasion. With its flattering fit and meticulous attention to detail, our Signature T-shirt embodies sophistication and versatility, ensuring you look and feel your best wherever you go.",
                 img: wt2
             },
             {
                 id: 3,
                 tag: 'T-shirt (Sample 3)',
                 price: '€30',
+                des: "Elevate your wardrobe with the Avri Dolce Signature T-shirt, where comfort meets style seamlessly. Crafted from the finest cotton, this classic piece boasts a timeless design suitable for any occasion. With its flattering fit and meticulous attention to detail, our Signature T-shirt embodies sophistication and versatility, ensuring you look and feel your best wherever you go.",
                 img: wt3
             },
             {
                 id: 4,
                 tag: 'T-shirt (Sample 4)',
                 price: '€30',
+                des: "Elevate your wardrobe with the Avri Dolce Signature T-shirt, where comfort meets style seamlessly. Crafted from the finest cotton, this classic piece boasts a timeless design suitable for any occasion. With its flattering fit and meticulous attention to detail, our Signature T-shirt embodies sophistication and versatility, ensuring you look and feel your best wherever you go.",
                 img: wt4
             },
             {
                 id: 5,
                 tag: 'T-shirt (Sample 5)',
                 price: '€30',
+                des: "Elevate your wardrobe with the Avri Dolce Signature T-shirt, where comfort meets style seamlessly. Crafted from the finest cotton, this classic piece boasts a timeless design suitable for any occasion. With its flattering fit and meticulous attention to detail, our Signature T-shirt embodies sophistication and versatility, ensuring you look and feel your best wherever you go.",
                 img: wt5
             },
         ]
@@ -791,30 +808,35 @@ export const women = [
                 id: 1,
                 tag: 'Hoodies (Sample 1)',
                 price: '€30',
+                des: "Introducing the Avri Dolce Urban Hoodie, where warmth meets style in perfect harmony. Crafted with the finest materials, this hoodie offers supreme comfort without compromising on fashion-forward design. From its cozy fleece lining to its modern silhouette, every detail is thoughtfully considered to elevate your casual ensemble. Whether you're lounging at home or hitting the streets, the Urban Hoodie is your go-to choice for effortless coolness and unparalleled comfort.",
                 img: wh1
             },
             {
                 id: 2,
                 tag: 'Hoodies (Sample 2)',
                 price: '€30',
+                des: "Introducing the Avri Dolce Urban Hoodie, where warmth meets style in perfect harmony. Crafted with the finest materials, this hoodie offers supreme comfort without compromising on fashion-forward design. From its cozy fleece lining to its modern silhouette, every detail is thoughtfully considered to elevate your casual ensemble. Whether you're lounging at home or hitting the streets, the Urban Hoodie is your go-to choice for effortless coolness and unparalleled comfort.",
                 img: wh2
             },
             {
                 id: 3,
                 tag: 'Hoodies (Sample 3)',
                 price: '€30',
+                des: "Introducing the Avri Dolce Urban Hoodie, where warmth meets style in perfect harmony. Crafted with the finest materials, this hoodie offers supreme comfort without compromising on fashion-forward design. From its cozy fleece lining to its modern silhouette, every detail is thoughtfully considered to elevate your casual ensemble. Whether you're lounging at home or hitting the streets, the Urban Hoodie is your go-to choice for effortless coolness and unparalleled comfort.",
                 img: wh3
             },
             {
                 id: 4,
                 tag: 'Hoodies (Sample 4)',
                 price: '€30',
+                des: "Introducing the Avri Dolce Urban Hoodie, where warmth meets style in perfect harmony. Crafted with the finest materials, this hoodie offers supreme comfort without compromising on fashion-forward design. From its cozy fleece lining to its modern silhouette, every detail is thoughtfully considered to elevate your casual ensemble. Whether you're lounging at home or hitting the streets, the Urban Hoodie is your go-to choice for effortless coolness and unparalleled comfort.",
                 img: wh4
             },
             {
                 id: 5,
                 tag: 'Hoodies (Sample 5)',
                 price: '€30',
+                des: "Introducing the Avri Dolce Urban Hoodie, where warmth meets style in perfect harmony. Crafted with the finest materials, this hoodie offers supreme comfort without compromising on fashion-forward design. From its cozy fleece lining to its modern silhouette, every detail is thoughtfully considered to elevate your casual ensemble. Whether you're lounging at home or hitting the streets, the Urban Hoodie is your go-to choice for effortless coolness and unparalleled comfort.",
                 img: wh5
             },
         ]
