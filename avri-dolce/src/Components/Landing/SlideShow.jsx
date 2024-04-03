@@ -13,7 +13,7 @@ export default function SlideShow(props) {
         {props.data ? props.data.map((src => <div className='flex flex-col cursor-pointer' key={src.id}>
           <figure className={`self-center md:self-start flex flex-col rounded-md px-5 py-2 mb-3
           bg-brown w-[14rem] h-[16rem] items-center
-          ${src.id % 2 === 0 ? 'mt-10' : 'mt-0'}`} onClick={() => navigate('/view-product', {state : src}) }>
+          ${src.id % 2 === 0 ? 'mt-10' : 'mt-0'}`} onClick={() => navigate(`/view-product/${src.tag}`, {state : src}) }>
               <img src={ heartBlack} alt="heart" className='w-[35px] h-[35px] self-end 
               cursor-pointer bg-white rounded-full p-2' id={src.tag} onClick={(e) => { e.target.src.includes('heart-black.png') ? e.target.src = heartRed 
               : e.target.src = heartBlack } } />
@@ -33,7 +33,8 @@ export default function SlideShow(props) {
             <img src={cart} alt="cart" className='p-2 w-[38px] h-[38px] border-solid border-[1px] 
             border-red rounded-full cursor-pointer hover:bg-brown hover:border-transparent'
             id={src.tag} onMouseOver={(e) => {setTwo(e.target.id); setTip(true)}} 
-            onMouseLeave={() => setTip(false)} />
+            onMouseLeave={() => setTip(false)} 
+            onClick={() => navigate(`/view-product/${src.tag}`, {state : src}) }/>
           </div>
           </div>)) : null}
     </section>

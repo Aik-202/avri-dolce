@@ -307,30 +307,35 @@ export const men = [
                 id: 1,
                 tag: 'Sweat-shirt (Sample 1)',
                 price: '€30',
+                des: "Elevate your wardrobe with the Avri Dolce Signature  Sweat shirt, meticulously crafted to blend style and comfort seamlessly.With its flattering fit and exquisite attention to detail, our Signature sweat shirt embodies sophistication and versatility. Whether paired with casual denim or dressed up with tailored trousers, this wardrobe essential effortlessly exudes confidence and refinement.",
                 img: mss1
             },
             {
                 id: 2,
                 tag: 'Sweat-shirt (Sample 2)',
                 price: '€30',
+                des: "Elevate your wardrobe with the Avri Dolce Signature  Sweat shirt, meticulously crafted to blend style and comfort seamlessly.With its flattering fit and exquisite attention to detail, our Signature sweat shirt embodies sophistication and versatility. Whether paired with casual denim or dressed up with tailored trousers, this wardrobe essential effortlessly exudes confidence and refinement.",
                 img: mss2
             },
             {
                 id: 3,
                 tag: 'Sweat-shirt (Sample 3)',
                 price: '€30',
+                des: "Elevate your wardrobe with the Avri Dolce Signature  Sweat shirt, meticulously crafted to blend style and comfort seamlessly.With its flattering fit and exquisite attention to detail, our Signature sweat shirt embodies sophistication and versatility. Whether paired with casual denim or dressed up with tailored trousers, this wardrobe essential effortlessly exudes confidence and refinement.",
                 img: mss3
             },
             {
                 id: 4,
                 tag: 'Sweat-shirt (Sample 4)',
                 price: '€30',
+                des: "Elevate your wardrobe with the Avri Dolce Signature  Sweat shirt, meticulously crafted to blend style and comfort seamlessly.With its flattering fit and exquisite attention to detail, our Signature sweat shirt embodies sophistication and versatility. Whether paired with casual denim or dressed up with tailored trousers, this wardrobe essential effortlessly exudes confidence and refinement.",
                 img: mss4
             },
             {
                 id: 5,
                 tag: 'Sweat-shirt (Sample 5)',
                 price: '€30',
+                des: "Elevate your wardrobe with the Avri Dolce Signature  Sweat shirt, meticulously crafted to blend style and comfort seamlessly.With its flattering fit and exquisite attention to detail, our Signature sweat shirt embodies sophistication and versatility. Whether paired with casual denim or dressed up with tailored trousers, this wardrobe essential effortlessly exudes confidence and refinement.",
                 img: p3
             },
         ]
@@ -342,30 +347,35 @@ export const men = [
                 id: 1,
                 tag: 'Shorts (Sample 1)',
                 price: '€30',
+                des: "Experience ultimate comfort and style with Avri Dolce Essential Shorts, perfect for warm-weather adventures. Made from premium materials, these shorts feature a relaxed fit and versatile design, ideal for casual outings or lounging at home. With attention to detail and quality craftsmanship, our Essential Shorts offer effortless coolness and comfort for every occasion.",
                 img: ms1
             },
             {
                 id: 2,
                 tag: 'Shorts (Sample 2)',
                 price: '€30',
+                des: "Experience ultimate comfort and style with Avri Dolce Essential Shorts, perfect for warm-weather adventures. Made from premium materials, these shorts feature a relaxed fit and versatile design, ideal for casual outings or lounging at home. With attention to detail and quality craftsmanship, our Essential Shorts offer effortless coolness and comfort for every occasion.",
                 img: ms2
             },
             {
                 id: 3,
                 tag: 'Shorts (Sample 3)',
                 price: '€30',
+                des: "Experience ultimate comfort and style with Avri Dolce Essential Shorts, perfect for warm-weather adventures. Made from premium materials, these shorts feature a relaxed fit and versatile design, ideal for casual outings or lounging at home. With attention to detail and quality craftsmanship, our Essential Shorts offer effortless coolness and comfort for every occasion.",
                 img: ms3
             },
             {
                 id: 4,
                 tag: 'Shorts (Sample 4)',
                 price: '€30',
+                des: "Experience ultimate comfort and style with Avri Dolce Essential Shorts, perfect for warm-weather adventures. Made from premium materials, these shorts feature a relaxed fit and versatile design, ideal for casual outings or lounging at home. With attention to detail and quality craftsmanship, our Essential Shorts offer effortless coolness and comfort for every occasion.",
                 img: ms4
             },
             {
                 id: 5,
                 tag: 'Shorts (Sample 5)',
                 price: '€30',
+                des: "Experience ultimate comfort and style with Avri Dolce Essential Shorts, perfect for warm-weather adventures. Made from premium materials, these shorts feature a relaxed fit and versatile design, ideal for casual outings or lounging at home. With attention to detail and quality craftsmanship, our Essential Shorts offer effortless coolness and comfort for every occasion.",
                 img: p4
             },
         ]
@@ -781,30 +791,35 @@ export const women = [
                 id: 1,
                 tag: 'Sweat-shirt (Sample 1)',
                 price: '€30',
+                des: "Elevate your wardrobe with the Avri Dolce Signature  Sweat shirt, meticulously crafted to blend style and comfort seamlessly.With its flattering fit and exquisite attention to detail, our Signature sweat shirt embodies sophistication and versatility. Whether paired with casual denim or dressed up with tailored trousers, this wardrobe essential effortlessly exudes confidence and refinement.",
                 img: wss1
             },
             {
                 id: 2,
                 tag: 'Sweat-shirt (Sample 2)',
                 price: '€30',
+                des: "Elevate your wardrobe with the Avri Dolce Signature  Sweat shirt, meticulously crafted to blend style and comfort seamlessly.With its flattering fit and exquisite attention to detail, our Signature sweat shirt embodies sophistication and versatility. Whether paired with casual denim or dressed up with tailored trousers, this wardrobe essential effortlessly exudes confidence and refinement.",
                 img: wss2
             },
             {
                 id: 3,
                 tag: 'Sweat-shirt (Sample 3)',
                 price: '€30',
+                des: "Elevate your wardrobe with the Avri Dolce Signature  Sweat shirt, meticulously crafted to blend style and comfort seamlessly.With its flattering fit and exquisite attention to detail, our Signature sweat shirt embodies sophistication and versatility. Whether paired with casual denim or dressed up with tailored trousers, this wardrobe essential effortlessly exudes confidence and refinement.",
                 img: wss3
             },
             {
                 id: 4,
                 tag: 'Sweat-shirt (Sample 4)',
                 price: '€30',
+                des: "Elevate your wardrobe with the Avri Dolce Signature  Sweat shirt, meticulously crafted to blend style and comfort seamlessly.With its flattering fit and exquisite attention to detail, our Signature sweat shirt embodies sophistication and versatility. Whether paired with casual denim or dressed up with tailored trousers, this wardrobe essential effortlessly exudes confidence and refinement.",
                 img: wss4
             },
             {
                 id: 5,
                 tag: 'Sweat-shirt (Sample 5)',
                 price: '€30',
+                des: "Elevate your wardrobe with the Avri Dolce Signature  Sweat shirt, meticulously crafted to blend style and comfort seamlessly.With its flattering fit and exquisite attention to detail, our Signature sweat shirt embodies sophistication and versatility. Whether paired with casual denim or dressed up with tailored trousers, this wardrobe essential effortlessly exudes confidence and refinement.",
                 img: wss5
             },
         ]
@@ -816,36 +831,42 @@ export const women = [
                 id: 1,
                 tag: 'Shorts (Sample 1)',
                 price: '€30',
+                des: "Experience ultimate comfort and style with Avri Dolce Essential Shorts, perfect for warm-weather adventures. Made from premium materials, these shorts feature a relaxed fit and versatile design, ideal for casual outings or lounging at home. With attention to detail and quality craftsmanship, our Essential Shorts offer effortless coolness and comfort for every occasion.",
                 img: ws1
             },
             {
                 id: 2,
                 tag: 'Shorts (Sample 2)',
                 price: '€30',
+                des: "Experience ultimate comfort and style with Avri Dolce Essential Shorts, perfect for warm-weather adventures. Made from premium materials, these shorts feature a relaxed fit and versatile design, ideal for casual outings or lounging at home. With attention to detail and quality craftsmanship, our Essential Shorts offer effortless coolness and comfort for every occasion.",
                 img: ws2
             },
             {
                 id: 3,
                 tag: 'Shorts (Sample 3)',
                 price: '€30',
+                des: "Experience ultimate comfort and style with Avri Dolce Essential Shorts, perfect for warm-weather adventures. Made from premium materials, these shorts feature a relaxed fit and versatile design, ideal for casual outings or lounging at home. With attention to detail and quality craftsmanship, our Essential Shorts offer effortless coolness and comfort for every occasion.",
                 img: ws3
             },
             {
                 id: 4,
                 tag: 'Shorts (Sample 4)',
                 price: '€30',
+                des: "Experience ultimate comfort and style with Avri Dolce Essential Shorts, perfect for warm-weather adventures. Made from premium materials, these shorts feature a relaxed fit and versatile design, ideal for casual outings or lounging at home. With attention to detail and quality craftsmanship, our Essential Shorts offer effortless coolness and comfort for every occasion.",
                 img: ws4
             },
             {
                 id: 5,
                 tag: 'Shorts (Sample 5)',
                 price: '€30',
+                des: "Experience ultimate comfort and style with Avri Dolce Essential Shorts, perfect for warm-weather adventures. Made from premium materials, these shorts feature a relaxed fit and versatile design, ideal for casual outings or lounging at home. With attention to detail and quality craftsmanship, our Essential Shorts offer effortless coolness and comfort for every occasion.",
                 img: ws5
             },
             {
                 id: 6,
                 tag: 'Shorts (Sample 6)',
                 price: '€30',
+                des: "Experience ultimate comfort and style with Avri Dolce Essential Shorts, perfect for warm-weather adventures. Made from premium materials, these shorts feature a relaxed fit and versatile design, ideal for casual outings or lounging at home. With attention to detail and quality craftsmanship, our Essential Shorts offer effortless coolness and comfort for every occasion.",
                 img: ws6
             },
         ]
