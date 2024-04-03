@@ -4,7 +4,7 @@ import { useLocation } from 'react-router-dom'
 import { minus, plus, whatWhite } from '../Data';
 
 export default function ViewProduct() {
-  const [count, setCount] = React.useState(0)
+  const [count, setCount] = React.useState(1)
 
   const location = useLocation();
 
@@ -29,12 +29,15 @@ export default function ViewProduct() {
           <section className='flex flex-row space-x-10'>
           <div className='w-[10rem] bg-gray flex flex-row justify-between items-center 
           p-3 rounded-md cursor-pointer'>
-            <img src={minus} alt="minus" className='w-[25px] h-[25px]' />
+            <img src={minus} alt="minus" className='w-[25px] h-[25px]' 
+            onClick={() => count == 0 ? setCount(0) : setCount(prev => prev - 1) } />
             <p className='text-base font-bold text-black'>{count}</p>
-            <img src={plus} alt="plus" className='w-[25px] h-[22px]'/>
+            <img src={plus} alt="plus" className='w-[25px] h-[22px]'
+            onClick={() => setCount(prev => prev + 1)}/>
           </div>
           <button className='bg-green-500 flex flex-row text-white font-b-font items-center
-          space-x-3 rounded-md px-5 text-center'>
+          space-x-3 rounded-md px-5 text-center' 
+          onClick={() => {window.location.href = `https://wa.me/+393755327166?text=I would like to purchase ${count} of  ${data.tag}`}}>
             <img src={whatWhite} alt="whatsapp" className='w-[30px]'/>
             <span className='mt-1'>Checkout</span>
           </button>
