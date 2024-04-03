@@ -16,18 +16,21 @@ export const products = [
         id: 2,
         tag: 'Custom Trousers',
         price: '€30',
+        des: "Elevate your wardrobe with Avri Dolce Tailored Trousers, designed for the modern gentleman. Expertly crafted from luxurious fabrics, our trousers boast impeccable tailoring and a refined silhouette, ensuring a flattering fit and unmatched comfort. From formal occasions to everyday wear, our tailored trousers exude sophistication and timeless elegance.",
         img: p2
     },
     {
         id: 3,
         tag: 'Custom Sweat-shirt',
         price: '€30',
+        des: "Elevate your wardrobe with the Avri Dolce Signature  Sweat shirt, meticulously crafted to blend style and comfort seamlessly.With its flattering fit and exquisite attention to detail, our Signature sweat shirt embodies sophistication and versatility. Whether paired with casual denim or dressed up with tailored trousers, this wardrobe essential effortlessly exudes confidence and refinement.",
         img: p3
     },
     {
         id: 4,
         tag: 'Custom Shorts',
         price: '€30',
+        des: "Experience ultimate comfort and style with Avri Dolce Essential Shorts, perfect for warm-weather adventures. Made from premium materials, these shorts feature a relaxed fit and versatile design, ideal for casual outings or lounging at home. With attention to detail and quality craftsmanship, our Essential Shorts offer effortless coolness and comfort for every occasion.",
         img: p4
     },
     {
@@ -41,18 +44,21 @@ export const products = [
         id: 6,
         tag: 'African',
         price: '€30',
+        des: "Embrace the rich heritage and vibrant culture with Avri Dolce African Dresses. Each garment is a celebration of tradition and modernity, meticulously crafted with bold prints, intricate patterns, and exquisite detailing. From flowing silhouettes to tailored cuts, our African dresses exude elegance and grace, allowing you to make a statement with every step.",
         img: p6
     },
     {
         id: 7,
         tag: 'Custom Cap',
         price: '€30',
+        des: "Complete your look with the Avri Dolce Classic Cap, the epitome of casual sophistication. Crafted from premium materials, this timeless accessory features a classic silhouette and adjustable strap for a comfortable fit. Whether you're running errands or exploring the city, our Classic Cap adds a touch of effortless style to any ensemble.",
         img: cap
     },
     {
         id: 8,
-        tag: 'Full Gym Clothes',
+        tag: 'Gym Clothes',
         price: '€30',
+        des: "Introducing Avri Dolce Performance Gym Clothes, designed to inspire and support your active lifestyle. Engineered with cutting-edge fabrics, our gym attire offers optimal breathability, flexibility, and moisture-wicking properties to keep you cool and comfortable during your workouts. From sleek leggings to performance tops, each piece is crafted with precision and style, empowering you to reach your fitness goals with confidence and flair.",
         img: p8
     },
 ]
@@ -487,138 +493,161 @@ export const men = [
                 id: 1,
                 tag: 'African (Sample 1)',
                 price: '€30',
+                des: "Embrace the rich heritage and vibrant culture with Avri Dolce African Dresses. Each garment is a celebration of tradition and modernity, meticulously crafted with bold prints, intricate patterns, and exquisite detailing. From flowing silhouettes to tailored cuts, our African dresses exude elegance and grace, allowing you to make a statement with every step.",
                 img: ma1
             },
             {
                 id: 2,
                 tag: 'African (Sample 2)',
                 price: '€30',
+                des: "Embrace the rich heritage and vibrant culture with Avri Dolce African Dresses. Each garment is a celebration of tradition and modernity, meticulously crafted with bold prints, intricate patterns, and exquisite detailing. From flowing silhouettes to tailored cuts, our African dresses exude elegance and grace, allowing you to make a statement with every step.",
                 img: ma2
             },
             {
                 id: 3,
                 tag: 'African (Sample 3)',
                 price: '€30',
+                des: "Embrace the rich heritage and vibrant culture with Avri Dolce African Dresses. Each garment is a celebration of tradition and modernity, meticulously crafted with bold prints, intricate patterns, and exquisite detailing. From flowing silhouettes to tailored cuts, our African dresses exude elegance and grace, allowing you to make a statement with every step.",
                 img: ma3
             },
             {
                 id: 4,
                 tag: 'African (Sample 4)',
                 price: '€30',
+                des: "Embrace the rich heritage and vibrant culture with Avri Dolce African Dresses. Each garment is a celebration of tradition and modernity, meticulously crafted with bold prints, intricate patterns, and exquisite detailing. From flowing silhouettes to tailored cuts, our African dresses exude elegance and grace, allowing you to make a statement with every step.",
                 img: ma4
             },
             {
                 id: 5,
                 tag: 'African (Sample 5)',
                 price: '€30',
+                des: "Embrace the rich heritage and vibrant culture with Avri Dolce African Dresses. Each garment is a celebration of tradition and modernity, meticulously crafted with bold prints, intricate patterns, and exquisite detailing. From flowing silhouettes to tailored cuts, our African dresses exude elegance and grace, allowing you to make a statement with every step.",
                 img: ma5
             },
             {
                 id: 6,
                 tag: 'African (Sample 6)',
                 price: '€30',
+                des: "Embrace the rich heritage and vibrant culture with Avri Dolce African Dresses. Each garment is a celebration of tradition and modernity, meticulously crafted with bold prints, intricate patterns, and exquisite detailing. From flowing silhouettes to tailored cuts, our African dresses exude elegance and grace, allowing you to make a statement with every step.",
                 img: ma6
             },
             {
                 id: 7,
                 tag: 'African (Sample 7)',
                 price: '€30',
+                des: "Embrace the rich heritage and vibrant culture with Avri Dolce African Dresses. Each garment is a celebration of tradition and modernity, meticulously crafted with bold prints, intricate patterns, and exquisite detailing. From flowing silhouettes to tailored cuts, our African dresses exude elegance and grace, allowing you to make a statement with every step.",
                 img: p6
             },
             {
                 id: 8,
                 tag: 'African (Sample 8)',
                 price: '€30',
+                des: "Embrace the rich heritage and vibrant culture with Avri Dolce African Dresses. Each garment is a celebration of tradition and modernity, meticulously crafted with bold prints, intricate patterns, and exquisite detailing. From flowing silhouettes to tailored cuts, our African dresses exude elegance and grace, allowing you to make a statement with every step.",
                 img: ma7
             },
             {
                 id: 9,
                 tag: 'African (Sample 9)',
                 price: '€30',
+                des: "Embrace the rich heritage and vibrant culture with Avri Dolce African Dresses. Each garment is a celebration of tradition and modernity, meticulously crafted with bold prints, intricate patterns, and exquisite detailing. From flowing silhouettes to tailored cuts, our African dresses exude elegance and grace, allowing you to make a statement with every step.",
                 img: ma8
             },
             {
                 id: 10,
                 tag: 'African (Sample 10)',
                 price: '€30',
+                des: "Embrace the rich heritage and vibrant culture with Avri Dolce African Dresses. Each garment is a celebration of tradition and modernity, meticulously crafted with bold prints, intricate patterns, and exquisite detailing. From flowing silhouettes to tailored cuts, our African dresses exude elegance and grace, allowing you to make a statement with every step.",
                 img: ma9
             },
             {
                 id: 11,
                 tag: 'African (Sample 11)',
                 price: '€30',
+                des: "Embrace the rich heritage and vibrant culture with Avri Dolce African Dresses. Each garment is a celebration of tradition and modernity, meticulously crafted with bold prints, intricate patterns, and exquisite detailing. From flowing silhouettes to tailored cuts, our African dresses exude elegance and grace, allowing you to make a statement with every step.",
                 img: ma10
             },
             {
                 id: 12,
                 tag: 'African (Sample 12)',
                 price: '€30',
+                des: "Embrace the rich heritage and vibrant culture with Avri Dolce African Dresses. Each garment is a celebration of tradition and modernity, meticulously crafted with bold prints, intricate patterns, and exquisite detailing. From flowing silhouettes to tailored cuts, our African dresses exude elegance and grace, allowing you to make a statement with every step.",
                 img: ma11
             },
             {
                 id: 13,
                 tag: 'African (Sample 12)',
                 price: '€30',
+                des: "Embrace the rich heritage and vibrant culture with Avri Dolce African Dresses. Each garment is a celebration of tradition and modernity, meticulously crafted with bold prints, intricate patterns, and exquisite detailing. From flowing silhouettes to tailored cuts, our African dresses exude elegance and grace, allowing you to make a statement with every step.",
                 img: ma12
             },
             {
                 id: 14,
                 tag: 'African (Sample 14)',
                 price: '€30',
+                des: "Embrace the rich heritage and vibrant culture with Avri Dolce African Dresses. Each garment is a celebration of tradition and modernity, meticulously crafted with bold prints, intricate patterns, and exquisite detailing. From flowing silhouettes to tailored cuts, our African dresses exude elegance and grace, allowing you to make a statement with every step.",
                 img: ma13
             },
             {
                 id: 15,
                 tag: 'African (Sample 15)',
                 price: '€30',
+                des: "Embrace the rich heritage and vibrant culture with Avri Dolce African Dresses. Each garment is a celebration of tradition and modernity, meticulously crafted with bold prints, intricate patterns, and exquisite detailing. From flowing silhouettes to tailored cuts, our African dresses exude elegance and grace, allowing you to make a statement with every step.",
                 img: ma14
             },
             {
                 id: 16,
                 tag: 'African (Sample 16)',
                 price: '€30',
+                des: "Embrace the rich heritage and vibrant culture with Avri Dolce African Dresses. Each garment is a celebration of tradition and modernity, meticulously crafted with bold prints, intricate patterns, and exquisite detailing. From flowing silhouettes to tailored cuts, our African dresses exude elegance and grace, allowing you to make a statement with every step.",
                 img: ma15
             },
             {
                 id: 17,
                 tag: 'African (Sample 17)',
                 price: '€30',
+                des: "Embrace the rich heritage and vibrant culture with Avri Dolce African Dresses. Each garment is a celebration of tradition and modernity, meticulously crafted with bold prints, intricate patterns, and exquisite detailing. From flowing silhouettes to tailored cuts, our African dresses exude elegance and grace, allowing you to make a statement with every step.",
                 img: ma16
             },
             {
                 id: 18,
                 tag: 'African (Sample 18)',
                 price: '€30',
+                des: "Embrace the rich heritage and vibrant culture with Avri Dolce African Dresses. Each garment is a celebration of tradition and modernity, meticulously crafted with bold prints, intricate patterns, and exquisite detailing. From flowing silhouettes to tailored cuts, our African dresses exude elegance and grace, allowing you to make a statement with every step.",
                 img: ma17
             },
             {
                 id: 19,
                 tag: 'African (Sample 19)',
                 price: '€30',
+                des: "Embrace the rich heritage and vibrant culture with Avri Dolce African Dresses. Each garment is a celebration of tradition and modernity, meticulously crafted with bold prints, intricate patterns, and exquisite detailing. From flowing silhouettes to tailored cuts, our African dresses exude elegance and grace, allowing you to make a statement with every step.",
                 img: ma18
             },
             {
                 id: 20,
                 tag: 'African (Sample 20)',
                 price: '€30',
+                des: "Embrace the rich heritage and vibrant culture with Avri Dolce African Dresses. Each garment is a celebration of tradition and modernity, meticulously crafted with bold prints, intricate patterns, and exquisite detailing. From flowing silhouettes to tailored cuts, our African dresses exude elegance and grace, allowing you to make a statement with every step.",
                 img: ma19
             },
             {
                 id: 21,
                 tag: 'African (Sample 21)',
                 price: '€30',
+                des: "Embrace the rich heritage and vibrant culture with Avri Dolce African Dresses. Each garment is a celebration of tradition and modernity, meticulously crafted with bold prints, intricate patterns, and exquisite detailing. From flowing silhouettes to tailored cuts, our African dresses exude elegance and grace, allowing you to make a statement with every step.",
                 img: ma20
             },
             {
                 id: 22,
                 tag: 'African (Sample 22)',
                 price: '€30',
+                des: "Embrace the rich heritage and vibrant culture with Avri Dolce African Dresses. Each garment is a celebration of tradition and modernity, meticulously crafted with bold prints, intricate patterns, and exquisite detailing. From flowing silhouettes to tailored cuts, our African dresses exude elegance and grace, allowing you to make a statement with every step.",
                 img: ma21
             },
             {
                 id: 23,
                 tag: 'African (Sample 23)',
                 price: '€30',
+                des: "Embrace the rich heritage and vibrant culture with Avri Dolce African Dresses. Each garment is a celebration of tradition and modernity, meticulously crafted with bold prints, intricate patterns, and exquisite detailing. From flowing silhouettes to tailored cuts, our African dresses exude elegance and grace, allowing you to make a statement with every step.",
                 img: ma22
             },
         ]
@@ -630,29 +659,34 @@ export const men = [
                 id: 1,
                 tag: 'Gym Clothes (Sample 1)',
                 price: '€30',
+                des: "Introducing Avri Dolce Performance Gym Clothes, designed to inspire and support your active lifestyle. Engineered with cutting-edge fabrics, our gym attire offers optimal breathability, flexibility, and moisture-wicking properties to keep you cool and comfortable during your workouts. From sleek leggings to performance tops, each piece is crafted with precision and style, empowering you to reach your fitness goals with confidence and flair.",
                 img: mg1
             },
             {
                 id: 2,
                 tag: 'Gym Clothes (Sample 2)',
                 price: '€30',
+                des: "Introducing Avri Dolce Performance Gym Clothes, designed to inspire and support your active lifestyle. Engineered with cutting-edge fabrics, our gym attire offers optimal breathability, flexibility, and moisture-wicking properties to keep you cool and comfortable during your workouts. From sleek leggings to performance tops, each piece is crafted with precision and style, empowering you to reach your fitness goals with confidence and flair.",
                 img: mg2
             },
             {
                 id: 3,
                 tag: 'Gym Clothes (Sample 3)',
                 price: '€30',
+                des: "Introducing Avri Dolce Performance Gym Clothes, designed to inspire and support your active lifestyle. Engineered with cutting-edge fabrics, our gym attire offers optimal breathability, flexibility, and moisture-wicking properties to keep you cool and comfortable during your workouts. From sleek leggings to performance tops, each piece is crafted with precision and style, empowering you to reach your fitness goals with confidence and flair.",
                 img: mg3
             },
             {
                 id: 4,
                 tag: 'Gym Clothes (Sample 4)',
                 price: '€30',
+                des: "Introducing Avri Dolce Performance Gym Clothes, designed to inspire and support your active lifestyle. Engineered with cutting-edge fabrics, our gym attire offers optimal breathability, flexibility, and moisture-wicking properties to keep you cool and comfortable during your workouts. From sleek leggings to performance tops, each piece is crafted with precision and style, empowering you to reach your fitness goals with confidence and flair.",
                 img: mg4
             },
             {
                 id: 5,
                 tag: 'Gym Clothes (Sample 5)',
+                des: "Introducing Avri Dolce Performance Gym Clothes, designed to inspire and support your active lifestyle. Engineered with cutting-edge fabrics, our gym attire offers optimal breathability, flexibility, and moisture-wicking properties to keep you cool and comfortable during your workouts. From sleek leggings to performance tops, each piece is crafted with precision and style, empowering you to reach your fitness goals with confidence and flair.",
                 price: '€30',
                 img: mg5
             },
@@ -660,24 +694,28 @@ export const men = [
                 id: 6,
                 tag: 'Gym Clothes (Sample 6)',
                 price: '€30',
+                des: "Introducing Avri Dolce Performance Gym Clothes, designed to inspire and support your active lifestyle. Engineered with cutting-edge fabrics, our gym attire offers optimal breathability, flexibility, and moisture-wicking properties to keep you cool and comfortable during your workouts. From sleek leggings to performance tops, each piece is crafted with precision and style, empowering you to reach your fitness goals with confidence and flair.",
                 img: mg6
             },
             {
                 id: 7,
                 tag: 'Gym Clothes (Sample 7)',
                 price: '€30',
+                des: "Introducing Avri Dolce Performance Gym Clothes, designed to inspire and support your active lifestyle. Engineered with cutting-edge fabrics, our gym attire offers optimal breathability, flexibility, and moisture-wicking properties to keep you cool and comfortable during your workouts. From sleek leggings to performance tops, each piece is crafted with precision and style, empowering you to reach your fitness goals with confidence and flair.",
                 img: mg7
             },
             {
                 id: 8,
                 tag: 'Gym Clothes (Sample 8)',
                 price: '€30',
+                des: "Introducing Avri Dolce Performance Gym Clothes, designed to inspire and support your active lifestyle. Engineered with cutting-edge fabrics, our gym attire offers optimal breathability, flexibility, and moisture-wicking properties to keep you cool and comfortable during your workouts. From sleek leggings to performance tops, each piece is crafted with precision and style, empowering you to reach your fitness goals with confidence and flair.",
                 img: mg8
             },
             {
                 id: 9,
                 tag: 'Gym Clothes (Sample 9)',
                 price: '€30',
+                des: "Introducing Avri Dolce Performance Gym Clothes, designed to inspire and support your active lifestyle. Engineered with cutting-edge fabrics, our gym attire offers optimal breathability, flexibility, and moisture-wicking properties to keep you cool and comfortable during your workouts. From sleek leggings to performance tops, each piece is crafted with precision and style, empowering you to reach your fitness goals with confidence and flair.",
                 img: mg9
             },
         ]
@@ -930,30 +968,35 @@ export const women = [
                 id: 1,
                 tag: 'African (Sample 1)',
                 price: '€30',
+                des: "Embrace the rich heritage and vibrant culture with Avri Dolce African Dresses. Each garment is a celebration of tradition and modernity, meticulously crafted with bold prints, intricate patterns, and exquisite detailing. From flowing silhouettes to tailored cuts, our African dresses exude elegance and grace, allowing you to make a statement with every step.",
                 img: wa1
             },
             {
                 id: 2,
                 tag: 'African (Sample 2)',
                 price: '€30',
+                des: "Embrace the rich heritage and vibrant culture with Avri Dolce African Dresses. Each garment is a celebration of tradition and modernity, meticulously crafted with bold prints, intricate patterns, and exquisite detailing. From flowing silhouettes to tailored cuts, our African dresses exude elegance and grace, allowing you to make a statement with every step.",
                 img: wa2
             },
             {
                 id: 3,
                 tag: 'African (Sample 3)',
                 price: '€30',
+                des: "Embrace the rich heritage and vibrant culture with Avri Dolce African Dresses. Each garment is a celebration of tradition and modernity, meticulously crafted with bold prints, intricate patterns, and exquisite detailing. From flowing silhouettes to tailored cuts, our African dresses exude elegance and grace, allowing you to make a statement with every step.",
                 img: wa3
             },
             {
                 id: 4,
                 tag: 'African (Sample 4)',
                 price: '€30',
+                des: "Embrace the rich heritage and vibrant culture with Avri Dolce African Dresses. Each garment is a celebration of tradition and modernity, meticulously crafted with bold prints, intricate patterns, and exquisite detailing. From flowing silhouettes to tailored cuts, our African dresses exude elegance and grace, allowing you to make a statement with every step.",
                 img: wa4
             },
             {
                 id: 5,
                 tag: 'African (Sample 5)',
                 price: '€30',
+                des: "Embrace the rich heritage and vibrant culture with Avri Dolce African Dresses. Each garment is a celebration of tradition and modernity, meticulously crafted with bold prints, intricate patterns, and exquisite detailing. From flowing silhouettes to tailored cuts, our African dresses exude elegance and grace, allowing you to make a statement with every step.",
                 img: wa5
             },
         ]
@@ -965,48 +1008,56 @@ export const women = [
                 id: 1,
                 tag: 'Gym Clothes (Sample 1)',
                 price: '€30',
+                des: "Introducing Avri Dolce Performance Gym Clothes, designed to inspire and support your active lifestyle. Engineered with cutting-edge fabrics, our gym attire offers optimal breathability, flexibility, and moisture-wicking properties to keep you cool and comfortable during your workouts. From sleek leggings to performance tops, each piece is crafted with precision and style, empowering you to reach your fitness goals with confidence and flair.",
                 img: wg1
             },
             {
                 id: 2,
                 tag: 'Gym Clothes (Sample 2)',
                 price: '€30',
+                des: "Introducing Avri Dolce Performance Gym Clothes, designed to inspire and support your active lifestyle. Engineered with cutting-edge fabrics, our gym attire offers optimal breathability, flexibility, and moisture-wicking properties to keep you cool and comfortable during your workouts. From sleek leggings to performance tops, each piece is crafted with precision and style, empowering you to reach your fitness goals with confidence and flair.",
                 img: wg2
             },
             {
                 id: 3,
                 tag: 'Gym Clothes (Sample 3)',
                 price: '€30',
+                des: "Introducing Avri Dolce Performance Gym Clothes, designed to inspire and support your active lifestyle. Engineered with cutting-edge fabrics, our gym attire offers optimal breathability, flexibility, and moisture-wicking properties to keep you cool and comfortable during your workouts. From sleek leggings to performance tops, each piece is crafted with precision and style, empowering you to reach your fitness goals with confidence and flair.",
                 img: wg3
             },
             {
                 id: 4,
                 tag: 'Gym Clothes (Sample 4)',
                 price: '€30',
+                des: "Introducing Avri Dolce Performance Gym Clothes, designed to inspire and support your active lifestyle. Engineered with cutting-edge fabrics, our gym attire offers optimal breathability, flexibility, and moisture-wicking properties to keep you cool and comfortable during your workouts. From sleek leggings to performance tops, each piece is crafted with precision and style, empowering you to reach your fitness goals with confidence and flair.",
                 img: wg4
             },
             {
                 id: 5,
                 tag: 'Gym Clothes (Sample 5)',
                 price: '€30',
+                des: "Introducing Avri Dolce Performance Gym Clothes, designed to inspire and support your active lifestyle. Engineered with cutting-edge fabrics, our gym attire offers optimal breathability, flexibility, and moisture-wicking properties to keep you cool and comfortable during your workouts. From sleek leggings to performance tops, each piece is crafted with precision and style, empowering you to reach your fitness goals with confidence and flair.",
                 img: wg5
             },
             {
                 id: 6,
                 tag: 'Gym Clothes (Sample 6)',
                 price: '€30',
+                des: "Introducing Avri Dolce Performance Gym Clothes, designed to inspire and support your active lifestyle. Engineered with cutting-edge fabrics, our gym attire offers optimal breathability, flexibility, and moisture-wicking properties to keep you cool and comfortable during your workouts. From sleek leggings to performance tops, each piece is crafted with precision and style, empowering you to reach your fitness goals with confidence and flair.",
                 img: wg6
             },
             {
                 id: 7,
                 tag: 'Gym Clothes (Sample 7)',
                 price: '€30',
+                des: "Introducing Avri Dolce Performance Gym Clothes, designed to inspire and support your active lifestyle. Engineered with cutting-edge fabrics, our gym attire offers optimal breathability, flexibility, and moisture-wicking properties to keep you cool and comfortable during your workouts. From sleek leggings to performance tops, each piece is crafted with precision and style, empowering you to reach your fitness goals with confidence and flair.",
                 img: wg7
             },
             {
                 id: 8,
                 tag: 'Gym Clothes (Sample 8)',
                 price: '€30',
+                des: "Introducing Avri Dolce Performance Gym Clothes, designed to inspire and support your active lifestyle. Engineered with cutting-edge fabrics, our gym attire offers optimal breathability, flexibility, and moisture-wicking properties to keep you cool and comfortable during your workouts. From sleek leggings to performance tops, each piece is crafted with precision and style, empowering you to reach your fitness goals with confidence and flair.",
                 img: wg8
             },
         ]

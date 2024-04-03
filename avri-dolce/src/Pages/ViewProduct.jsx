@@ -12,7 +12,8 @@ export default function ViewProduct() {
       <NavBar />
       <section className='px-5 flex flex-row justify-between w-[inherit]'>
         <figure className='w-[30%]'>
-          <img src={data.img} alt={data.tag} className='cursor-pointer bg-brown rounded-md h-[26rem] py-5 w-full'  />
+          <img src={data.img} alt={data.tag} className='cursor-pointer bg-brown rounded-md 
+          h-[26rem] p-5 w-full'  />
         </figure>
         <div className='w-[50%] flex flex-col space-y-10'>
           <p className='uppercase text-base font-bold text-red tracking-wide'>Avri Dolce</p>
