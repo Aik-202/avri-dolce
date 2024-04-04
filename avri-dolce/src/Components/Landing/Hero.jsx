@@ -4,7 +4,7 @@ import { men, women } from '../../Data'
 export default function Hero() {
 
   return (
-    <section className='flex flex-col-reverse lg:flex-row justify-between w-screen pl-5 h-max'>
+    <section className='flex flex-col-reverse space-y-reverse space-y-8 lg:space-y-0 lg:flex-row justify-between w-screen pl-5 h-max'>
       <div className='flex flex-col space-y-5'>
         <h1 className='font-h-font text-3xl md:text-[4.2rem] md:leading-[3.4rem] xl:text-[4.6rem] w-[10rem] tracking-wide xl:leading-[4.2rem] z-10'>
           <i className='text-red font-bold'>elevate</i> <span>YOUR WARDROBE</span></h1>
@@ -19,9 +19,9 @@ export default function Hero() {
           products</a></button>
       </div>
       </div>
-      <figure className='grid grid-cols-2 grid-rows-1'>
-        <img src={women} alt="product one" className='col-span-1 w-full h-[90%] lg:h-auto' />
-        <img src={men} alt="product one" className='col-span-1 h-full' />
+      <figure className='flex flex-row w-full'>
+        <img src={women} alt="product one" className='max-w-[50%] max-h-[50%] lg:max-w-[96%]' />
+        <img src={men} alt="product one" className='max-w-[50%] max-h-[50%] lg:max-w-[52%] lg:max-h-[60%]' />
       </figure>
     </section>
   )
