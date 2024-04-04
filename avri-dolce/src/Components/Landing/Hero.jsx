@@ -19,9 +19,9 @@ export default function Hero() {
           products</a></button>
       </div>
       </div>
-      <figure className='flex flex-row w-full'>
-        <img src={women} alt="product one" className='max-w-[50%] max-h-[50%] lg:max-w-[96%] xl:max-w-[100%]' />
-        <img src={men} alt="product one" className='max-w-[50%] max-h-[50%] lg:max-w-[52%] lg:max-h-[60%] xl:max-w-[60%]' />
+      <figure className='flex flex-row w-full lg:grid lg:grid-cols-2'>
+        <img src={women} alt="product one" className='max-w-[50%] max-h-[50%] lg:max-h-full lg:max-w-[100%] lg:w-full lg:h-[90%] lg:col-span-1' />
+        <img src={men} alt="product one" className='max-w-[50%] max-h-[50%] lg:max-h-full lg:max-w-[100%] lg:col-span-1 lg:w-full lg:h-full' />
       </figure>
     </section>
   )
