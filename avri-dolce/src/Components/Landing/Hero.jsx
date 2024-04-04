@@ -20,8 +20,8 @@ export default function Hero() {
       </div>
       </div>
       <figure className='flex flex-row w-full'>
-        <img src={women} alt="product one" className='max-w-[50%] max-h-[50%] lg:max-w-[96%]' />
-        <img src={men} alt="product one" className='max-w-[50%] max-h-[50%] lg:max-w-[52%] lg:max-h-[60%]' />
+        <img src={women} alt="product one" className='max-w-[50%] max-h-[50%] lg:max-w-[96%] xl:max-w-[100%]' />
+        <img src={men} alt="product one" className='max-w-[50%] max-h-[50%] lg:max-w-[52%] lg:max-h-[60%] xl:max-w-[60%]' />
       </figure>
     </section>
   )
