@@ -12,11 +12,11 @@ export default function Ceo() {
       <div className='flex flex-col-reverse space-y-reverse space-y-5 lg:space-y-0 lg:flex-row justify-center lg:space-x-10 pl-5 w-[inherit]'>
         <p className='self-center w-[90%] lg:w-[40%] font-p-font text-base font-semibold'>
         <i className='text-dark-green font-bold'>Avri Dolce</i>, led by the 
-        visionary <i className='text-dark-green font-bold'>Mr. Frank Omozuma</i>, embodies the essence of 
+        visionary <i className='text-dark-green font-bold'>Mr. Frank Frank Omozuwa</i>, embodies the essence of 
         fashion as a medium for soulful expression. Frank's journey originates from 
         <i className='text-dark-green font-bold'> Edo State, Nigeria</i>, but he currently resides in 
         <i className='text-red font-bold'> Pescara, Italy</i>, where he honed his craft under the esteemed 
-        guidance of <i className='text-red font-bold'> Planeta Modal Fashion Academy</i>. Now poised on the cusp 
+        guidance of <i className='text-red font-bold'> Pianeta Moda Fashion Academy</i>. Now poised on the cusp 
         of greatness, he stands ready to unveil his boundless creativity to the world, igniting inspiration 
         and leaving an indelible mark on the realm of fashion. </p>
         <figure className='self-center lg:self-aauto flex flex-row space-x-5 w-max'>
