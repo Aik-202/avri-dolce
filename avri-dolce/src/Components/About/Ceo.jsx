@@ -22,26 +22,27 @@ export default function Ceo() {
         <figure className='self-center lg:self-aauto flex flex-row space-x-5 w-max'>
           <div className='self-center flex flex-col space-y-3'>
             <a href="https://www.facebook.com/winnie.frankwinnie" className='relative'>
-              <img src={fb} alt="facebook" className='w-[40px]' onMouseOver={(e) => setTip1(true)}
+              <img src={fb} alt="facebook" className='w-[35px]' onMouseOver={(e) => setTip1(true)}
               onMouseLeave={() => setTip1(false)} />
               {tip1 ? <p className='text-red w-max font-p-font text-sm font-bold
               self-start absolute right-0 md:-right-8 -top-10 bg-gray p-2 rounded-lg'>Follow on Facebook</p> : null}
             </a>
             <a href="https://www.instagram.com/avridolce" className='relative'>
-              <img src={ig} alt="instagram" className='w-[40px]' onMouseOver={(e) => setTip2(true)}
+              <img src={ig} alt="instagram" className='w-[35px]' onMouseOver={(e) => setTip2(true)}
               onMouseLeave={() => setTip2(false)}/>
               {tip2 ? <p className='text-red w-max font-p-font text-sm font-bold
               self-start absolute right-0 md:-right-8 -top-10 bg-gray p-2 rounded-lg'>Follow on Instagram</p> : null}
             </a>
             <a href="https://www.tiktok.com/@fcavridolce" className='relative'>
-              <img src={tik} alt="tiktok" className='w-[40px]' onMouseOver={(e) => setTip3(true)}
+              <img src={tik} alt="tiktok" className='w-[35px]' onMouseOver={(e) => setTip3(true)}
               onMouseLeave={() => setTip3(false)}/>
               {tip3 ? <p className='text-red w-max font-p-font text-sm font-bold
               self-start absolute right-0 md:-right-8 -top-10 bg-gray p-2 rounded-lg'>Follow on TikTok</p> : null}
             </a>
           </div>
-          <div className='w-[15rem] h-[20rem] md:h-[30rem] md:w-[28rem] rounded-md]'>
-            <img src={ceo} alt="frank" className='h-full w-full rounded-md' />
+          <div className='w-[15rem] h-[20rem] md:h-[30rem] md:w-[28rem] rounded-md 
+          bg-dark-green bg-opacity-20'>
+            <img src={ceo} alt="frank" className='h-full w-full p-10' />
           </div>
         </figure>
       </div>

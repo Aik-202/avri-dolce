@@ -8,7 +8,7 @@ export default function ChangeLanguage() {
     if (duplicate_google_translate_counter == 0) {
       new window.google.translate.TranslateElement(
         {
-          pageLanguage: "en",
+          pageLanguage: "it",
           autoDisplay: false
         },
         "google_translate_element"
