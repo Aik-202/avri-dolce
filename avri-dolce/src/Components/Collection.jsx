@@ -53,7 +53,9 @@ export default function Collection(props) {
             : props.type === "WOMEN'S COLLECTION" && props.option === 'Head wear' ? WomenHead[0].product
             : props.type === "WOMEN'S COLLECTION" && props.option === 'African' ? WomenAfrican[0].product
             : props.type === "WOMEN'S COLLECTION" && props.option === 'Gym Clothes' ? WomenGym[0].product
-            : null}/>
+            : null}
+            gender={props.type === "MEN'S COLLECTION" ? 'Men' : 'Women'}
+            />
         </section>
     </section>
   )

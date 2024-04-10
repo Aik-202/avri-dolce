@@ -259,7 +259,7 @@ export const men = [
             {
                 id: 1,
                 tag: 'T-shirt (Sample 1)',
-                des: "Introducing the Avri Dolce Urban Hoodie, where warmth meets style in perfect harmony. Crafted with the finest materials, this hoodie offers supreme comfort without compromising on fashion-forward design. From its cozy fleece lining to its modern silhouette, every detail is thoughtfully considered to elevate your casual ensemble. Whether you're lounging at home or hitting the streets, the Urban Hoodie is your go-to choice for effortless coolness and unparalleled comfort.",
+                des: "Elevate your wardrobe with the Avri Dolce Signature T-shirt, where comfort meets style seamlessly. Crafted from the finest cotton, this classic piece boasts a timeless design suitable for any occasion. With its flattering fit and meticulous attention to detail, our Signature T-shirt embodies sophistication and versatility, ensuring you look and feel your best wherever you go.",
                 price: '€30',
                 img: mt1
             },
