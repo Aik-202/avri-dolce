@@ -4,14 +4,15 @@ import { useLocation } from 'react-router-dom'
 import { minus, plus, whatWhite } from '../Data';
 
 export default function ViewProduct() {
-  const [count, setCount] = React.useState(1)
-  const [size, setSize] = React.useState('S (Small)')
-
   const location = useLocation();
 
   const data = location.state.data
 
   const gender = location.state.gender
+
+  const [count, setCount] = React.useState(1)
+  const [size, setSize] = React.useState(`${gender} - S (Small)`)
+
 
   return (
     <section className='flex flex-col w-screen'>
@@ -20,27 +21,43 @@ export default function ViewProduct() {
       purchase, feature hasn't been provided, all transactions will be redirected to 
       whatsapp for now.</p>
       <section className='px-5 flex flex-col space-y-10 md:space-y-0 md:flex-row 
-      justify-between w-[inherit] pb-5'>
+      justify-between w-[inherit] pb-10'>
         <figure className='md:w-[40%] xl:w-[30%]'>
           <img src={data.img} alt={data.tag} className='cursor-pointer bg-brown rounded-md 
           h-[20rem] lg:h-[26rem] p-5 w-full'  />
         </figure>
         <div className='md:w-[50%] flex flex-col space-y-8'>
           <p className='uppercase text-base font-bold text-red tracking-wide font-h-font'>Avri Dolce</p>
-          <h2 className='uppercase text-center md:text-start text-4xl font-bold font-h-font text-black tracking-wide'>{data.tag}</h2>
+          <h2 className='uppercase text-center md:text-start text-3xl lg:text-4xl font-bold font-h-font text-black tracking-wide'>{data.tag}</h2>
           <p className='w-[90%] md:w-[80%] font-p-font text-sm font-normal text-[#795548]'>{data.des}</p>
-          <div className='flex flex-row space-x-10 items-center'>
-            <p className='uppercase text-3xl font-bold text-black tracking-wide'>{data.price}</p>
+          <div className='flex flex-col space-y-5 lg:space-y-0 lg:flex-row lg:space-x-10 lg:items-center'>
+            <p className='uppercase text-3xl font-p-font font-bold text-black tracking-wide'>{data.price}</p>
             <div  className='flex flex-row space-x-3 items-center text-red'>
-              <p className='uppercase text-xl font-bold tracking-wide font-p-font'>Size:</p>
-              <select name="size" id="size" className='font-b-font border-[1px] border-solid 
-              rounded-md border-black w-max py-2' onChange={(e) => setSize(e.target.value)}>
-                <option value={`${gender} - S (Small)`}>{`${gender} - S (Small)`}</option>
-                <option value={`${gender} - M (Medium)`}>{`${gender} - M (Medium)`}</option>
-                <option value={`${gender} - L (Large)`}>{`${gender} - L (Large)`}</option>
-                <option value={`${gender} - XL (Extra-Large)`}>{`${gender} - XL (Extra-Large)`}</option>
-                <option value={`${gender} - XXL (Extra-Extra-Large)`}>{`${gender} - XXL (Extra-Extra-Large)`}</option>
-              </select>
+              <p className='uppercase text-xl font-bold tracking-wide font-p-font'>Size: 
+              <span className='text-base text-black capitalize'> {gender} - </span> </p>
+              <div className='grid grid-cols-4 gap-y-2 md:gap-y-0 md:grid-cols-5 font-b-font cursor-pointer 
+              text-sm'>
+                <span className={`rounded-md  px-3 py-1 hover:bg-opacity-100 bg-red hover:text-white w-max
+                ${size == `${gender} - S (Small)` ? 'bg-opacity-100 text-white' 
+                : 'bg-opacity-20 text-black' } 
+                `} onClick={() => setSize(`${gender} - S (Small)`)}>S</span>
+                <span className={`rounded-md  px-3 py-1 hover:bg-opacity-100 bg-red hover:text-white w-max
+                ${size == `${gender} - M (Medium)` ? 'bg-opacity-100 text-white' 
+                : 'bg-opacity-20 text-black' } 
+                `} onClick={() => setSize(`${gender} - M (Medium)`)}>M</span>
+                <span className={`rounded-md  px-3 py-1 hover:bg-opacity-100 bg-red hover:text-white w-max
+                ${size == `${gender} - L (Large)` ? 'bg-opacity-100 text-white' 
+                : 'bg-opacity-20 text-black' } 
+                `} onClick={() => setSize(`${gender} - L (Large)`)}>L</span>
+                <span className={`rounded-md  px-3 py-1 hover:bg-opacity-100 bg-red hover:text-white w-max
+                ${size == `${gender} - XL (Extra-Large)` ? 'bg-opacity-100 text-white' 
+                : 'bg-opacity-20 text-black' } 
+                `} onClick={() => setSize(`${gender} - XL (Extra-Large)`)}>XL</span>
+                <span className={`rounded-md  px-3 py-1 hover:bg-opacity-100 bg-red hover:text-white w-max
+                ${size == `${gender} - XXL (Extra-Extra-Large)` ? 'bg-opacity-100 text-white' 
+                : 'bg-opacity-20 text-black' } 
+                `} onClick={() => setSize(`${gender} - XXL (Extra-Extra-Large)`)}>XXL</span>
+              </div>
             </div>
           </div>
           <section className='flex flex-row space-x-10'>
