@@ -513,161 +513,161 @@ export const men = [
             {
                 id: 1,
                 tag: 'African (Sample 1)',
-                price: '€30',
+                price: '€60',
                 des: "Embrace the rich heritage and vibrant culture with Avri Dolce African Dresses. Each garment is a celebration of tradition and modernity, meticulously crafted with bold prints, intricate patterns, and exquisite detailing. From flowing silhouettes to tailored cuts, our African dresses exude elegance and grace, allowing you to make a statement with every step.",
                 img: ma1
             },
             {
                 id: 2,
                 tag: 'African (Sample 2)',
-                price: '€30',
+                price: '€60',
                 des: "Embrace the rich heritage and vibrant culture with Avri Dolce African Dresses. Each garment is a celebration of tradition and modernity, meticulously crafted with bold prints, intricate patterns, and exquisite detailing. From flowing silhouettes to tailored cuts, our African dresses exude elegance and grace, allowing you to make a statement with every step.",
                 img: ma2
             },
             {
                 id: 3,
                 tag: 'African (Sample 3)',
-                price: '€30',
+                price: '€60',
                 des: "Embrace the rich heritage and vibrant culture with Avri Dolce African Dresses. Each garment is a celebration of tradition and modernity, meticulously crafted with bold prints, intricate patterns, and exquisite detailing. From flowing silhouettes to tailored cuts, our African dresses exude elegance and grace, allowing you to make a statement with every step.",
                 img: ma3
             },
             {
                 id: 4,
                 tag: 'African (Sample 4)',
-                price: '€30',
+                price: '€60',
                 des: "Embrace the rich heritage and vibrant culture with Avri Dolce African Dresses. Each garment is a celebration of tradition and modernity, meticulously crafted with bold prints, intricate patterns, and exquisite detailing. From flowing silhouettes to tailored cuts, our African dresses exude elegance and grace, allowing you to make a statement with every step.",
                 img: ma4
             },
             {
                 id: 5,
                 tag: 'African (Sample 5)',
-                price: '€30',
+                price: '€60',
                 des: "Embrace the rich heritage and vibrant culture with Avri Dolce African Dresses. Each garment is a celebration of tradition and modernity, meticulously crafted with bold prints, intricate patterns, and exquisite detailing. From flowing silhouettes to tailored cuts, our African dresses exude elegance and grace, allowing you to make a statement with every step.",
                 img: ma5
             },
             {
                 id: 6,
                 tag: 'African (Sample 6)',
-                price: '€30',
+                price: '€60',
                 des: "Embrace the rich heritage and vibrant culture with Avri Dolce African Dresses. Each garment is a celebration of tradition and modernity, meticulously crafted with bold prints, intricate patterns, and exquisite detailing. From flowing silhouettes to tailored cuts, our African dresses exude elegance and grace, allowing you to make a statement with every step.",
                 img: ma6
             },
             {
                 id: 7,
                 tag: 'African (Sample 7)',
-                price: '€30',
+                price: '€60',
                 des: "Embrace the rich heritage and vibrant culture with Avri Dolce African Dresses. Each garment is a celebration of tradition and modernity, meticulously crafted with bold prints, intricate patterns, and exquisite detailing. From flowing silhouettes to tailored cuts, our African dresses exude elegance and grace, allowing you to make a statement with every step.",
                 img: p6
             },
             {
                 id: 8,
                 tag: 'African (Sample 8)',
-                price: '€30',
+                price: '€60',
                 des: "Embrace the rich heritage and vibrant culture with Avri Dolce African Dresses. Each garment is a celebration of tradition and modernity, meticulously crafted with bold prints, intricate patterns, and exquisite detailing. From flowing silhouettes to tailored cuts, our African dresses exude elegance and grace, allowing you to make a statement with every step.",
                 img: ma7
             },
             {
                 id: 9,
                 tag: 'African (Sample 9)',
-                price: '€30',
+                price: '€60',
                 des: "Embrace the rich heritage and vibrant culture with Avri Dolce African Dresses. Each garment is a celebration of tradition and modernity, meticulously crafted with bold prints, intricate patterns, and exquisite detailing. From flowing silhouettes to tailored cuts, our African dresses exude elegance and grace, allowing you to make a statement with every step.",
                 img: ma8
             },
             {
                 id: 10,
                 tag: 'African (Sample 10)',
-                price: '€30',
+                price: '€60',
                 des: "Embrace the rich heritage and vibrant culture with Avri Dolce African Dresses. Each garment is a celebration of tradition and modernity, meticulously crafted with bold prints, intricate patterns, and exquisite detailing. From flowing silhouettes to tailored cuts, our African dresses exude elegance and grace, allowing you to make a statement with every step.",
                 img: ma9
             },
             {
                 id: 11,
                 tag: 'African (Sample 11)',
-                price: '€30',
+                price: '€60',
                 des: "Embrace the rich heritage and vibrant culture with Avri Dolce African Dresses. Each garment is a celebration of tradition and modernity, meticulously crafted with bold prints, intricate patterns, and exquisite detailing. From flowing silhouettes to tailored cuts, our African dresses exude elegance and grace, allowing you to make a statement with every step.",
                 img: ma10
             },
             {
                 id: 12,
                 tag: 'African (Sample 12)',
-                price: '€30',
+                price: '€60',
                 des: "Embrace the rich heritage and vibrant culture with Avri Dolce African Dresses. Each garment is a celebration of tradition and modernity, meticulously crafted with bold prints, intricate patterns, and exquisite detailing. From flowing silhouettes to tailored cuts, our African dresses exude elegance and grace, allowing you to make a statement with every step.",
                 img: ma11
             },
             {
                 id: 13,
                 tag: 'African (Sample 12)',
-                price: '€30',
+                price: '€60',
                 des: "Embrace the rich heritage and vibrant culture with Avri Dolce African Dresses. Each garment is a celebration of tradition and modernity, meticulously crafted with bold prints, intricate patterns, and exquisite detailing. From flowing silhouettes to tailored cuts, our African dresses exude elegance and grace, allowing you to make a statement with every step.",
                 img: ma12
             },
             {
                 id: 14,
                 tag: 'African (Sample 14)',
-                price: '€30',
+                price: '€60',
                 des: "Embrace the rich heritage and vibrant culture with Avri Dolce African Dresses. Each garment is a celebration of tradition and modernity, meticulously crafted with bold prints, intricate patterns, and exquisite detailing. From flowing silhouettes to tailored cuts, our African dresses exude elegance and grace, allowing you to make a statement with every step.",
                 img: ma13
             },
             {
                 id: 15,
                 tag: 'African (Sample 15)',
-                price: '€30',
+                price: '€60',
                 des: "Embrace the rich heritage and vibrant culture with Avri Dolce African Dresses. Each garment is a celebration of tradition and modernity, meticulously crafted with bold prints, intricate patterns, and exquisite detailing. From flowing silhouettes to tailored cuts, our African dresses exude elegance and grace, allowing you to make a statement with every step.",
                 img: ma14
             },
             {
                 id: 16,
                 tag: 'African (Sample 16)',
-                price: '€30',
+                price: '€60',
                 des: "Embrace the rich heritage and vibrant culture with Avri Dolce African Dresses. Each garment is a celebration of tradition and modernity, meticulously crafted with bold prints, intricate patterns, and exquisite detailing. From flowing silhouettes to tailored cuts, our African dresses exude elegance and grace, allowing you to make a statement with every step.",
                 img: ma15
             },
             {
                 id: 17,
                 tag: 'African (Sample 17)',
-                price: '€30',
+                price: '€60',
                 des: "Embrace the rich heritage and vibrant culture with Avri Dolce African Dresses. Each garment is a celebration of tradition and modernity, meticulously crafted with bold prints, intricate patterns, and exquisite detailing. From flowing silhouettes to tailored cuts, our African dresses exude elegance and grace, allowing you to make a statement with every step.",
                 img: ma16
             },
             {
                 id: 18,
                 tag: 'African (Sample 18)',
-                price: '€30',
+                price: '€60',
                 des: "Embrace the rich heritage and vibrant culture with Avri Dolce African Dresses. Each garment is a celebration of tradition and modernity, meticulously crafted with bold prints, intricate patterns, and exquisite detailing. From flowing silhouettes to tailored cuts, our African dresses exude elegance and grace, allowing you to make a statement with every step.",
                 img: ma17
             },
             {
                 id: 19,
                 tag: 'African (Sample 19)',
-                price: '€30',
+                price: '€60',
                 des: "Embrace the rich heritage and vibrant culture with Avri Dolce African Dresses. Each garment is a celebration of tradition and modernity, meticulously crafted with bold prints, intricate patterns, and exquisite detailing. From flowing silhouettes to tailored cuts, our African dresses exude elegance and grace, allowing you to make a statement with every step.",
                 img: ma18
             },
             {
                 id: 20,
                 tag: 'African (Sample 20)',
-                price: '€30',
+                price: '€60',
                 des: "Embrace the rich heritage and vibrant culture with Avri Dolce African Dresses. Each garment is a celebration of tradition and modernity, meticulously crafted with bold prints, intricate patterns, and exquisite detailing. From flowing silhouettes to tailored cuts, our African dresses exude elegance and grace, allowing you to make a statement with every step.",
                 img: ma19
             },
             {
                 id: 21,
                 tag: 'African (Sample 21)',
-                price: '€30',
+                price: '€60',
                 des: "Embrace the rich heritage and vibrant culture with Avri Dolce African Dresses. Each garment is a celebration of tradition and modernity, meticulously crafted with bold prints, intricate patterns, and exquisite detailing. From flowing silhouettes to tailored cuts, our African dresses exude elegance and grace, allowing you to make a statement with every step.",
                 img: ma20
             },
             {
                 id: 22,
                 tag: 'African (Sample 22)',
-                price: '€30',
+                price: '€60',
                 des: "Embrace the rich heritage and vibrant culture with Avri Dolce African Dresses. Each garment is a celebration of tradition and modernity, meticulously crafted with bold prints, intricate patterns, and exquisite detailing. From flowing silhouettes to tailored cuts, our African dresses exude elegance and grace, allowing you to make a statement with every step.",
                 img: ma21
             },
             {
                 id: 23,
                 tag: 'African (Sample 23)',
-                price: '€30',
+                price: '€60',
                 des: "Embrace the rich heritage and vibrant culture with Avri Dolce African Dresses. Each garment is a celebration of tradition and modernity, meticulously crafted with bold prints, intricate patterns, and exquisite detailing. From flowing silhouettes to tailored cuts, our African dresses exude elegance and grace, allowing you to make a statement with every step.",
                 img: ma22
             },
@@ -1011,35 +1011,35 @@ export const women = [
             {
                 id: 1,
                 tag: 'African (Sample 1)',
-                price: '€30',
+                price: '€60',
                 des: "Embrace the rich heritage and vibrant culture with Avri Dolce African Dresses. Each garment is a celebration of tradition and modernity, meticulously crafted with bold prints, intricate patterns, and exquisite detailing. From flowing silhouettes to tailored cuts, our African dresses exude elegance and grace, allowing you to make a statement with every step.",
                 img: wa1
             },
             {
                 id: 2,
                 tag: 'African (Sample 2)',
-                price: '€30',
+                price: '€60',
                 des: "Embrace the rich heritage and vibrant culture with Avri Dolce African Dresses. Each garment is a celebration of tradition and modernity, meticulously crafted with bold prints, intricate patterns, and exquisite detailing. From flowing silhouettes to tailored cuts, our African dresses exude elegance and grace, allowing you to make a statement with every step.",
                 img: wa2
             },
             {
                 id: 3,
                 tag: 'African (Sample 3)',
-                price: '€30',
+                price: '€60',
                 des: "Embrace the rich heritage and vibrant culture with Avri Dolce African Dresses. Each garment is a celebration of tradition and modernity, meticulously crafted with bold prints, intricate patterns, and exquisite detailing. From flowing silhouettes to tailored cuts, our African dresses exude elegance and grace, allowing you to make a statement with every step.",
                 img: wa3
             },
             {
                 id: 4,
                 tag: 'African (Sample 4)',
-                price: '€30',
+                price: '€60',
                 des: "Embrace the rich heritage and vibrant culture with Avri Dolce African Dresses. Each garment is a celebration of tradition and modernity, meticulously crafted with bold prints, intricate patterns, and exquisite detailing. From flowing silhouettes to tailored cuts, our African dresses exude elegance and grace, allowing you to make a statement with every step.",
                 img: wa4
             },
             {
                 id: 5,
                 tag: 'African (Sample 5)',
-                price: '€30',
+                price: '€60',
                 des: "Embrace the rich heritage and vibrant culture with Avri Dolce African Dresses. Each garment is a celebration of tradition and modernity, meticulously crafted with bold prints, intricate patterns, and exquisite detailing. From flowing silhouettes to tailored cuts, our African dresses exude elegance and grace, allowing you to make a statement with every step.",
                 img: wa5
             },
