@@ -43,7 +43,7 @@ export const products = [
     {
         id: 6,
         tag: 'African',
-        price: '€30',
+        price: '€100',
         des: "Embrace the rich heritage and vibrant culture with Avri Dolce African Dresses. Each garment is a celebration of tradition and modernity, meticulously crafted with bold prints, intricate patterns, and exquisite detailing. From flowing silhouettes to tailored cuts, our African dresses exude elegance and grace, allowing you to make a statement with every step.",
         img: p6
     },
