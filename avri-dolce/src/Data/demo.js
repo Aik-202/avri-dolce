@@ -45,7 +45,7 @@ export const products = [
         tag: 'African',
         price: '€100',
         des: "Embrace the rich heritage and vibrant culture with Avri Dolce African Dresses. Each garment is a celebration of tradition and modernity, meticulously crafted with bold prints, intricate patterns, and exquisite detailing. From flowing silhouettes to tailored cuts, our African dresses exude elegance and grace, allowing you to make a statement with every step.",
-        img: p6
+        img: ma4
     },
     {
         id: 7,
@@ -59,7 +59,7 @@ export const products = [
         tag: 'Gym Clothes',
         price: '€30',
         des: "Introducing Avri Dolce Performance Gym Clothes, designed to inspire and support your active lifestyle. Engineered with cutting-edge fabrics, our gym attire offers optimal breathability, flexibility, and moisture-wicking properties to keep you cool and comfortable during your workouts. From sleek leggings to performance tops, each piece is crafted with precision and style, empowering you to reach your fitness goals with confidence and flair.",
-        img: p8
+        img: mg7
     },
 ]
 export const collection = [
