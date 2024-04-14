@@ -12,7 +12,7 @@ export default function Ceo() {
       <div className='flex flex-col-reverse space-y-reverse space-y-5 lg:space-y-0 lg:flex-row justify-center lg:space-x-10 pl-5 w-[inherit]'>
         <p className='self-center w-[90%] lg:w-[40%] font-p-font text-base font-semibold'>
         <i className='text-dark-green font-bold'>Avri Dolce</i>, led by the 
-        visionary <i className='text-dark-green font-bold'>Mr. Frank Frank Omozuwa</i>, embodies the essence of 
+        visionary <i className='text-dark-green font-bold'>Mr. Frank Omozuwa</i>, embodies the essence of 
         fashion as a medium for soulful expression. Frank's journey originates from 
         <i className='text-dark-green font-bold'> Edo State, Nigeria</i>, but he currently resides in 
         <i className='text-red font-bold'> Pescara, Italy</i>, where he honed his craft under the esteemed 
