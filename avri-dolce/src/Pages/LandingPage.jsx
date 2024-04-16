@@ -1,5 +1,5 @@
 import React from 'react'
-import { Ceo, ChangeLanguage, FAQ, Footer, Hero, Info, KnowUs, NavBar, Offer, Testimonials } from '../Components'
+import { Ceo, FAQ, Footer, Hero, Info, KnowUs, NavBar, Offer, StyleGallery, Testimonials } from '../Components'
 
 export default function LandingPage() {
   return (
@@ -8,6 +8,7 @@ export default function LandingPage() {
       <Hero />
       <Ceo />
       <Offer />
+      <StyleGallery />
       <Info />
       <KnowUs />
       <Testimonials />
