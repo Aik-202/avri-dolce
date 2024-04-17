@@ -8,7 +8,17 @@ export default function SlideShow(props) {
 
   const navigate = useNavigate()
 
-  const group = props.view < props.data.length ? props.data.slice(props.view, props.view + 4) : props.data.slice(props.view, props.view);
+  const numGroups = Math.ceil(props.data.length / props.num);
+  
+
+  const group = props.data.slice(props.view, props.view + props.num) 
+
+  React.useEffect (() => {
+    if(props.count === numGroups) {
+      props.setView(0)
+      props.setCount(0) 
+    }
+  }, [props.count])
 
   return (
     <section className='grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10 w-[90%] md:w-auto'>
