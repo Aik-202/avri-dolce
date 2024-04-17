@@ -4,12 +4,14 @@ import { Ceo, FAQ, Footer, Hero, Info, KnowUs, NavBar, Offer, StyleGallery, Test
 export default function LandingPage() {
   return (
     <section className='flex flex-col space-y-10'>
+      <div>
       <NavBar home={true}/>
       <Hero />
-      <Ceo />
+      <Info />
+      </div>
       <Offer />
       <StyleGallery />
-      <Info />
+      <Ceo />
       <KnowUs />
       <Testimonials />
       <FAQ />

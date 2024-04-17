@@ -26,6 +26,7 @@ export {default as us} from './images/us.png'
 export {default as it} from './images/it.png'
 
 export {default as foot} from './images/foot.webp'
+export {default as foot2} from './images/foot2.jpeg'
 
 export {default as open} from './images/open.png'
 export {default as close} from './images/close.png'
@@ -170,7 +171,7 @@ export {default as g14} from './images/avr iclothes/gallery/g14.jpg'
 export {default as g15} from './images/avr iclothes/gallery/g15.jpg'
 export {default as g16} from './images/avr iclothes/gallery/g16.jpg'
 export {default as g17} from './images/avr iclothes/gallery/g17.jpg'
-
+export {default as g18} from './images/avr iclothes/gallery/g18.jpg'
 
 export {default as o1} from './images/avr iclothes/offers/o1.png'
 export {default as o2} from './images/avr iclothes/offers/o2.png'
