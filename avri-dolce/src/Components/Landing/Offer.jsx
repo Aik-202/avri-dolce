@@ -4,6 +4,8 @@ import { products } from '../../Data/demo.js'
 import { g18, left, right } from '../../Data/index.jsx'
 
 export default function Offer() {
+  const [view, setView] = React.useState(0);
+
   return (
     <section style={{backgroundImage: `url(${g18})`}} className='relative w-screen h-[35rem] 
     bg-cover' id='offer'>
@@ -17,10 +19,10 @@ export default function Offer() {
         click on any to see more about the or click on the cart to add to your cart.  </p>
         <div className='absolute top-0 w-[78%] h-full flex flex-row justify-between items-center 
       space-y-10 z-10 cursor-pointer'>
-        <img src={left} alt="left" className='w-[50px]' />
-        <img src={right} alt="right" className='w-[50px]'/>
+        <img src={left} alt="left" className='w-[50px]' onClick={ () => {setView(view => view == 0 ? view : view - 1)}}/>
+        <img src={right} alt="right" className='w-[50px]' onClick={ () => {setView(view => view + 1)}}/>
       </div>
-        <SlideShow data={products} gender={'Men'} />
+        <SlideShow data={products} gender={'Men'} view={view} setView={setView} offer={true} />
       </div>
     </section>
   )
