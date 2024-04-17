@@ -31,6 +31,9 @@ export {default as foot2} from './images/foot2.jpeg'
 export {default as open} from './images/open.png'
 export {default as close} from './images/close.png'
 
+export {default as left} from './images/left.png'
+export {default as right} from './images/right.png'
+
 export {default as about} from './images/about.jpg'
 export {default as about2} from './images/about2.jpg'
 export {default as ceo} from './images/ceo.jpg'

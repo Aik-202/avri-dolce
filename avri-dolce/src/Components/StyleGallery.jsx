@@ -12,9 +12,9 @@ export default function StyleGallery() {
       <section className='grid md:grid-cols-2 lg:grid-cols-3 gap-5 w-[90%] 
       md:w-[80%'>
         {gallery.map((src) => <figure className={`bg-red bg-opacity-10 max-w-max rounded-md 
-        h-max ${(gallery.indexOf(src) + 1) % 2 === 0 ? 'mt-10' : 'mt-0'}`}>
-            <img src={src} alt="image" className={`max-w-[70%] mx-auto py-5`} />
-            <p className='font-h-font text-center text-red font-medium'>
+        h-max ${(gallery.indexOf(src) + 1) % 2 === 0 ? 'mt-20' : 'mt-10'}`}>
+            <img src={src} alt="image" className={`max-w-[70%] mx-auto py-5 -mt-10`} />
+            <p className='font-h-font text-center text-red font-semibold'>
             {gallery.indexOf(src) + 1}</p>
         </figure>)}
       </section>
