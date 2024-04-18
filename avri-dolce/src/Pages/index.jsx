@@ -9,6 +9,7 @@ export {default as AboutPage} from './AboutPage'
 export {default as ContactPage} from './ContactPage'
 export {default as ProductsPage} from './ProductsPage'
 export {default as ViewProduct} from './ViewProduct'
+export {default as Gallery} from './Gallery'
 
 export {default as LoginPage} from './UserPages/LoginPage'
 export {default as SignUpPage} from './UserPages/SignUpPage'

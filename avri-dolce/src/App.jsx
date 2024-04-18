@@ -4,7 +4,7 @@ import {
   Routes, 
   Route} from 'react-router-dom'
 import './App.css'
-import { AboutPage, AdminLoginPage, AdminPage, ContactPage, CustomersPage, LandingPage, LoginPage, OrdersPage, ProductsPage, SignUpPage, UserPage, ViewProduct } from './Pages'
+import { AboutPage, AdminLoginPage, AdminPage, ContactPage, CustomersPage, Gallery, LandingPage, LoginPage, OrdersPage, ProductsPage, SignUpPage, UserPage, ViewProduct } from './Pages'
 
 function App() {
   return (
@@ -15,6 +15,7 @@ function App() {
         <Route exact path = '/contact' element={<ContactPage />}></Route>
         <Route exact path = '/product' element={<ProductsPage />}></Route>
         <Route exact path = '/view-product/:id' element={<ViewProduct />}></Route>
+        <Route exact path = '/gallery' element={<Gallery />}></Route>
 
         <Route exact path = '/user/login' element={<LoginPage />}></Route>
         <Route exact path = '/user/signup' element={<SignUpPage />}></Route>
