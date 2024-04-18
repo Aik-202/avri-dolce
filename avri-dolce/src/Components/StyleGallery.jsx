@@ -2,21 +2,20 @@ import React from 'react'
 import { gallery } from '../Data/demo'
 
 export default function StyleGallery() {
-  const [currentScroll, setCurrentScroll] = React.useState(0)
   React.useEffect(() => {
     const element = document.getElementById('gallery');
     setInterval(() => {
       if(element.scrollWidth - element.scrollLeft !== element.offsetWidth) {
         element.scrollTo(element.scrollLeft + 1, 0)
-        setCurrentScroll(element.scrollLeft)
       }  
     }, 15)
+   setTimeout(() => {
     setInterval(() => {
       if(element.scrollWidth - element.scrollLeft === element.offsetWidth) {
         element.scrollTo(0, element.scrollLeft)
-        setCurrentScroll(element.scrollLeft)
       } 
     }, 15)
+   }, 500)
   }, [])
   return (
     <section className='flex flex-col justify-center items-center space-y-10' id='offer'>

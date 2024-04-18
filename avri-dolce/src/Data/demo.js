@@ -1,11 +1,11 @@
-import { cap, delivery, fbRed, g1, g10, g11, g12, g13, g14, g15, g16, g17, g18, g19, g2, g20, g21, g22, g23, g24, g25, g26, g3, g4, g5, g6, g7, g8, g9, hours, igRed, locate, locationRed, ma1, ma10, ma11, ma12, ma13, ma14, ma15, ma16, ma17, ma18, ma19, ma2, ma20, ma21, ma22, ma3, ma4, ma5, 
+import { cap, delivery, fbRed, g1, g10, g11, g12, g13, g14, g15, g16, g17, g18, g19, g2, g20, g21, g22, g23, g24, g25, g26, g27, g28, g29, g3, g30, g31, g32, g33, g34, g35, g36, g37, g38, g4, g40, g41, g42, g44, g45, g46, g47, g5, g6, g7, g8, g9, hours, igRed, locate, locationRed, ma1, ma10, ma11, ma12, ma13, ma14, ma15, ma16, ma17, ma18, ma19, ma2, ma20, ma21, ma22, ma3, ma4, ma5, 
     ma6, ma7, ma8, ma9, mb1, mb2, mb3, mb4, mc1, mc2, mc3, mc4, mc5, mg1, mg2, mg3, mg4, mg5, mg6, mg7, mg8, 
     mg9, mh1, mh2, mh3, mh4, ms1, ms2, ms3, ms4, mss1, mss2, mss3, mss4, mt1, mt2, mt3, mt4, mt5, 
     mt6, o1, o11, o12, o13, o14, o15, o16, o17, o18, o19, o2, o3, o4, o5, o6, o7, o8, o9, p1, p2, p3, p4, p5, p6, p7, p8, tikRed, wa1, wa2, wa3, wa4, wa5, wardrobe, wb1, wb2, wb3, wb4, wb5, wb6, wc1, wc2, wc3, wc4, wc5, wg1, wg2, wg3, wg4, wg5, wg6, wg7, wg8, wh1, wh2, wh3, wh4, wh5, whatRed, ws1, ws2, ws3, ws4, ws5, ws6, wss1, wss2, wss3, wss4, wss5, wt1, wt2, wt3, wt4, wt5 } from "."
 
 export const homeNav = ['Home', 'About', 'Products', 'Contact']
 
-export const gallery = [g1, g21, g19, g20, g25, g26, g4, g22, g5, g6, g2, g7, g3, g8, g9, g10, g11, g12, g13, g14, g15, g16, g17, g23, g24]
+export const gallery = [g1, g21, g19, g20, g25, g26, g27, g28, g4, g22, g5, g6, g2, g7, g3, g29, g30, g40, g41, g8, g9, g10, g31, g11, g12, g32, g13, g14, g37, g38, g15, g33, g16, g17, g23, g24, g34, g35, g36, g42, g44, g45, g46, g47]
 export const products = [
     {
         id: 1,
