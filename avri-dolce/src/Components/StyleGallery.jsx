@@ -1,7 +1,10 @@
 import React from 'react'
 import { gallery } from '../Data/demo'
+import { useNavigate } from 'react-router-dom';
 
 export default function StyleGallery() {
+  const navigate =  useNavigate()
+
   React.useEffect(() => {
     const element = document.getElementById('gallery');
     setInterval(() => {
@@ -27,7 +30,8 @@ export default function StyleGallery() {
       <section className='w-screen h-[30rem] overflow-hidden' id='gallery'>
         <section className='flex flex-row space-x-3 w-max h-[inherit] ml-5 md:ml-10'>
           {gallery.map((src) => <figure className={`bg-red bg-opacity-10 w-[20rem] rounded-md 
-          h-max px-10 ${(gallery.indexOf(src) + 1) % 2 === 0 ? 'mt-20' : 'mt-10'}`} key={src}>
+          h-max px-10 cursor-pointer ${(gallery.indexOf(src) + 1) % 2 === 0 ? 'mt-20' : 'mt-10'}`} 
+          key={src} onClick={() => navigate('/gallery') }>
               <img src={src} alt="image" className={`w-full mx-auto py-5 -mt-10`} />
               <p className='font-h-font text-center text-red font-semibold'>
               {gallery.indexOf(src) + 1}</p>
