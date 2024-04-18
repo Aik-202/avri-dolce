@@ -21,10 +21,6 @@ export default function Offer() {
     : width >= 1280 ? setNum(4) : null
   }, [width])
 
-
-  console.log(num)
-  console.log(width)
-
   return (
     <section style={{backgroundImage: `url(${g18})`}} className='relative w-screen h-[40rem] md:h-[35rem] 
     bg-cover' id='offer'>
