@@ -41,8 +41,8 @@ export default function Ceo() {
             </a>
           </div>
           <div className='w-[15rem] h-[20rem] md:h-[30rem] md:w-[28rem] rounded-md 
-          bg-red bg-opacity-10'>
-            <img src={ceo} alt="frank" className='h-full w-full p-10' />
+          bg-red bg-opacity-10 p-10' >
+            <img src={ceo} alt="frank" className='h-full w-full mx-auto' />
           </div>
         </figure>
       </div>
