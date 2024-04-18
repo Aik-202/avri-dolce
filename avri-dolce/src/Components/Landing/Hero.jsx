@@ -5,8 +5,7 @@ export default function Hero() {
 
   return (
     <section className='relative flex flex-col-reverse space-y-reverse space-y-8 lg:space-y-0 
-    lg:flex-row justify-between w-screen h-max py-10 md:py-14'>
-      <div className='absolute top-0 w-full h-full bg-red bg-opacity-5 z-0'></div>
+    lg:flex-row justify-between w-screen h-max'>
       <div className='flex flex-col space-y-5 pl-5'>
         <h1 className='font-h-font text-3xl md:text-[4.2rem] md:leading-[3.4rem] xl:text-[4.6rem] w-[10rem] tracking-wide xl:leading-[4.2rem] z-10'>
           <i className='text-red font-bold'>elevate</i> <span>YOUR WARDROBE</span></h1>
