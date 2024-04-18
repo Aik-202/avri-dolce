@@ -8,10 +8,10 @@ export default function SlideShow(props) {
 
   const navigate = useNavigate()
 
-  const numGroups = Math.ceil(props.data.length / props.num);
+  const numGroups = props.offer ? Math.ceil(props.data.length / props.num) : null;
   
 
-  const group = props.data.slice(props.view, props.view + props.num) 
+  const group = props.offer ? props.data.slice(props.view, props.view + props.num) : null
 
   React.useEffect (() => {
     if(props.count === numGroups) {

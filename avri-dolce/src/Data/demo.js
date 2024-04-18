@@ -358,9 +358,63 @@ export const contacts = [
     },
 ]
 
-export const categories = ['T-shirts', 'Sweat-shirts', 'Shorts', 'Hoodies',  'Bottoms', 'Head wear', 'African', 'Gym Clothes' ]
+export const categories = ['Combos', 'T-shirts', 'Sweat-shirts', 'Shorts', 'Hoodies',  'Bottoms', 'Head wear', 'African', 'Gym Clothes' ]
 
 export const men = [
+    {
+        name: 'Combos',
+        product: [
+            {
+                id: 1,
+                tag: 'Custom T-shirts + Bottom',
+                price: '€60',
+                des: "Discover the perfect pairing of Avri Dolce bottoms and T-shirt, where craftsmanship meets style in a harmonious fusion. At Avri Dolce, we pride ourselves not only on our exceptional sewing skills but also on our ability to create stunning combinations that elevate your wardrobe to new heights.",
+                img: o2
+            },
+            {
+                id: 2,
+                tag: 'Custom T-shirts + Bottom',
+                price: '€60',
+                des: "Discover the perfect pairing of Avri Dolce bottoms and T-shirt, where craftsmanship meets style in a harmonious fusion. At Avri Dolce, we pride ourselves not only on our exceptional sewing skills but also on our ability to create stunning combinations that elevate your wardrobe to new heights.",
+                img: o4
+            },
+            {
+                id: 3,
+                tag: 'Custom T-shirts + Bottom',
+                price: '€60',
+                des: "Discover the perfect pairing of Avri Dolce bottoms and T-shirt, where craftsmanship meets style in a harmonious fusion. At Avri Dolce, we pride ourselves not only on our exceptional sewing skills but also on our ability to create stunning combinations that elevate your wardrobe to new heights.",
+                img: o5
+            }, 
+            {
+                id: 4,
+                tag: 'Custom T-shirts + Bottom',
+                price: '€60',
+                des: "Discover the perfect pairing of Avri Dolce bottoms and T-shirt, where craftsmanship meets style in a harmonious fusion. At Avri Dolce, we pride ourselves not only on our exceptional sewing skills but also on our ability to create stunning combinations that elevate your wardrobe to new heights.",
+                img: o7
+            },
+            {
+                id: 5,
+                tag: 'Two Custom Bottoms',
+                price: '€60',
+                des: "Elevate your wardrobe with Avri Dolce Tailored Trousers, designed for the modern gentleman. Why get one? Get two in different colors of your choice.",
+                img: o8
+            },
+            {
+                id: 6,
+                tag: 'Custom T-shirts + Bottom',
+                price: '€60',
+                des: "Discover the perfect pairing of Avri Dolce bottoms and T-shirt, where craftsmanship meets style in a harmonious fusion. At Avri Dolce, we pride ourselves not only on our exceptional sewing skills but also on our ability to create stunning combinations that elevate your wardrobe to new heights.",
+                img: o9
+            },
+            {
+                id: 7,
+                tag: 'Custom T-shirts + Bottom',
+                price: '€60',
+                des: "Discover the perfect pairing of Avri Dolce bottoms and T-shirt, where craftsmanship meets style in a harmonious fusion. At Avri Dolce, we pride ourselves not only on our exceptional sewing skills but also on our ability to create stunning combinations that elevate your wardrobe to new heights.",
+                img: o19
+            },
+        ]
+    },
     {
         name: 'T-shirts',
         product: [
@@ -369,42 +423,35 @@ export const men = [
                 tag: 'T-shirt (Sample 1)',
                 des: "Elevate your wardrobe with the Avri Dolce Signature T-shirt, where comfort meets style seamlessly. Crafted from the finest cotton, this classic piece boasts a timeless design suitable for any occasion. With its flattering fit and meticulous attention to detail, our Signature T-shirt embodies sophistication and versatility, ensuring you look and feel your best wherever you go.",
                 price: '€30',
-                img: mt1
+                img: o12
             },
             {
                 id: 2,
                 tag: 'T-shirt (Sample 2)',
                 des: "Elevate your wardrobe with the Avri Dolce Signature T-shirt, where comfort meets style seamlessly. Crafted from the finest cotton, this classic piece boasts a timeless design suitable for any occasion. With its flattering fit and meticulous attention to detail, our Signature T-shirt embodies sophistication and versatility, ensuring you look and feel your best wherever you go.",
                 price: '€30',
-                img: mt2
+                img: o14
             },
             {
                 id: 3,
                 tag: 'T-shirt (Sample 3)',
                 des: "Elevate your wardrobe with the Avri Dolce Signature T-shirt, where comfort meets style seamlessly. Crafted from the finest cotton, this classic piece boasts a timeless design suitable for any occasion. With its flattering fit and meticulous attention to detail, our Signature T-shirt embodies sophistication and versatility, ensuring you look and feel your best wherever you go.",
                 price: '€30',
-                img: mt3
+                img: o11
             },
             {
                 id: 4,
                 tag: 'T-shirt (Sample 4)',
                 des: "Elevate your wardrobe with the Avri Dolce Signature T-shirt, where comfort meets style seamlessly. Crafted from the finest cotton, this classic piece boasts a timeless design suitable for any occasion. With its flattering fit and meticulous attention to detail, our Signature T-shirt embodies sophistication and versatility, ensuring you look and feel your best wherever you go.",
                 price: '€30',
-                img: mt4
+                img: o16
             },
             {
                 id: 5,
                 tag: 'T-shirt (Sample 5)',
                 des: "Elevate your wardrobe with the Avri Dolce Signature T-shirt, where comfort meets style seamlessly. Crafted from the finest cotton, this classic piece boasts a timeless design suitable for any occasion. With its flattering fit and meticulous attention to detail, our Signature T-shirt embodies sophistication and versatility, ensuring you look and feel your best wherever you go.",
                 price: '€30',
-                img: mt5
-            },
-            {
-                id: 6,
-                tag: 'T-shirt (Sample 6)',
-                des: "Elevate your wardrobe with the Avri Dolce Signature T-shirt, where comfort meets style seamlessly. Crafted from the finest cotton, this classic piece boasts a timeless design suitable for any occasion. With its flattering fit and meticulous attention to detail, our Signature T-shirt embodies sophistication and versatility, ensuring you look and feel your best wherever you go.",
-                price: '€30',
-                img: mt6
+                img: o18
             },
         ]
     },
@@ -536,35 +583,42 @@ export const men = [
                 tag: 'Bottoms (Sample 1)',
                 price: '€30',
                 des: "Elevate your wardrobe with Avri Dolce Tailored Trousers, designed for the modern gentleman. Expertly crafted from luxurious fabrics, our trousers boast impeccable tailoring and a refined silhouette, ensuring a flattering fit and unmatched comfort. From formal occasions to everyday wear, our tailored trousers exude sophistication and timeless elegance.",
-                img: mb1
+                img: o1
             },
             {
                 id: 2,
                 tag: 'Bottoms (Sample 2)',
                 price: '€30',
                 des: "Elevate your wardrobe with Avri Dolce Tailored Trousers, designed for the modern gentleman. Expertly crafted from luxurious fabrics, our trousers boast impeccable tailoring and a refined silhouette, ensuring a flattering fit and unmatched comfort. From formal occasions to everyday wear, our tailored trousers exude sophistication and timeless elegance.",
-                img: mb2
+                img: o3
             },
             {
                 id: 3,
                 tag: 'Bottoms (Sample 3)',
                 price: '€30',
                 des: "Elevate your wardrobe with Avri Dolce Tailored Trousers, designed for the modern gentleman. Expertly crafted from luxurious fabrics, our trousers boast impeccable tailoring and a refined silhouette, ensuring a flattering fit and unmatched comfort. From formal occasions to everyday wear, our tailored trousers exude sophistication and timeless elegance.",
-                img: mb3
+                img: o6
             },
             {
                 id: 4,
                 tag: 'Bottoms (Sample 4)',
                 price: '€30',
                 des: "Elevate your wardrobe with Avri Dolce Tailored Trousers, designed for the modern gentleman. Expertly crafted from luxurious fabrics, our trousers boast impeccable tailoring and a refined silhouette, ensuring a flattering fit and unmatched comfort. From formal occasions to everyday wear, our tailored trousers exude sophistication and timeless elegance.",
-                img: mb4
+                img: o13
             },
             {
                 id: 5,
                 tag: 'Bottoms (Sample 5)',
                 price: '€30',
                 des: "Elevate your wardrobe with Avri Dolce Tailored Trousers, designed for the modern gentleman. Expertly crafted from luxurious fabrics, our trousers boast impeccable tailoring and a refined silhouette, ensuring a flattering fit and unmatched comfort. From formal occasions to everyday wear, our tailored trousers exude sophistication and timeless elegance.",
-                img: p2
+                img: o15
+            },
+            {
+                id: 6,
+                tag: 'Bottoms (Sample 5)',
+                price: '€30',
+                des: "Elevate your wardrobe with Avri Dolce Tailored Trousers, designed for the modern gentleman. Expertly crafted from luxurious fabrics, our trousers boast impeccable tailoring and a refined silhouette, ensuring a flattering fit and unmatched comfort. From formal occasions to everyday wear, our tailored trousers exude sophistication and timeless elegance.",
+                img: o17
             },
         ]
     },
@@ -853,42 +907,96 @@ export const men = [
 
 export const women = [
     {
+        name: 'Combos',
+        product: [
+            {
+                id: 1,
+                tag: 'Custom T-shirts + Bottom',
+                price: '€60',
+                des: "Discover the perfect pairing of Avri Dolce bottoms and T-shirt, where craftsmanship meets style in a harmonious fusion. At Avri Dolce, we pride ourselves not only on our exceptional sewing skills but also on our ability to create stunning combinations that elevate your wardrobe to new heights.",
+                img: o2
+            },
+            {
+                id: 2,
+                tag: 'Custom T-shirts + Bottom',
+                price: '€60',
+                des: "Discover the perfect pairing of Avri Dolce bottoms and T-shirt, where craftsmanship meets style in a harmonious fusion. At Avri Dolce, we pride ourselves not only on our exceptional sewing skills but also on our ability to create stunning combinations that elevate your wardrobe to new heights.",
+                img: o4
+            },
+            {
+                id: 3,
+                tag: 'Custom T-shirts + Bottom',
+                price: '€60',
+                des: "Discover the perfect pairing of Avri Dolce bottoms and T-shirt, where craftsmanship meets style in a harmonious fusion. At Avri Dolce, we pride ourselves not only on our exceptional sewing skills but also on our ability to create stunning combinations that elevate your wardrobe to new heights.",
+                img: o5
+            }, 
+            {
+                id: 4,
+                tag: 'Custom T-shirts + Bottom',
+                price: '€60',
+                des: "Discover the perfect pairing of Avri Dolce bottoms and T-shirt, where craftsmanship meets style in a harmonious fusion. At Avri Dolce, we pride ourselves not only on our exceptional sewing skills but also on our ability to create stunning combinations that elevate your wardrobe to new heights.",
+                img: o7
+            },
+            {
+                id: 5,
+                tag: 'Two Custom Bottoms',
+                price: '€60',
+                des: "Elevate your wardrobe with Avri Dolce Tailored Trousers, designed for the modern gentleman. Why get one? Get two in different colors of your choice.",
+                img: o8
+            },
+            {
+                id: 6,
+                tag: 'Custom T-shirts + Bottom',
+                price: '€60',
+                des: "Discover the perfect pairing of Avri Dolce bottoms and T-shirt, where craftsmanship meets style in a harmonious fusion. At Avri Dolce, we pride ourselves not only on our exceptional sewing skills but also on our ability to create stunning combinations that elevate your wardrobe to new heights.",
+                img: o9
+            },
+            {
+                id: 7,
+                tag: 'Custom T-shirts + Bottom',
+                price: '€60',
+                des: "Discover the perfect pairing of Avri Dolce bottoms and T-shirt, where craftsmanship meets style in a harmonious fusion. At Avri Dolce, we pride ourselves not only on our exceptional sewing skills but also on our ability to create stunning combinations that elevate your wardrobe to new heights.",
+                img: o19
+            },
+        ]
+    },
+    {
         name: 'T-shirts',
         product: [
             {
                 id: 1,
                 tag: 'T-shirt (Sample 1)',
-                price: '€30',
                 des: "Elevate your wardrobe with the Avri Dolce Signature T-shirt, where comfort meets style seamlessly. Crafted from the finest cotton, this classic piece boasts a timeless design suitable for any occasion. With its flattering fit and meticulous attention to detail, our Signature T-shirt embodies sophistication and versatility, ensuring you look and feel your best wherever you go.",
-                img: wt1
+                price: '€30',
+                img: o12
             },
             {
                 id: 2,
                 tag: 'T-shirt (Sample 2)',
-                price: '€30',
                 des: "Elevate your wardrobe with the Avri Dolce Signature T-shirt, where comfort meets style seamlessly. Crafted from the finest cotton, this classic piece boasts a timeless design suitable for any occasion. With its flattering fit and meticulous attention to detail, our Signature T-shirt embodies sophistication and versatility, ensuring you look and feel your best wherever you go.",
-                img: wt2
+                price: '€30',
+                img: o14
             },
             {
                 id: 3,
                 tag: 'T-shirt (Sample 3)',
-                price: '€30',
                 des: "Elevate your wardrobe with the Avri Dolce Signature T-shirt, where comfort meets style seamlessly. Crafted from the finest cotton, this classic piece boasts a timeless design suitable for any occasion. With its flattering fit and meticulous attention to detail, our Signature T-shirt embodies sophistication and versatility, ensuring you look and feel your best wherever you go.",
-                img: wt3
+                price: '€30',
+                img: o11
             },
             {
                 id: 4,
                 tag: 'T-shirt (Sample 4)',
-                price: '€30',
                 des: "Elevate your wardrobe with the Avri Dolce Signature T-shirt, where comfort meets style seamlessly. Crafted from the finest cotton, this classic piece boasts a timeless design suitable for any occasion. With its flattering fit and meticulous attention to detail, our Signature T-shirt embodies sophistication and versatility, ensuring you look and feel your best wherever you go.",
-                img: wt4
+                price: '€30',
+                img: o16
             },
             {
                 id: 5,
                 tag: 'T-shirt (Sample 5)',
-                price: '€30',
                 des: "Elevate your wardrobe with the Avri Dolce Signature T-shirt, where comfort meets style seamlessly. Crafted from the finest cotton, this classic piece boasts a timeless design suitable for any occasion. With its flattering fit and meticulous attention to detail, our Signature T-shirt embodies sophistication and versatility, ensuring you look and feel your best wherever you go.",
-                img: wt5
+                price: '€30',
+                img: o18
             },
         ]
     },
@@ -1027,42 +1135,42 @@ export const women = [
                 tag: 'Bottoms (Sample 1)',
                 price: '€30',
                 des: "Elevate your wardrobe with Avri Dolce Tailored Trousers, designed for the modern gentleman. Expertly crafted from luxurious fabrics, our trousers boast impeccable tailoring and a refined silhouette, ensuring a flattering fit and unmatched comfort. From formal occasions to everyday wear, our tailored trousers exude sophistication and timeless elegance.",
-                img: wb1
+                img: o1
             },
             {
                 id: 2,
                 tag: 'Bottoms (Sample 2)',
                 price: '€30',
                 des: "Elevate your wardrobe with Avri Dolce Tailored Trousers, designed for the modern gentleman. Expertly crafted from luxurious fabrics, our trousers boast impeccable tailoring and a refined silhouette, ensuring a flattering fit and unmatched comfort. From formal occasions to everyday wear, our tailored trousers exude sophistication and timeless elegance.",
-                img: wb2
+                img: o3
             },
             {
                 id: 3,
                 tag: 'Bottoms (Sample 3)',
                 price: '€30',
                 des: "Elevate your wardrobe with Avri Dolce Tailored Trousers, designed for the modern gentleman. Expertly crafted from luxurious fabrics, our trousers boast impeccable tailoring and a refined silhouette, ensuring a flattering fit and unmatched comfort. From formal occasions to everyday wear, our tailored trousers exude sophistication and timeless elegance.",
-                img: wb3
+                img: o6
             },
             {
                 id: 4,
                 tag: 'Bottoms (Sample 4)',
                 price: '€30',
                 des: "Elevate your wardrobe with Avri Dolce Tailored Trousers, designed for the modern gentleman. Expertly crafted from luxurious fabrics, our trousers boast impeccable tailoring and a refined silhouette, ensuring a flattering fit and unmatched comfort. From formal occasions to everyday wear, our tailored trousers exude sophistication and timeless elegance.",
-                img: wb4
+                img: o13
             },
             {
                 id: 5,
                 tag: 'Bottoms (Sample 5)',
                 price: '€30',
                 des: "Elevate your wardrobe with Avri Dolce Tailored Trousers, designed for the modern gentleman. Expertly crafted from luxurious fabrics, our trousers boast impeccable tailoring and a refined silhouette, ensuring a flattering fit and unmatched comfort. From formal occasions to everyday wear, our tailored trousers exude sophistication and timeless elegance.",
-                img: wb5
+                img: o15
             },
             {
                 id: 6,
                 tag: 'Bottoms (Sample 5)',
                 price: '€30',
                 des: "Elevate your wardrobe with Avri Dolce Tailored Trousers, designed for the modern gentleman. Expertly crafted from luxurious fabrics, our trousers boast impeccable tailoring and a refined silhouette, ensuring a flattering fit and unmatched comfort. From formal occasions to everyday wear, our tailored trousers exude sophistication and timeless elegance.",
-                img: wb6
+                img: o17
             },
         ]
     },

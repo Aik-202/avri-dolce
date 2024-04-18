@@ -3,6 +3,7 @@ import { categories, men, women } from '../Data/demo'
 import SlideShow from './Landing/SlideShow'
 
 export default function Collection(props) {
+    const MenCombo = men.filter((prev) => {return prev.name == 'Combos'});
     const MentShirt = men.filter((prev) => {return prev.name == 'T-shirts'});
     const MenSShirt = men.filter((prev) => {return prev.name == 'Sweat-shirts'});
     const MenShorts = men.filter((prev) => {return prev.name == 'Shorts'});
@@ -12,6 +13,7 @@ export default function Collection(props) {
     const MenAfrican = men.filter((prev) => {return prev.name == 'African'});
     const MenGym = men.filter((prev) => {return prev.name == 'Gym Clothes'});
 
+    const WomenCombo = women.filter((prev) => {return prev.name == 'Combos'});
     const WomentShirt = women.filter((prev) => {return prev.name == 'T-shirts'});
     const WomenSShirt = women.filter((prev) => {return prev.name == 'Sweat-shirts'});
     const WomenShorts = women.filter((prev) => {return prev.name == 'Shorts'});
@@ -27,7 +29,7 @@ export default function Collection(props) {
         <h2 className='text-center md:text-start font-h-font text-2xl md:text-3xl font-bold text-red tracking-wide'>{props.type}</h2>
         <div className='flex flex-row space-x-3 items-center'>
             <p className='font-p-font text-base font-semibold'>Categories:</p>
-            <div className='flex flex-row space-x-5 xl:space-x-10 overflow-x-scroll w-[95%] lg:overflow-x-auto lg:w-[85%]'>
+            <div className='flex flex-row space-x-5 xl:space-x-8 overflow-x-scroll w-[95%] lg:overflow-x-auto lg:w-[90%]'>
                 {categories.map((item => <p className={`font-p-font text-base font-semibold py-2 px-4 
                 rounded-full border-[1px] border-solid border-red hover:bg-red hover:text-white
                 cursor-pointer whitespace-nowrap
@@ -37,7 +39,8 @@ export default function Collection(props) {
         </div>
         <section className='md:px-12 xl:px-24 mt-10'>
             <SlideShow  
-            data={props.type === "MEN'S COLLECTION" && props.option === 'T-shirts' ? MentShirt[0].product
+            data={ props.type === "MEN'S COLLECTION" && props.option === 'Combos' ? MenCombo[0].product
+            : props.type === "MEN'S COLLECTION" && props.option === 'T-shirts' ? MentShirt[0].product
             : props.type === "MEN'S COLLECTION" && props.option === 'Sweat-shirts' ? MenSShirt[0].product
             : props.type === "MEN'S COLLECTION" && props.option === 'Shorts' ? MenShorts[0].product
             : props.type === "MEN'S COLLECTION" && props.option === 'Hoodies' ? MenHoodies[0].product
@@ -45,6 +48,7 @@ export default function Collection(props) {
             : props.type === "MEN'S COLLECTION" && props.option === 'Head wear' ? MenHead[0].product
             : props.type === "MEN'S COLLECTION" && props.option === 'African' ? MenAfrican[0].product
             : props.type === "MEN'S COLLECTION" && props.option === 'Gym Clothes' ? MenGym[0].product
+            : props.type === "WOMEN'S COLLECTION" && props.option === 'Combos' ? WomenCombo[0].product
             : props.type === "WOMEN'S COLLECTION" && props.option === 'T-shirts' ? WomentShirt[0].product
             : props.type === "WOMEN'S COLLECTION" && props.option === 'Sweat-shirts' ? WomenSShirt[0].product
             : props.type === "WOMEN'S COLLECTION" && props.option === 'Shorts' ? WomenShorts[0].product
