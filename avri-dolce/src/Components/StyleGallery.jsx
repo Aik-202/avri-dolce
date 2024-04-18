@@ -9,7 +9,7 @@ export default function StyleGallery() {
       <p className='w-[90%] md:w-[80%] font-p-font text-base font-semibold'>Step into the 
       Avri Dolce gallery, where elegance meets community. Explore our CEO and customers adorned 
       in Avri Dolce's finest, embodying style and unity in every stitch. </p>
-      <section className='w-screen h-[30rem]'>
+      <section className='w-screen h-[30rem] overflow-hidden'>
         <section className='gallery flex flex-row space-x-3 w-max h-[inherit] ml-5 md:ml-10'>
           {gallery.map((src) => <figure className={`bg-red bg-opacity-10 w-[20rem] rounded-md 
           h-max px-10 ${(gallery.indexOf(src) + 1) % 2 === 0 ? 'mt-20' : 'mt-10'}`}>
