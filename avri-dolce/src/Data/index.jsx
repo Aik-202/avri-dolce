@@ -228,7 +228,6 @@ export {default as o19} from './images/avr iclothes/offers/o19.png'
 
 export {default as vid1} from './images/avr iclothes/video/vid1.mp4'
 export {default as vid2} from './images/avr iclothes/video/vid2.mp4'
-export {default as vid3} from './images/avr iclothes/video/vid3.mp4'
 
 export {default as whatWhite} from './images/whatsapp-white.png'
 export {default as plus} from './images/plus.png'
