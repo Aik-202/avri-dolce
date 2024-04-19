@@ -1,7 +1,7 @@
 import React from 'react'
 import { NavBar } from '../Components'
 import { useLocation } from 'react-router-dom'
-import { minus, plus, whatWhite } from '../Data';
+import { minus, play, plus, whatWhite } from '../Data';
 
 export default function ViewProduct() {
   const location = useLocation();
@@ -13,6 +13,8 @@ export default function ViewProduct() {
   const [count, setCount] = React.useState(1)
   const [price, setPrice] = React.useState(data.price)
   const [size, setSize] = React.useState(`${gender} - S (Small)`)
+  const [show, setShow] = React.useState('none')
+  const [img, setImg] = React.useState(data.img)
 
   React.useEffect(() => {
     setPrice(count * data.price)
@@ -29,24 +31,44 @@ export default function ViewProduct() {
       md:space-x-10 lg:space-x-20 w-full pb-10 justify-center'>
 
         <div className='flex flex-row space-x-8'>
-            <div className='flex flex-col space-y-2'>
-            {data.related ?<figure className='flex flex-col space-y-2'>
-              {data.related.map((src) => <img src={src} key={src} alt='related' className='w-[4rem] h-[4rem] rounded-md 
-              border-solid border-[1px] opacity-50 border-transparent' />)}
+
+          <div className='flex flex-col space-y-2'>
+            {show !== 'none' ? <img src={data.img} alt='product' className='w-[4rem] h-[4rem] 
+            rounded-md ' onClick={(e) => {setImg(e.target.src); 
+              setShow('none')}} />  : null}
+
+            {data.related ? <figure className='flex flex-col space-y-2'>
+              {data.related.map((src) => <img src={src} key={src} alt='related' className={`w-[4rem] h-[4rem] 
+              rounded-md border-solid border-[2px] cursor-pointer 
+              ${src == new URL(img, window.location.origin).pathname ? 'opacity-100 border-red' 
+              : 'opacity-50 border-transparent'}
+              `} onClick={(e) => {setImg(e.target.src); setShow('image') } } />)}
             </figure> : null }
           
             {data.video ?<div className='flex flex-col space-y-2'>
-              {data.video.map((src) => <video key={src}  alt='related' 
-              className='relative w-[4rem] h-[4rem] rounded-md opacity-15 '>
-                <source src={src} />
-              </video>)}
+              {data.video.map((src) => <div key={src} className='relative w-max h-max cursor-pointer'>
+                <video alt='related' 
+                className={`w-[4rem] h-[4rem] rounded-md 
+                border-solid border-red z-0
+                ${src == new URL(img, window.location.origin).pathname ? 'opacity-100 border-[2px]' 
+                : 'opacity-15 border-[1px]'}
+                `}>
+                  <source src={src} />
+                </video>
+                {src !== new URL(img, window.location.origin).pathname ? <img src={play} alt="play" 
+                className='w-[30px] absolute top-[30%] left-[30%] z-10'  id={src}
+                onClick={(e) => {setImg(e.target.id); setShow('video')} } /> : null}
+              </div>)}
             </div> : null}
-            </div>
 
-            <figure className='w-full h-[20rem] lg:h-[26rem]'>
-            <img src={data.img} alt={data.tag} className='cursor-pointer bg-red bg-opacity-15 rounded-md 
+          </div>
+
+          {show !== 'video' ? <figure className='w-full h-[20rem] lg:h-[26rem]'>
+            <img src={img} alt={data.tag} className='cursor-pointer bg-red bg-opacity-15 rounded-md 
             p-5 w-full h-full'  />
-          </figure>
+          </figure> : <video className='w-[20rem] h-[20rem] lg:h-[26rem]' controls autoPlay={true}>
+            <source src={img} />
+          </video>}
   
         </div>
 

@@ -51,6 +51,8 @@ export {default as tikRed} from './images/tiktok-red.png'
 export {default as igRed} from './images/instagram-red.png'
 export {default as locationRed} from './images/location-red.png'
 
+export {default as play} from './images/play.png'
+
 export {default as ma1} from './images/avr iclothes/men/ma1.png'
 export {default as ma2} from './images/avr iclothes/men/ma2.png'
 export {default as ma3} from './images/avr iclothes/men/ma3.png'
