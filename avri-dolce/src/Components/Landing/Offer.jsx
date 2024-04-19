@@ -33,7 +33,7 @@ export default function Offer() {
         caps, knickers, gym attire, and African-inspired dresses.Some of our recent works are shown below, 
         click on any to see more about the or click on the cart to add to your cart.  </p>
         <div className='absolute top-0 w-[80%] h-full flex flex-row justify-between items-center 
-      space-y-10 z-10 cursor-pointer'>
+      space-y-10  cursor-pointer'>
         <img src={left} alt="left" className='w-[50px]' onClick={ () => {setView(view => view == 0 ? view : view - num); setCount(count => count +-1)}}/>
         <img src={right} alt="right" className='w-[50px]' onClick={ () => {setView(view => view + num); setCount(count => count + 1)}}/>
       </div>

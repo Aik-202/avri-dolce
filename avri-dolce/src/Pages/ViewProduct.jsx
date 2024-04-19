@@ -22,10 +22,15 @@ export default function ViewProduct() {
       whatsapp for now.</p>
       <section className='px-5 flex flex-col space-y-10 md:space-y-0 md:flex-row 
       justify-between w-[inherit] pb-10'>
-        <figure className='md:w-[40%] xl:w-[30%] h-[20rem] lg:h-[26rem]'>
-          <img src={data.img} alt={data.tag} className='cursor-pointer bg-brown rounded-md 
-          p-5 w-full h-full'  />
-        </figure>
+        <div className='flex flex-col space-y-8'>
+          <figure className='md:w-[40%] xl:w-full h-[20rem] lg:h-[26rem]'>
+            <img src={data.img} alt={data.tag} className='cursor-pointer bg-brown rounded-md 
+            p-5 w-full h-full'  />
+          </figure>
+          <figure className='flex flex-row space-x-2'>
+            {data.related.map((src) => <img src={src} alt='related' className='w-[3rem] h-[3rem] rounded-md' />)}
+          </figure>
+        </div>
         <div className='md:w-[50%] flex flex-col space-y-8'>
           <p className='uppercase text-base font-bold text-red tracking-wide font-h-font'>Avri Dolce</p>
           <h2 className='uppercase text-center md:text-start text-3xl lg:text-4xl font-bold font-h-font text-black tracking-wide'>{data.tag}</h2>
