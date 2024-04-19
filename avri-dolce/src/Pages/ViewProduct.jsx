@@ -11,7 +11,12 @@ export default function ViewProduct() {
   const gender = location.state.gender
 
   const [count, setCount] = React.useState(1)
+  const [price, setPrice] = React.useState(data.price)
   const [size, setSize] = React.useState(`${gender} - S (Small)`)
+
+  React.useEffect(() => {
+    setPrice(prev => count * prev)
+  }, [count])
 
 
   return (
@@ -23,20 +28,38 @@ export default function ViewProduct() {
       <section className='px-5 flex flex-col space-y-10 md:space-y-0 md:flex-row 
       justify-between w-[inherit] pb-10'>
         <div className='flex flex-col space-y-8'>
-          <figure className='md:w-[40%] xl:w-full h-[20rem] lg:h-[26rem]'>
-            <img src={data.img} alt={data.tag} className='cursor-pointer bg-brown rounded-md 
+          <figure className='md:w-[40%] xl:w-[30rem] h-[20rem] lg:h-[26rem]'>
+            <img src={data.img} alt={data.tag} className='cursor-pointer bg-red bg-opacity-15 rounded-md 
             p-5 w-full h-full'  />
           </figure>
-          <figure className='flex flex-row space-x-2'>
-            {data.related.map((src) => <img src={src} alt='related' className='w-[3rem] h-[3rem] rounded-md' />)}
-          </figure>
+          <div className='flex flex-col space-y-3'>
+          <p className='text-lg text-black font-bold tracking-wide font-h-font'>
+            Related images:
+          </p>
+            {data.related ?<figure className='flex flex-row space-x-2'>
+              {data.related.map((src) => <img src={src} key={src} alt='related' className='w-[4rem] h-[4rem] rounded-md 
+              border-solid border-[1px] opacity-50 border-transparent' />)}
+            </figure> : <p className='text-base text-red font-bold tracking-wide font-p-font'>! No related images found</p>}
+          </div>
+          <div className='flex flex-col space-y-3'>
+          <p className='text-lg text-black font-bold tracking-wide font-h-font'>
+            Related videos:
+          </p>
+            {data.video ?<div className='flex flex-row space-x-2'>
+              {data.video.map((src) => <video key={src}  alt='related' 
+              className='relative w-[4rem] h-[4rem] rounded-md opacity-15 '>
+                <source src={src} />
+              </video>)}
+            </div> : <p className='text-base text-red font-bold tracking-wide font-p-font'>! No related images found</p>}
+          </div>
         </div>
         <div className='md:w-[50%] flex flex-col space-y-8'>
           <p className='uppercase text-base font-bold text-red tracking-wide font-h-font'>Avri Dolce</p>
-          <h2 className='uppercase text-center md:text-start text-3xl lg:text-4xl font-bold font-h-font text-black tracking-wide'>{data.tag}</h2>
+          <h2 className='uppercase text-center md:text-start text-3xl lg:text-4xl font-bold font-h-font 
+          text-black tracking-wide'>{data.tag}</h2>
           <p className='w-[90%] md:w-[80%] font-p-font text-sm font-normal text-[#795548]'>{data.des}</p>
           <div className='flex flex-col space-y-5 lg:space-y-0 lg:flex-row lg:space-x-10 lg:items-center'>
-            <p className='uppercase text-3xl font-p-font font-bold text-black tracking-wide'>{data.price}</p>
+            <p className='uppercase text-3xl font-p-font font-bold text-black tracking-wide'>{price}</p>
             <div  className='flex flex-row space-x-3 items-center text-red'>
               <p className='uppercase text-xl font-bold tracking-wide font-p-font'>Size: 
               <span className='text-base text-black capitalize'> {gender} - </span> </p>
