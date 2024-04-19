@@ -10,6 +10,10 @@
     outline: none;
 }
 
+/* section, div {
+    border: 1px solid green;
+} */
+
 img{ 
     image-rendering: crisp-edges;
  image-rendering: -moz-crisp-edges;          /* Firefox */

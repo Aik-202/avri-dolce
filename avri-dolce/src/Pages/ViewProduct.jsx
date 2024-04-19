@@ -20,39 +20,36 @@ export default function ViewProduct() {
 
 
   return (
-    <section className='flex flex-col w-screen'>
+    <section className='flex flex-col w-full'>
       <NavBar product={true} />
       <p className='w-[90%] md:w-[80%] text-center text-base font-bold text-[#F44336] tracking-wide pl-5 pb-5'>! You cannot make in-app 
       purchase, feature hasn't been provided, all transactions will be redirected to 
       whatsapp for now.</p>
       <section className='px-5 flex flex-col space-y-10 md:space-y-0 md:flex-row 
-      justify-between w-[inherit] pb-10'>
-        <div className='flex flex-col space-y-8'>
-          <figure className='md:w-[40%] xl:w-[30rem] h-[20rem] lg:h-[26rem]'>
-            <img src={data.img} alt={data.tag} className='cursor-pointer bg-red bg-opacity-15 rounded-md 
-            p-5 w-full h-full'  />
-          </figure>
-          <div className='flex flex-col space-y-3'>
-          <p className='text-lg text-black font-bold tracking-wide font-h-font'>
-            Related images:
-          </p>
-            {data.related ?<figure className='flex flex-row space-x-2'>
+      md:space-x-10 lg:space-x-20 w-full pb-10 justify-center'>
+
+        <div className='flex flex-row space-x-8'>
+            <div className='flex flex-col space-y-2'>
+            {data.related ?<figure className='flex flex-col space-y-2'>
               {data.related.map((src) => <img src={src} key={src} alt='related' className='w-[4rem] h-[4rem] rounded-md 
               border-solid border-[1px] opacity-50 border-transparent' />)}
-            </figure> : <p className='text-base text-red font-bold tracking-wide font-p-font'>! No related images found</p>}
-          </div>
-          <div className='flex flex-col space-y-3'>
-          <p className='text-lg text-black font-bold tracking-wide font-h-font'>
-            Related videos:
-          </p>
-            {data.video ?<div className='flex flex-row space-x-2'>
+            </figure> : null }
+          
+            {data.video ?<div className='flex flex-col space-y-2'>
               {data.video.map((src) => <video key={src}  alt='related' 
               className='relative w-[4rem] h-[4rem] rounded-md opacity-15 '>
                 <source src={src} />
               </video>)}
-            </div> : <p className='text-base text-red font-bold tracking-wide font-p-font'>! No related images found</p>}
-          </div>
+            </div> : null}
+            </div>
+
+            <figure className='w-full h-[20rem] lg:h-[26rem]'>
+            <img src={data.img} alt={data.tag} className='cursor-pointer bg-red bg-opacity-15 rounded-md 
+            p-5 w-full h-full'  />
+          </figure>
+  
         </div>
+
         <div className='md:w-[50%] flex flex-col space-y-8'>
           <p className='uppercase text-base font-bold text-red tracking-wide font-h-font'>Avri Dolce</p>
           <h2 className='uppercase text-center md:text-start text-3xl lg:text-4xl font-bold font-h-font 
@@ -63,7 +60,7 @@ export default function ViewProduct() {
             <div  className='flex flex-row space-x-3 items-center text-red my-5'>
               <p className='uppercase text-xl font-bold tracking-wide font-p-font'>Size: 
               <span className='text-base text-black capitalize'> {gender} - </span> </p>
-              <div className='grid grid-cols-4 gap-y-2 md:gap-y-0 md:grid-cols-5 font-b-font cursor-pointer 
+              <div className='grid grid-cols-4 gap-y-2 lg:gap-y-0 lg:grid-cols-5 font-b-font cursor-pointer 
               text-sm'>
                 <span className={`rounded-md  px-3 py-1 hover:bg-opacity-100 bg-red hover:text-white w-max
                 ${size == `${gender} - S (Small)` ? 'bg-opacity-100 text-white' 
