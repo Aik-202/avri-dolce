@@ -15,7 +15,7 @@ export default function ViewProduct() {
   const [size, setSize] = React.useState(`${gender} - S (Small)`)
 
   React.useEffect(() => {
-    setPrice(prev => count * prev)
+    setPrice(count * data.price)
   }, [count])
 
 
@@ -58,9 +58,9 @@ export default function ViewProduct() {
           <h2 className='uppercase text-center md:text-start text-3xl lg:text-4xl font-bold font-h-font 
           text-black tracking-wide'>{data.tag}</h2>
           <p className='w-[90%] md:w-[80%] font-p-font text-sm font-normal text-[#795548]'>{data.des}</p>
-          <div className='flex flex-col space-y-5 lg:space-y-0 lg:flex-row lg:space-x-10 lg:items-center'>
-            <p className='uppercase text-3xl font-p-font font-bold text-black tracking-wide'>{price}</p>
-            <div  className='flex flex-row space-x-3 items-center text-red'>
+          <div className='flex flex-col lg:flex-row lg:items-center lg:flex-wrap'>
+            <p className='uppercase text-3xl font-p-font font-bold text-black tracking-wide lg:mr-10'>€{price}</p>
+            <div  className='flex flex-row space-x-3 items-center text-red my-5'>
               <p className='uppercase text-xl font-bold tracking-wide font-p-font'>Size: 
               <span className='text-base text-black capitalize'> {gender} - </span> </p>
               <div className='grid grid-cols-4 gap-y-2 md:gap-y-0 md:grid-cols-5 font-b-font cursor-pointer 

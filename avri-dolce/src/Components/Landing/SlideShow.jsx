@@ -39,7 +39,7 @@ export default function SlideShow(props) {
               <p className='text-red w-max font-p-font text-sm font-bold
               self-start'>{src.tag}</p>
               <p className='w-max font-p-font text-sm font-bold 
-              self-start'>{src.price}</p>
+              self-start'>€{src.price}</p>
             </div>
             {tip && two == src.tag ? <p className='text-red w-max font-p-font text-sm font-bold
             self-start absolute right-0 md:-right-8 -top-10 bg-gray p-2 rounded-lg'>Add to Cart</p> : null}
@@ -68,7 +68,7 @@ export default function SlideShow(props) {
               <p className='text-red w-max font-p-font text-sm font-bold
               self-start'>{src.tag}</p>
               <p className='w-max font-p-font text-sm font-bold 
-              self-start'>{src.price}</p>
+              self-start'>€{src.price}</p>
             </div>
             {tip && two == src.tag ? <p className='text-red w-max font-p-font text-sm font-bold
             self-start absolute right-0 md:-right-8 -top-10 bg-gray p-2 rounded-lg'>Add to Cart</p> : null}
