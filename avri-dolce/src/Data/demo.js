@@ -6,6 +6,9 @@ import { cap, delivery, fbRed, g1, g10, g11, g12, g13, g14, g15, g16, g17, g18, 
 export const homeNav = ['Home', 'About', 'Products', 'Contact', 'Gallery']
 
 export const gallery = [g1, g21, g19, g20, g25, g26, g27, g28, g4, g22, g5, g6, g2, g7, g3, g29, g30, g40, g41, g8, g9, g10, g31, g11, g12, g32, g13, g14, g37, g38, g15, g33, g16, g17, g23, g24, g34, g35, g36, g42, g44, g45, g46, g47]
+
+export const videos = [vid1, vid2, vid3]
+
 export const products = [
     {
         id: 1,
