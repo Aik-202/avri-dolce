@@ -20,7 +20,7 @@ export default function Gallery() {
             {gallery.map((src) => <img src={src} key={src}/>)}
         </figure>
         : <div className='w-[90%] grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-3 cursor-pointer'>
-          {videos.map((src) => <video  key={src}  controls className='max-h-[80%]'>
+          {videos.map((src) => <video  key={src}  controls className='max-h-[80%] mx-auto md:mx-0'>
             <source src={src}/>
         </video>)}
         </div>
