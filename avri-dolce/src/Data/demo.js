@@ -239,6 +239,13 @@ export const products = [
 ]
 export const womenProducts = [
     {
+        id: 34,
+        tag: 'Combo Top + Shorts (Sample 1)',
+        price: 30,
+        des: "Experience ultimate comfort and style with Avri Dolce Essential Shorts, perfect for warm-weather adventures. Made from premium materials, these shorts feature a relaxed fit and versatile design, ideal for casual outings or lounging at home. With attention to detail and quality craftsmanship, our Essential Shorts offer effortless coolness and comfort for every occasion.",
+        img: o24,
+    },
+    {
         id: 1,
         tag: 'Custom Shorts (Sample 1)',
         price: 25,
@@ -311,6 +318,34 @@ export const womenProducts = [
         des: "Experience ultimate comfort and style with Avri Dolce Essential Shorts, perfect for warm-weather adventures. Made from premium materials, these shorts feature a relaxed fit and versatile design, ideal for casual outings or lounging at home. With attention to detail and quality craftsmanship, our Essential Shorts offer effortless coolness and comfort for every occasion.",
         img: ws2,
         related: [r16],
+    },
+    {
+        id: 35,
+        tag: 'Custom T-shirt (Sample 7)',
+        des: "Elevate your wardrobe with the Avri Dolce Signature T-shirt, where comfort meets style seamlessly. Crafted from the finest cotton, this classic piece boasts a timeless design suitable for any occasion. With its flattering fit and meticulous attention to detail, our Signature T-shirt embodies sophistication and versatility, ensuring you look and feel your best wherever you go.",
+        price: 30,
+        img: o21
+    },
+    {
+        id: 36,
+        tag: 'Custom T-shirt (Sample 8)',
+        des: "Elevate your wardrobe with the Avri Dolce Signature T-shirt, where comfort meets style seamlessly. Crafted from the finest cotton, this classic piece boasts a timeless design suitable for any occasion. With its flattering fit and meticulous attention to detail, our Signature T-shirt embodies sophistication and versatility, ensuring you look and feel your best wherever you go.",
+        price: 30,
+        img: o22
+    },
+    {
+        id: 37,
+        tag: 'Custom T-shirt (Sample 9)',
+        des: "Elevate your wardrobe with the Avri Dolce Signature T-shirt, where comfort meets style seamlessly. Crafted from the finest cotton, this classic piece boasts a timeless design suitable for any occasion. With its flattering fit and meticulous attention to detail, our Signature T-shirt embodies sophistication and versatility, ensuring you look and feel your best wherever you go.",
+        price: 30,
+        img: o23
+    },
+    {
+        id: 38,
+        tag: 'Custom T-shirt (Sample 6)',
+        des: "Elevate your wardrobe with the Avri Dolce Signature T-shirt, where comfort meets style seamlessly. Crafted from the finest cotton, this classic piece boasts a timeless design suitable for any occasion. With its flattering fit and meticulous attention to detail, our Signature T-shirt embodies sophistication and versatility, ensuring you look and feel your best wherever you go.",
+        price: 30,
+        img: o20
     },
     {
         id: 8,
@@ -764,21 +799,21 @@ export const men = [
         product: [
             {
                 id: 7,
-                tag: 'Custom T-shirt (Sample 7)',
+                tag: 'T-shirt (Sample 7)',
                 des: "Elevate your wardrobe with the Avri Dolce Signature T-shirt, where comfort meets style seamlessly. Crafted from the finest cotton, this classic piece boasts a timeless design suitable for any occasion. With its flattering fit and meticulous attention to detail, our Signature T-shirt embodies sophistication and versatility, ensuring you look and feel your best wherever you go.",
                 price: 30,
                 img: o21
             },
             {
                 id: 8,
-                tag: 'Custom T-shirt (Sample 8)',
+                tag: 'T-shirt (Sample 8)',
                 des: "Elevate your wardrobe with the Avri Dolce Signature T-shirt, where comfort meets style seamlessly. Crafted from the finest cotton, this classic piece boasts a timeless design suitable for any occasion. With its flattering fit and meticulous attention to detail, our Signature T-shirt embodies sophistication and versatility, ensuring you look and feel your best wherever you go.",
                 price: 30,
                 img: o22
             },
             {
                 id: 9,
-                tag: 'Custom T-shirt (Sample 9)',
+                tag: 'T-shirt (Sample 9)',
                 des: "Elevate your wardrobe with the Avri Dolce Signature T-shirt, where comfort meets style seamlessly. Crafted from the finest cotton, this classic piece boasts a timeless design suitable for any occasion. With its flattering fit and meticulous attention to detail, our Signature T-shirt embodies sophistication and versatility, ensuring you look and feel your best wherever you go.",
                 price: 30,
                 img: o23
@@ -1300,6 +1335,13 @@ export const women = [
         name: 'Combos',
         product: [
             {
+                id: 8,
+                tag: 'Combo Top + Shorts (Sample 1)',
+                price: 30,
+                des: "Experience ultimate comfort and style with Avri Dolce Essential Shorts, perfect for warm-weather adventures. Made from premium materials, these shorts feature a relaxed fit and versatile design, ideal for casual outings or lounging at home. With attention to detail and quality craftsmanship, our Essential Shorts offer effortless coolness and comfort for every occasion.",
+                img: o24,
+            },
+            {
                 id: 1,
                 tag: 'Custom T-shirts + Bottom (Sample 1)',
                 price: 60,
@@ -1363,6 +1405,34 @@ export const women = [
     {
         name: 'T-shirts',
         product: [
+            {
+                id: 7,
+                tag: 'T-shirt (Sample 7)',
+                des: "Elevate your wardrobe with the Avri Dolce Signature T-shirt, where comfort meets style seamlessly. Crafted from the finest cotton, this classic piece boasts a timeless design suitable for any occasion. With its flattering fit and meticulous attention to detail, our Signature T-shirt embodies sophistication and versatility, ensuring you look and feel your best wherever you go.",
+                price: 30,
+                img: o21
+            },
+            {
+                id: 8,
+                tag: 'T-shirt (Sample 8)',
+                des: "Elevate your wardrobe with the Avri Dolce Signature T-shirt, where comfort meets style seamlessly. Crafted from the finest cotton, this classic piece boasts a timeless design suitable for any occasion. With its flattering fit and meticulous attention to detail, our Signature T-shirt embodies sophistication and versatility, ensuring you look and feel your best wherever you go.",
+                price: 30,
+                img: o22
+            },
+            {
+                id: 9,
+                tag: 'T-shirt (Sample 9)',
+                des: "Elevate your wardrobe with the Avri Dolce Signature T-shirt, where comfort meets style seamlessly. Crafted from the finest cotton, this classic piece boasts a timeless design suitable for any occasion. With its flattering fit and meticulous attention to detail, our Signature T-shirt embodies sophistication and versatility, ensuring you look and feel your best wherever you go.",
+                price: 30,
+                img: o23
+            },
+            {
+                id: 6,
+                tag: 'T-shirt (Sample 6)',
+                des: "Elevate your wardrobe with the Avri Dolce Signature T-shirt, where comfort meets style seamlessly. Crafted from the finest cotton, this classic piece boasts a timeless design suitable for any occasion. With its flattering fit and meticulous attention to detail, our Signature T-shirt embodies sophistication and versatility, ensuring you look and feel your best wherever you go.",
+                price: 30,
+                img: o20
+            },
             {
                 id: 1,
                 tag: 'T-shirt (Sample 1)',
