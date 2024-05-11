@@ -22,7 +22,7 @@ export default function Offer() {
   }, [width])
 
   return (
-    <section style={{backgroundImage: `url(${g18})`}} className='relative w-screen h-[40rem] md:h-[35rem] 
+    <section style={{backgroundImage: `url(${g18})`}} className='relative w-screen h-[41rem]
     bg-cover' id='offer'>
       <div className='absolute top-0 w-full h-full bg-white opacity-75 z-0'></div>
       <div className='absolute top-0 w-full h-full flex flex-col justify-center items-center 

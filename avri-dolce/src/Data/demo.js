@@ -1,7 +1,7 @@
 import { cap, delivery, fbRed, g1, g10, g11, g12, g13, g14, g15, g16, g17, g18, g19, g2, g20, g21, g22, g23, g24, g25, g26, g27, g28, g29, g3, g30, g31, g32, g33, g34, g35, g36, g37, g38, g4, g40, g41, g42, g43, g44, g45, g46, g47, g5, g6, g7, g8, g9, hours, igRed, locate, locationRed, ma1, ma10, ma11, ma12, ma13, ma14, ma15, ma16, ma17, ma18, ma19, ma2, ma20, ma21, ma22, ma3, ma4, ma5, 
     ma6, ma7, ma8, ma9, mb1, mb2, mb3, mb4, mc1, mc2, mc3, mc4, mc5, mg1, mg2, mg3, mg4, mg5, mg6, mg7, mg8, 
     mg9, mh1, mh2, mh3, mh4, ms1, ms2, ms3, ms4, mss1, mss2, mss3, mss4, mt1, mt2, mt3, mt4, mt5, 
-    mt6, o1, o11, o12, o13, o14, o15, o16, o17, o18, o19, o2, o3, o4, o5, o6, o7, o8, o9, p1, p2, p3, p4, p5, p6, p7, p8, tikRed, vid1, vid2, vid3, wa1, wa2, wa3, wa4, wa5, wardrobe, wb1, wb2, wb3, wb4, wb5, wb6, wc1, wc2, wc3, wc4, wc5, wg1, wg2, wg3, wg4, wg5, wg6, wg7, wg8, wh1, wh2, wh3, wh4, wh5, whatRed, ws1, ws2, ws3, ws4, ws5, ws6, wss1, wss2, wss3, wss4, wss5, wt1, wt2, wt3, wt4, wt5 } from "."
+    mt6, o1, o11, o12, o13, o14, o15, o16, o17, o18, o19, o2, o3, o4, o5, o6, o7, o8, o9, p1, p2, p3, p4, p5, p6, p7, p8, tikRed, vid1, vid2, vid3, wa1, wa2, wa3, wa4, wa5, wardrobe, wb1, wb2, wb3, wb4, wb5, wb6, wc1, wc2, wc3, wc4, wc5, wg1, wg2, wg3, wg4, wg5, wg6, wg7, wg8, wh1, wh2, wh3, wh4, wh5, whatRed, ws1, ws10, ws11, ws12, ws13, ws14, ws15, ws16, ws17, ws18, ws19, ws20, ws21, ws3, ws4, ws5, ws6, ws7, ws8, ws9, wss1, wss2, wss3, wss4, wss5, wt1, wt2, wt3, wt4, wt5 } from "."
 
 export const homeNav = ['Home', 'About', 'Products', 'Contact', 'Gallery']
 
@@ -1132,44 +1132,135 @@ export const women = [
             {
                 id: 1,
                 tag: 'Shorts (Sample 1)',
-                price: 30,
+                price: 25,
                 des: "Experience ultimate comfort and style with Avri Dolce Essential Shorts, perfect for warm-weather adventures. Made from premium materials, these shorts feature a relaxed fit and versatile design, ideal for casual outings or lounging at home. With attention to detail and quality craftsmanship, our Essential Shorts offer effortless coolness and comfort for every occasion.",
                 img: ws1
             },
             {
                 id: 2,
                 tag: 'Shorts (Sample 2)',
-                price: 30,
+                price: 25,
                 des: "Experience ultimate comfort and style with Avri Dolce Essential Shorts, perfect for warm-weather adventures. Made from premium materials, these shorts feature a relaxed fit and versatile design, ideal for casual outings or lounging at home. With attention to detail and quality craftsmanship, our Essential Shorts offer effortless coolness and comfort for every occasion.",
-                img: ws2
+                img: ws7
             },
             {
                 id: 3,
                 tag: 'Shorts (Sample 3)',
-                price: 30,
+                price: 25,
                 des: "Experience ultimate comfort and style with Avri Dolce Essential Shorts, perfect for warm-weather adventures. Made from premium materials, these shorts feature a relaxed fit and versatile design, ideal for casual outings or lounging at home. With attention to detail and quality craftsmanship, our Essential Shorts offer effortless coolness and comfort for every occasion.",
                 img: ws3
             },
             {
                 id: 4,
                 tag: 'Shorts (Sample 4)',
-                price: 30,
+                price: 25,
                 des: "Experience ultimate comfort and style with Avri Dolce Essential Shorts, perfect for warm-weather adventures. Made from premium materials, these shorts feature a relaxed fit and versatile design, ideal for casual outings or lounging at home. With attention to detail and quality craftsmanship, our Essential Shorts offer effortless coolness and comfort for every occasion.",
                 img: ws4
             },
             {
                 id: 5,
                 tag: 'Shorts (Sample 5)',
-                price: 30,
+                price: 25,
                 des: "Experience ultimate comfort and style with Avri Dolce Essential Shorts, perfect for warm-weather adventures. Made from premium materials, these shorts feature a relaxed fit and versatile design, ideal for casual outings or lounging at home. With attention to detail and quality craftsmanship, our Essential Shorts offer effortless coolness and comfort for every occasion.",
                 img: ws5
             },
             {
                 id: 6,
                 tag: 'Shorts (Sample 6)',
-                price: 30,
+                price: 25,
                 des: "Experience ultimate comfort and style with Avri Dolce Essential Shorts, perfect for warm-weather adventures. Made from premium materials, these shorts feature a relaxed fit and versatile design, ideal for casual outings or lounging at home. With attention to detail and quality craftsmanship, our Essential Shorts offer effortless coolness and comfort for every occasion.",
                 img: ws6
+            },
+            {
+                id: 9,
+                tag: 'Shorts (Sample 7)',
+                price: 25,
+                des: "Experience ultimate comfort and style with Avri Dolce Essential Shorts, perfect for warm-weather adventures. Made from premium materials, these shorts feature a relaxed fit and versatile design, ideal for casual outings or lounging at home. With attention to detail and quality craftsmanship, our Essential Shorts offer effortless coolness and comfort for every occasion.",
+                img: ws9
+            },
+            {
+                id: 10,
+                tag: 'Shorts (Sample 8)',
+                price: 25,
+                des: "Experience ultimate comfort and style with Avri Dolce Essential Shorts, perfect for warm-weather adventures. Made from premium materials, these shorts feature a relaxed fit and versatile design, ideal for casual outings or lounging at home. With attention to detail and quality craftsmanship, our Essential Shorts offer effortless coolness and comfort for every occasion.",
+                img: ws10
+            },
+            {
+                id: 11,
+                tag: 'Shorts (Sample 9)',
+                price: 25,
+                des: "Experience ultimate comfort and style with Avri Dolce Essential Shorts, perfect for warm-weather adventures. Made from premium materials, these shorts feature a relaxed fit and versatile design, ideal for casual outings or lounging at home. With attention to detail and quality craftsmanship, our Essential Shorts offer effortless coolness and comfort for every occasion.",
+                img: ws11
+            },
+            {
+                id: 12,
+                tag: 'Shorts (Sample 10)',
+                price: 25,
+                des: "Experience ultimate comfort and style with Avri Dolce Essential Shorts, perfect for warm-weather adventures. Made from premium materials, these shorts feature a relaxed fit and versatile design, ideal for casual outings or lounging at home. With attention to detail and quality craftsmanship, our Essential Shorts offer effortless coolness and comfort for every occasion.",
+                img: ws12
+            },
+            {
+                id: 13,
+                tag: 'Shorts (Sample 11)',
+                price: 25,
+                des: "Experience ultimate comfort and style with Avri Dolce Essential Shorts, perfect for warm-weather adventures. Made from premium materials, these shorts feature a relaxed fit and versatile design, ideal for casual outings or lounging at home. With attention to detail and quality craftsmanship, our Essential Shorts offer effortless coolness and comfort for every occasion.",
+                img: ws13
+            },
+            {
+                id: 14,
+                tag: 'Shorts (Sample 12)',
+                price: 25,
+                des: "Experience ultimate comfort and style with Avri Dolce Essential Shorts, perfect for warm-weather adventures. Made from premium materials, these shorts feature a relaxed fit and versatile design, ideal for casual outings or lounging at home. With attention to detail and quality craftsmanship, our Essential Shorts offer effortless coolness and comfort for every occasion.",
+                img: ws14
+            },
+            {
+                id: 15,
+                tag: 'Shorts (Sample 13)',
+                price: 25,
+                des: "Experience ultimate comfort and style with Avri Dolce Essential Shorts, perfect for warm-weather adventures. Made from premium materials, these shorts feature a relaxed fit and versatile design, ideal for casual outings or lounging at home. With attention to detail and quality craftsmanship, our Essential Shorts offer effortless coolness and comfort for every occasion.",
+                img: ws15
+            },
+            {
+                id: 16,
+                tag: 'Shorts (Sample 14)',
+                price: 25,
+                des: "Experience ultimate comfort and style with Avri Dolce Essential Shorts, perfect for warm-weather adventures. Made from premium materials, these shorts feature a relaxed fit and versatile design, ideal for casual outings or lounging at home. With attention to detail and quality craftsmanship, our Essential Shorts offer effortless coolness and comfort for every occasion.",
+                img: ws16
+            },
+            {
+                id: 17,
+                tag: 'Shorts (Sample 15)',
+                price: 25,
+                des: "Experience ultimate comfort and style with Avri Dolce Essential Shorts, perfect for warm-weather adventures. Made from premium materials, these shorts feature a relaxed fit and versatile design, ideal for casual outings or lounging at home. With attention to detail and quality craftsmanship, our Essential Shorts offer effortless coolness and comfort for every occasion.",
+                img: ws17
+            },
+            {
+                id: 18,
+                tag: 'Shorts (Sample 16)',
+                price: 25,
+                des: "Experience ultimate comfort and style with Avri Dolce Essential Shorts, perfect for warm-weather adventures. Made from premium materials, these shorts feature a relaxed fit and versatile design, ideal for casual outings or lounging at home. With attention to detail and quality craftsmanship, our Essential Shorts offer effortless coolness and comfort for every occasion.",
+                img: ws18
+            },
+            {
+                id: 19,
+                tag: 'Shorts (Sample 17)',
+                price: 25,
+                des: "Experience ultimate comfort and style with Avri Dolce Essential Shorts, perfect for warm-weather adventures. Made from premium materials, these shorts feature a relaxed fit and versatile design, ideal for casual outings or lounging at home. With attention to detail and quality craftsmanship, our Essential Shorts offer effortless coolness and comfort for every occasion.",
+                img: ws19
+            },
+            {
+                id: 20,
+                tag: 'Shorts (Sample 18)',
+                price: 25,
+                des: "Experience ultimate comfort and style with Avri Dolce Essential Shorts, perfect for warm-weather adventures. Made from premium materials, these shorts feature a relaxed fit and versatile design, ideal for casual outings or lounging at home. With attention to detail and quality craftsmanship, our Essential Shorts offer effortless coolness and comfort for every occasion.",
+                img: ws20
+            },
+            {
+                id: 21,
+                tag: 'Shorts (Sample 19)',
+                price: 25,
+                des: "Experience ultimate comfort and style with Avri Dolce Essential Shorts, perfect for warm-weather adventures. Made from premium materials, these shorts feature a relaxed fit and versatile design, ideal for casual outings or lounging at home. With attention to detail and quality craftsmanship, our Essential Shorts offer effortless coolness and comfort for every occasion.",
+                img: ws21
             },
         ]
     },
