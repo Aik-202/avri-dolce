@@ -19,13 +19,13 @@ export default function NavBar(props) {
       <div className='flex flex-col md:flex-row w-full md:w-auto justify-start md:space-x-8 
       font-b-font font-medium'>
         <ChangeLanguage />
-        <div className='flex flex-row space-x-5 w-full md:w-auto justify-end md:justify-start md:space-x-8 
+        {/* <div className='flex flex-row space-x-5 w-full md:w-auto justify-end md:justify-start md:space-x-8 
       font-b-font font-medium items-center'>
           <button className='rounded-sm border-solid border-[1px] border-dark-green px-3 py-[10px] 
           hover:rounded-full'>Sign Up</button>
           <button className='rounded-sm text-white bg-dark-green px-3 py-[10px] hover:rounded-full'>
           Sign In</button>
-        </div>
+        </div> */}
       </div>
     </nav>
   )
